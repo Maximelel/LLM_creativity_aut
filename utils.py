@@ -39,13 +39,32 @@ def create_prompt(object_name, N_responses):
         
     return prompt
 
+def create_prompt_exp2(object_name, N_responses, fs_examples):
+    #prompt = f"Generate alternative uses for the object [{object_name}]."
+    prompt = f"""
+        You are meant to assist students in group ideation. They are asked to propose alternative
+        uses for an object and you should propose yours to give them ideas as well as inspire them to 
+        explore other uses. 
+        You are a very creative, open-minded person and can propose creative, out-of-the-box ideas while staying realistic. 
+        Your ideas will be even more appreciated if they are original or useful in real-life or both.
+        
+        Generate alternative uses for the object [{object_name}]. 
+        
+        Provide exactly {N_responses} alternative uses, each explained in a concise sentence and following these examples: 
+{fs_examples}
+        
+        Be careful to respect the exact same format as the examples above and the exact number of alternative uses requested.
+        """
+        
+    return prompt
+
 
 # Define function to call the LLM API
 def call_openai_api(prompt):
     client = OpenAI()
     response = client.chat.completions.create(
-        #model = "gpt-3.5-turbo-0125",
-        model="gpt-4-0125-preview", 
+        model = "gpt-3.5-turbo-0125",
+        #model="gpt-4-0125-preview", 
         messages=[
             {"role": "system", "content": "You are a helpful assistant."},
             {"role": "user", "content": prompt}
@@ -124,6 +143,7 @@ def pipeline_object(object_name, N_responses):
     print(f"System fingerprint: {system_fingerprint}")
     print(f"Prompt tokens: {prompt_tokens}")
     print(f"Completion tokens: {completion_tokens}")
+    print(f"Total number of tokens: {response.usage.total_tokens}")
 
     price = estimate_price(prompt_tokens, completion_tokens)
     print(f"Estimated price: ${price}")
@@ -133,8 +153,11 @@ def pipeline_object(object_name, N_responses):
     df = create_csv_and_dataframe(object_name)
     return df
 
-def pipeline_object_2(object_name, N_responses):
-    prompt = create_prompt(object_name, N_responses)
+def pipeline_object_exp2(object_name, N_responses, fs_examples, print_prompt):
+    #prompt = create_prompt(object_name, N_responses)
+    prompt = create_prompt_exp2(object_name, N_responses, fs_examples)
+    if print_prompt:
+        print(prompt)
     response = call_openai_api(prompt)
     
     response_content = response.choices[0].message.content
@@ -142,9 +165,10 @@ def pipeline_object_2(object_name, N_responses):
     prompt_tokens = response.usage.prompt_tokens
     completion_tokens = response.usage.total_tokens - response.usage.prompt_tokens
 
-    #print(f"System fingerprint: {system_fingerprint}")
-    #print(f"Prompt tokens: {prompt_tokens}")
-    #print(f"Completion tokens: {completion_tokens}")
+    print(f"System fingerprint: {system_fingerprint}")
+    print(f"Prompt tokens: {prompt_tokens}")
+    print(f"Completion tokens: {completion_tokens}")
+    print(f"Total number of tokens: {response.usage.total_tokens}")
 
     price = estimate_price(prompt_tokens, completion_tokens)
     print(f"Estimated price: ${price}")
@@ -152,7 +176,7 @@ def pipeline_object_2(object_name, N_responses):
     # store
     store_result_json(object_name, response_content)
     df = create_csv_and_dataframe(object_name)
-    return df, response_content
+    return df
 
 def call_api_ocsai(prompt, output_llm):
     base_url = 'https://openscoring.du.edu/llm'
@@ -168,7 +192,8 @@ def call_api_ocsai(prompt, output_llm):
     input_value_encoded = input_value.replace(' ', '%20').replace(',', '%2C')
     
     # Construct the URL
-    url = f"{base_url}?model={model}&prompt={prompt}&input={input_value_encoded}&input_type={input_type}&elab_method={elab_method}&language={language}&task={task}&question_in_input={question_in_input}"
+    #url = f"{base_url}?model={model}&prompt={prompt}&input={input_value_encoded}&input_type={input_type}&elab_method={elab_method}&language={language}&task={task}&question_in_input={question_in_input}"
+    url = f"{base_url}?model={model}&input={input_value_encoded}&input_type={input_type}&elab_method={elab_method}&question_in_input={question_in_input}"
     
     response = requests.get(url)
     
