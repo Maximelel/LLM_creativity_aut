@@ -4,10 +4,9 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from tqdm import tqdm
 from math import pi
-import nltk
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
-from nltk import pos_tag
+import string
+import re
+
 
 from matplotlib.patches import Circle, RegularPolygon
 from matplotlib.path import Path
@@ -17,12 +16,33 @@ from matplotlib.spines import Spine
 from matplotlib.transforms import Affine2D
 
 # Download NLTK resources
+import nltk
+from nltk import pos_tag
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+from nltk.stem.wordnet import WordNetLemmatizer
+
 nltk.download('punkt')
 nltk.download('stopwords')
+nltk.download('wordnet')  
+nltk.download('omw-1.4')  
 nltk.download('averaged_perceptron_tagger')
 
-# Define stop words
+# Define stop words, lemmatizer
 stop_words = set(stopwords.words('english'))
+exclude = set(string.punctuation)
+lemma = WordNetLemmatizer()
+
+# import gensim
+from pprint import pprint# Gensim
+import gensim
+import gensim.corpora as corpora
+from gensim.utils import simple_preprocess
+from gensim.models import CoherenceModel# spaCy for preprocessing
+import spacy# Plotting tools
+import pyLDAvis
+import pyLDAvis.gensim
+from gensim.models import LdaModel
 
 ################################################
 ################# ELABORATION ##################
@@ -131,7 +151,149 @@ def plot_POS_proportions(df_pos):
 ################# FLEXIBILITY ##################
 ################################################
 
-# todo
+# topic modeling
+
+# clean text
+def clean(doc):
+    stop_free = " ".join([i for i in doc.lower().split() if i not in stop_words])
+    punc_free = "".join(ch for ch in stop_free if ch not in exclude)
+    normalized = " ".join(lemma.lemmatize(word) for word in punc_free.split())
+    return normalized
+
+def create_lda_model(df, object, num_topics):
+    # create corpus
+    texts = [sent for sent in df[df['prompt'] == object]['response']]
+
+    clean_texts = [clean(text).split() for text in texts]
+    print(f"Number of documents in corpus for object \"{object}\": {len(clean_texts)}")
+    
+    # Creating dictionary
+    dictionary = corpora.Dictionary(clean_texts)
+    # create term document frequency
+    corpus = [dictionary.doc2bow(text) for text in clean_texts]
+    
+    lda_model = gensim.models.ldamodel.LdaModel(corpus=corpus,
+                                            id2word=dictionary,
+                                            num_topics=num_topics, 
+                                            random_state=100,
+                                            update_every=1,
+                                            chunksize=100,
+                                            passes=10,
+                                            alpha='auto',
+                                            per_word_topics=True)
+    
+    return lda_model
+
+def plot_originality_per_topic(df, lda_model_list, model, print_keywords, num_topics):
+    
+    objects = ['brick', 'box', 'knife', 'rope']
+    
+    fig, axs = plt.subplots(1, 4, figsize=(15, 5))
+    #df_keywords = pd.DataFrame(columns = ['topic', 'keywords', 'originality', 'elaboration', 'elaboration_SW', 'cosine_dist'])
+    
+    # evaluate performance
+    perplexity = []
+    coherence_score = []
+    
+    for i, lda_model in enumerate(lda_model_list):
+        object = objects[i]
+        for j in range(num_topics):
+            topic_keywords = [w[0] for w  in lda_model.show_topic(topicid = j, topn = 5)]
+            if print_keywords:
+                print(f"Object: {object}, Topic {j+1}, Keywords: {topic_keywords}")
+
+            # keep only sentences in humans['response'] that have those words
+            texts = [sent for sent in df[df['prompt'] == object]['response']]
+            mask = [any(word in text for word in topic_keywords) for text in texts]
+            
+            #plot
+            sns.histplot(df[df['prompt'] == object][mask]['originality'], kde = True, ax = axs[i], label = f"Topic {j+1}")
+            axs[i].set_title(f"{object}")
+        if print_keywords:
+            print("\n")
+            
+        # Evaluate performance
+        #print("Evaluate LDA model")
+        # create corpus
+        texts = [sent for sent in df[df['prompt'] == object]['response']]
+        clean_texts = [clean(text).split() for text in texts]
+        # Creating dictionary
+        dictionary = corpora.Dictionary(clean_texts)
+        # create term document frequency
+        corpus = [dictionary.doc2bow(text) for text in clean_texts]
+        
+        # Compute Perplexity: a measure of how good the model is. lower the better.
+        perplexity.append(lda_model.log_perplexity(corpus))  
+        # Compute Coherence Score
+        coherence_model_lda = CoherenceModel(model=lda_model, texts=clean_texts, dictionary=dictionary, coherence='c_v')
+        coherence_score.append(coherence_model_lda.get_coherence())
+            
+    for j in range(4):
+        axs[j].legend()
+    plt.suptitle(f"Originality per topic for {model} for {num_topics} topics, Perplexity: {np.array(perplexity).mean().round(3)}, Coherence score: {np.array(coherence_score).mean().round(3)}", fontsize = 16) 
+    plt.tight_layout()
+    plt.show()
+    
+def visu_with_pyldavis(lda_model, df, object):
+    # create corpus
+    texts = [sent for sent in df[df['prompt'] == object]['response']]
+    clean_texts = [clean(text).split() for text in texts]
+    # Creating dictionary
+    dictionary = corpora.Dictionary(clean_texts)
+    # create term document frequency
+    corpus = [dictionary.doc2bow(text) for text in clean_texts]
+    
+    pyLDAvis.enable_notebook()
+    vis = pyLDAvis.gensim.prepare(lda_model, corpus, dictionary)
+    
+    return vis
+
+def kw_in_sentence(sentence, keywords):
+    return any(word in sentence for word in keywords)
+
+def assign_topic_all(df_model, lda_model_list, print_keywords, num_topics):
+
+    df_output = pd.DataFrame()
+    model_list = ['Humans', 'GPT-3.5', 'GPT-4', 'Mistral', 'Vicuna']
+    objects = ['brick', 'box', 'knife', 'rope']
+    # evaluate performance
+    perplexity = []
+    coherence_score = []
+    
+    for i, lda_model in enumerate(lda_model_list):
+        object = objects[i]
+        df_object = df_model[df_model['prompt'] == object]
+        # initialize column topic
+        df_object['topic'] = None
+        for j in range(num_topics):
+            topic_keywords = [w[0] for w  in lda_model.show_topic(topicid = j, topn = 5)]
+            if print_keywords:
+                print(f"Object: {object}, Topic {j+1}, Keywords: {topic_keywords}")
+
+            mask = df_object['response'].apply(lambda x: kw_in_sentence(x, topic_keywords))
+            df_object.loc[mask, 'topic'] = j 
+        if print_keywords:
+            print("\n")
+
+        df_output = pd.concat([df_output, df_object])
+        
+        # Evaluate performance
+        #print("Evaluate LDA model")
+        # create corpus
+        texts = [sent for sent in df_model[df_model['prompt'] == object]['response']]
+        clean_texts = [clean(text).split() for text in texts]
+        # Creating dictionary
+        dictionary = corpora.Dictionary(clean_texts)
+        # create term document frequency
+        corpus = [dictionary.doc2bow(text) for text in clean_texts]
+        
+        # Compute Perplexity: a measure of how good the model is. lower the better.
+        perplexity.append(lda_model.log_perplexity(corpus))  
+        # Compute Coherence Score
+        coherence_model_lda = CoherenceModel(model=lda_model, texts=clean_texts, dictionary=dictionary, coherence='c_v')
+        coherence_score.append(coherence_model_lda.get_coherence())
+
+    return df_output, perplexity, coherence_score
 
 
 ################################################
@@ -232,7 +394,7 @@ def radar_factory(num_vars, frame='circle'):
 ########################################
 ####### 1 radar chart per model ########
 ########################################
-def example_data_per_model(humans_norm, gpt_35_100_norm, gpt_4_100_norm, mistral_norm, features):
+def example_data_per_model(humans_norm, gpt_35_100_norm, gpt_4_100_norm, mistral_norm, vicuna_norm, features):
     data = [
         features,
         ('Humans', [
@@ -255,14 +417,19 @@ def example_data_per_model(humans_norm, gpt_35_100_norm, gpt_4_100_norm, mistral
             mistral_norm[mistral_norm['prompt'] == 'brick'][features].mean().values,
             mistral_norm[mistral_norm['prompt'] == 'box'][features].mean().values,
             mistral_norm[mistral_norm['prompt'] == 'knife'][features].mean().values,
-            mistral_norm[mistral_norm['prompt'] == 'rope'][features].mean().values])
+            mistral_norm[mistral_norm['prompt'] == 'rope'][features].mean().values]),
+        ('Vicuna', [
+            vicuna_norm[vicuna_norm['prompt'] == 'brick'][features].mean().values,
+            vicuna_norm[vicuna_norm['prompt'] == 'box'][features].mean().values,
+            vicuna_norm[vicuna_norm['prompt'] == 'knife'][features].mean().values,
+            vicuna_norm[vicuna_norm['prompt'] == 'rope'][features].mean().values])
     ]
     return data
 
-def radar_charts_per_model(humans_norm, gpt_35_100_norm, gpt_4_100_norm, mistral_norm, features):
+def radar_charts_per_model(humans_norm, gpt_35_100_norm, gpt_4_100_norm, mistral_norm, vicuna_norm, features):
     N = len(features)
     theta = radar_factory(N, frame='polygon')
-    data_visu = example_data_per_model(humans_norm, gpt_35_100_norm, gpt_4_100_norm, mistral_norm, features)
+    data_visu = example_data_per_model(humans_norm, gpt_35_100_norm, gpt_4_100_norm, mistral_norm, vicuna_norm, features)
     spoke_labels = data_visu.pop(0)
     fig, axs = plt.subplots(figsize=(9, 9), nrows=2, ncols=2,
                             subplot_kw=dict(projection='radar'))
@@ -329,22 +496,26 @@ def example_data_per_object_2(brick_norm, box_norm, knife_norm, rope_norm, featu
             brick_norm[brick_norm['dataset'] == 'Humans'][features].mean().values, # Humans
             brick_norm[brick_norm['dataset'] == 'GPT-3.5'][features].mean().values, # gpt-3.5
             brick_norm[brick_norm['dataset'] == 'GPT-4'][features].mean().values, # gpt-4
-            brick_norm[brick_norm['dataset'] == 'Mistral'][features].mean().values]), # mistral
+            brick_norm[brick_norm['dataset'] == 'Mistral'][features].mean().values, # mistral
+            brick_norm[brick_norm['dataset'] == 'Vicuna'][features].mean().values]), # vicuna
         ('Box', [
             box_norm[box_norm['dataset'] == 'Humans'][features].mean().values,
             box_norm[box_norm['dataset'] == 'GPT-3.5'][features].mean().values,
             box_norm[box_norm['dataset'] == 'GPT-4'][features].mean().values,
-            box_norm[box_norm['dataset'] == 'Mistral'][features].mean().values]),
+            box_norm[box_norm['dataset'] == 'Mistral'][features].mean().values,
+            box_norm[box_norm['dataset'] == 'Vicuna'][features].mean().values]),
         ('Knife', [
             knife_norm[knife_norm['dataset'] == 'Humans'][features].mean().values,
             knife_norm[knife_norm['dataset'] == 'GPT-3.5'][features].mean().values,
             knife_norm[knife_norm['dataset'] == 'GPT-4'][features].mean().values,
-            knife_norm[knife_norm['dataset'] == 'Mistral'][features].mean().values]),
+            knife_norm[knife_norm['dataset'] == 'Mistral'][features].mean().values,
+            knife_norm[knife_norm['dataset'] == 'Vicuna'][features].mean().values]),
         ('Rope', [
             rope_norm[rope_norm['dataset'] == 'Humans'][features].mean().values,
             rope_norm[rope_norm['dataset'] == 'GPT-3.5'][features].mean().values,
             rope_norm[rope_norm['dataset'] == 'GPT-4'][features].mean().values,
-            rope_norm[rope_norm['dataset'] == 'Mistral'][features].mean().values])
+            rope_norm[rope_norm['dataset'] == 'Mistral'][features].mean().values,
+            rope_norm[rope_norm['dataset'] == 'Vicuna'][features].mean().values])
     ]
     return data
 
@@ -376,7 +547,7 @@ def radar_charts_per_object(brick_norm, box_norm, knife_norm, rope_norm, feature
         ax.set_rticks(np.linspace(0, 0.6, 4))  # Set radial ticks from 0 to 1 with 5 intervals
     
     # add legend relative to top-left plot
-    labels = ('Humans', 'GPT-3.5', 'GPT-4', 'Mistral')
+    labels = ('Humans', 'GPT-3.5', 'GPT-4', 'Mistral', 'Vicuna')
     legend = axs[0, 0].legend(labels, loc=(0.9, .95),
                             labelspacing=0.1, fontsize='x-large')
     fig.text(0.5, 0.965, 'Creativity comparison per object',
