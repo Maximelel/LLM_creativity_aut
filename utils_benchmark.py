@@ -251,14 +251,15 @@ def visu_with_pyldavis(lda_model, df, object):
 def kw_in_sentence(sentence, keywords):
     return any(word in sentence for word in keywords)
 
-def assign_topic_all(df_model, lda_model_list, print_keywords, num_topics):
+def assign_topic_all(df_model, lda_model_list, print_keywords, num_topics, num_words):
 
     df_output = pd.DataFrame()
-    model_list = ['Humans', 'GPT-3.5', 'GPT-4', 'Mistral', 'Vicuna']
+    df_kw_per_topic = pd.DataFrame(columns = ['object', 'topic', 'keywords'])#, 'coherence score'])
     objects = ['brick', 'box', 'knife', 'rope']
     # evaluate performance
     perplexity = []
     coherence_score = []
+    coherence_score_per_topic = []
     
     for i, lda_model in enumerate(lda_model_list):
         object = objects[i]
@@ -266,7 +267,8 @@ def assign_topic_all(df_model, lda_model_list, print_keywords, num_topics):
         # initialize column topic
         df_object['topic'] = None
         for j in range(num_topics):
-            topic_keywords = [w[0] for w  in lda_model.show_topic(topicid = j, topn = 5)]
+            topic_keywords = [w[0] for w  in lda_model.show_topic(topicid = j, topn = num_words)]
+            df_kw_per_topic.loc[len(df_kw_per_topic)] = [object, j, topic_keywords]
             if print_keywords:
                 print(f"Object: {object}, Topic {j+1}, Keywords: {topic_keywords}")
 
@@ -292,8 +294,10 @@ def assign_topic_all(df_model, lda_model_list, print_keywords, num_topics):
         # Compute Coherence Score
         coherence_model_lda = CoherenceModel(model=lda_model, texts=clean_texts, dictionary=dictionary, coherence='c_v')
         coherence_score.append(coherence_model_lda.get_coherence())
+        #df_kw_per_topic.loc[df_kw_per_topic, 'coherence score'] = coherence_model_lda.get_coherence()
+        coherence_score_per_topic.append(coherence_model_lda.get_coherence_per_topic())
 
-    return df_output, perplexity, coherence_score
+    return df_output, df_kw_per_topic, perplexity, coherence_score, coherence_score_per_topic
 
 
 ################################################
