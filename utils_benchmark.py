@@ -44,260 +44,7 @@ import pyLDAvis
 import pyLDAvis.gensim
 from gensim.models import LdaModel
 
-################################################
-################# ELABORATION ##################
-################################################
 
-def elaboration_SW(df):
-    df['elaboration_SW'] = df['response'].apply(count_words_wo_SW)
-    return df
-
-def count_words_wo_SW(sentence):
-    tokens = nltk.word_tokenize(sentence)
-    tokens = [word for word in tokens if word.lower() not in stop_words]
-    return len(tokens)
-
-# POS tagging
-def tag_sentence(sentence):
-    tokens = word_tokenize(sentence)
-    pos_tags = pos_tag(tokens)
-    return pos_tags
-
-# Function to calculate the average number of specific POS tags in sentences
-def analyze_pos_distribution(sentences):
-    # Initialize counts for each POS tag
-    noun_count = 0
-    verb_count = 0
-    adjective_count = 0
-    adverb_count = 0
-    determiner_count = 0
-    preposition_count = 0
-    other_count = 0
-    total_sentences = len(sentences)
-    
-    # Iterate over each sentence and calculate POS tag counts
-    for sentence in tqdm(sentences):
-        pos_tags = tag_sentence(sentence)
-        tag_counts = nltk.Counter(tag for word, tag in pos_tags)
-        
-        # Update counts
-        noun_count += tag_counts['NN'] + tag_counts['NNS']  # Nouns
-        verb_count += tag_counts['VB'] + tag_counts['VBD'] + tag_counts['VBG'] + tag_counts['VBN'] + tag_counts['VBP'] + tag_counts['VBZ']  # Verbs
-        adjective_count += tag_counts['JJ']  # Adjectives
-        adverb_count += tag_counts['RB'] + tag_counts['RBR'] + tag_counts['RBS']  # Adverbs
-        determiner_count += tag_counts['DT'] # Determiners
-        preposition_count += tag_counts['IN'] # Prepositions
-        other_count += sum(tag_counts[tag] for tag in tag_counts if tag not in ['NN', 'NNS', 'VB', 'VBD', 'VBG', 'VBN', 'VBP', 'VBZ', 'JJ', 'RB', 'RBR', 'RBS', 'DT', 'IN'])
-        
-    
-    # Calculate average POS tag counts per sentence
-    avg_nouns = noun_count / total_sentences
-    avg_verbs = verb_count / total_sentences
-    avg_adjectives = adjective_count / total_sentences
-    avg_adverbs = adverb_count / total_sentences
-    avg_determiners = determiner_count / total_sentences
-    avg_prepositions = preposition_count / total_sentences
-    avg_other_count = other_count / total_sentences
-    
-    return avg_nouns, avg_verbs, avg_adjectives, avg_adverbs, avg_determiners, avg_prepositions, avg_other_count
-
-def compute_pos_tagging(combined_data):
-    df_pos = pd.DataFrame(columns = ['model', 'avg_nouns', 'avg_verbs', 'avg_adj', 'avg_adv', 'avg_det', 'avg_prepos', 'other'])
-    #df_pos['model'] = ['Humans', 'GPT-3.5', 'GPT-4', 'Mistral', 'Vicuna']
-    for i, model in enumerate(['Humans', 'GPT-3.5', 'GPT-4', 'Mistral', 'Vicuna']):
-        sentences = combined_data[combined_data['dataset'] == model]['response']
-        avg_nouns, avg_verbs, avg_adjectives, avg_adverbs, avg_determiners, avg_prepositions, avg_other_count = analyze_pos_distribution(sentences)
-        df_pos.loc[i] = [model] + [avg_nouns, avg_verbs, avg_adjectives, avg_adverbs, avg_determiners, avg_prepositions, avg_other_count]
-    return df_pos
-
-def plot_POS(combined_data, df_pos):
-    list = []
-    for i, model in enumerate(['Humans', 'GPT-3.5', 'GPT-4', 'Mistral', 'Vicuna']):
-        sentences = combined_data[combined_data['dataset'] == model]['response']
-        avg_nb_words = sum([len(sentence.split()) for sentence in sentences]) / len(sentences)
-        list.append(avg_nb_words)
-        
-    # check
-    print(f"POS tagging: {df_pos[df_pos.columns[1:]].sum(axis = 1).values}")
-    print(f"Ground truth: {list}")
-
-    # make 2 sublots with df_pos and plt_bar
-    fig, ax = plt.subplots(1, 2, figsize=(12, 5), sharey = True)
-    df_pos.plot(x='model', kind='bar', stacked=True, title='POS tagging Humans VS LLMs', ax=ax[0])
-    ax[1].bar(['Humans', 'GPT-3.5', 'GPT-4', 'Mistral', 'Vicuna'], list)
-    ax[1].set_title('Average number of words per sentence')
-    plt.tight_layout()
-    plt.show()
-
-def plot_POS_proportions(df_pos):
-    proportions_df = df_pos.copy()
-    cols_to_transform = ['avg_nouns', 'avg_verbs', 'avg_adj', 'avg_adv', 'avg_det', 'avg_prepos', 'other']
-    proportions_df[cols_to_transform] = proportions_df[cols_to_transform].div(proportions_df[cols_to_transform].sum(axis=1), axis=0).round(3)
-    proportions_df.rename(columns = {'avg_nouns': 'Nouns', 'avg_verbs': 'Verbs', 'avg_adj': 'Adjectives', 'avg_adv': 'Adverbs', 'avg_det': 'Determiners', 'avg_prepos': 'Prepositions', 'other': 'Other'}, inplace = True)
-
-    # plot
-    ax = proportions_df.plot(x='model', kind='bar', stacked=True, title='POS tagging Humans VS LLMs (in %)', figsize=(10, 7))
-    # rotate x axis
-    plt.xticks(rotation=0)
-
-    # Put values on the bars
-    for container in ax.containers:
-        ax.bar_label(container, label_type='center')
-                
-    plt.legend(loc='center left', bbox_to_anchor=(1.0, 0.5))
-    plt.show()
-
-################################################
-################# FLEXIBILITY ##################
-################################################
-
-# topic modeling
-
-# clean text
-def clean(doc):
-    stop_free = " ".join([i for i in doc.lower().split() if i not in stop_words])
-    punc_free = "".join(ch for ch in stop_free if ch not in exclude)
-    normalized = " ".join(lemma.lemmatize(word) for word in punc_free.split())
-    return normalized
-
-def create_lda_model(df, object, num_topics):
-    # create corpus
-    texts = [sent for sent in df[df['prompt'] == object]['response']]
-
-    clean_texts = [clean(text).split() for text in texts]
-    print(f"Number of documents in corpus for object \"{object}\": {len(clean_texts)}")
-    
-    # Creating dictionary
-    dictionary = corpora.Dictionary(clean_texts)
-    # create term document frequency
-    corpus = [dictionary.doc2bow(text) for text in clean_texts]
-    
-    lda_model = gensim.models.ldamodel.LdaModel(corpus=corpus,
-                                            id2word=dictionary,
-                                            num_topics=num_topics, 
-                                            random_state=100,
-                                            update_every=1,
-                                            chunksize=100,
-                                            passes=10,
-                                            alpha='auto',
-                                            per_word_topics=True)
-    
-    return lda_model
-
-def plot_originality_per_topic(df, lda_model_list, model, print_keywords, num_topics):
-    
-    objects = ['brick', 'box', 'knife', 'rope']
-    
-    fig, axs = plt.subplots(1, 4, figsize=(15, 5))
-    #df_keywords = pd.DataFrame(columns = ['topic', 'keywords', 'originality', 'elaboration', 'elaboration_SW', 'cosine_dist'])
-    
-    # evaluate performance
-    perplexity = []
-    coherence_score = []
-    
-    for i, lda_model in enumerate(lda_model_list):
-        object = objects[i]
-        for j in range(num_topics):
-            topic_keywords = [w[0] for w  in lda_model.show_topic(topicid = j, topn = 5)]
-            if print_keywords:
-                print(f"Object: {object}, Topic {j+1}, Keywords: {topic_keywords}")
-
-            # keep only sentences in humans['response'] that have those words
-            texts = [sent for sent in df[df['prompt'] == object]['response']]
-            mask = [any(word in text for word in topic_keywords) for text in texts]
-            
-            #plot
-            sns.histplot(df[df['prompt'] == object][mask]['originality'], kde = True, ax = axs[i], label = f"Topic {j+1}")
-            axs[i].set_title(f"{object}")
-        if print_keywords:
-            print("\n")
-            
-        # Evaluate performance
-        #print("Evaluate LDA model")
-        # create corpus
-        texts = [sent for sent in df[df['prompt'] == object]['response']]
-        clean_texts = [clean(text).split() for text in texts]
-        # Creating dictionary
-        dictionary = corpora.Dictionary(clean_texts)
-        # create term document frequency
-        corpus = [dictionary.doc2bow(text) for text in clean_texts]
-        
-        # Compute Perplexity: a measure of how good the model is. lower the better.
-        perplexity.append(lda_model.log_perplexity(corpus))  
-        # Compute Coherence Score
-        coherence_model_lda = CoherenceModel(model=lda_model, texts=clean_texts, dictionary=dictionary, coherence='c_v')
-        coherence_score.append(coherence_model_lda.get_coherence())
-            
-    for j in range(4):
-        axs[j].legend()
-    plt.suptitle(f"Originality per topic for {model} for {num_topics} topics, Perplexity: {np.array(perplexity).mean().round(3)}, Coherence score: {np.array(coherence_score).mean().round(3)}", fontsize = 16) 
-    plt.tight_layout()
-    plt.show()
-    
-def visu_with_pyldavis(lda_model, df, object):
-    # create corpus
-    texts = [sent for sent in df[df['prompt'] == object]['response']]
-    clean_texts = [clean(text).split() for text in texts]
-    # Creating dictionary
-    dictionary = corpora.Dictionary(clean_texts)
-    # create term document frequency
-    corpus = [dictionary.doc2bow(text) for text in clean_texts]
-    
-    pyLDAvis.enable_notebook()
-    vis = pyLDAvis.gensim.prepare(lda_model, corpus, dictionary)
-    
-    return vis
-
-def kw_in_sentence(sentence, keywords):
-    return any(word in sentence for word in keywords)
-
-def assign_topic_all(df_model, lda_model_list, print_keywords, num_topics, num_words):
-
-    df_output = pd.DataFrame()
-    df_kw_per_topic = pd.DataFrame(columns = ['object', 'topic', 'keywords'])#, 'coherence score'])
-    objects = ['brick', 'box', 'knife', 'rope']
-    # evaluate performance
-    perplexity = []
-    coherence_score = []
-    coherence_score_per_topic = []
-    
-    for i, lda_model in enumerate(lda_model_list):
-        object = objects[i]
-        df_object = df_model[df_model['prompt'] == object]
-        # initialize column topic
-        df_object['topic'] = None
-        for j in range(num_topics):
-            topic_keywords = [w[0] for w  in lda_model.show_topic(topicid = j, topn = num_words)]
-            df_kw_per_topic.loc[len(df_kw_per_topic)] = [object, j, topic_keywords]
-            if print_keywords:
-                print(f"Object: {object}, Topic {j+1}, Keywords: {topic_keywords}")
-
-            mask = df_object['response'].apply(lambda x: kw_in_sentence(x, topic_keywords))
-            df_object.loc[mask, 'topic'] = j 
-        if print_keywords:
-            print("\n")
-
-        df_output = pd.concat([df_output, df_object])
-        
-        # Evaluate performance
-        #print("Evaluate LDA model")
-        # create corpus
-        texts = [sent for sent in df_model[df_model['prompt'] == object]['response']]
-        clean_texts = [clean(text).split() for text in texts]
-        # Creating dictionary
-        dictionary = corpora.Dictionary(clean_texts)
-        # create term document frequency
-        corpus = [dictionary.doc2bow(text) for text in clean_texts]
-        
-        # Compute Perplexity: a measure of how good the model is. lower the better.
-        perplexity.append(lda_model.log_perplexity(corpus))  
-        # Compute Coherence Score
-        coherence_model_lda = CoherenceModel(model=lda_model, texts=clean_texts, dictionary=dictionary, coherence='c_v')
-        coherence_score.append(coherence_model_lda.get_coherence())
-        #df_kw_per_topic.loc[df_kw_per_topic, 'coherence score'] = coherence_model_lda.get_coherence()
-        coherence_score_per_topic.append(coherence_model_lda.get_coherence_per_topic())
-
-    return df_output, df_kw_per_topic, perplexity, coherence_score, coherence_score_per_topic
 
 
 ################################################
@@ -619,13 +366,13 @@ def normalization_1(df, check_norm):
     # normalize by features: min max scaling
     result = df.copy()
     for feature_name in df.columns:
-        if feature_name in ["originality", "elaboration", "elaboration_SW", "cosine_dist"]:
+        if feature_name in ["originality", "elaboration", "elaboration_SW", "similarity", "flexibility"]:
             max_value = df[feature_name].max()
             min_value = df[feature_name].min()
             result[feature_name] = (df[feature_name] - min_value) / (max_value - min_value)
     
     if check_norm:
-        features = ['originality', 'elaboration', 'elaboration_SW', 'cosine_dist']
+        features = ['originality', 'elaboration', 'elaboration_SW', 'similarity', 'flexibility']
 
         # before normalization
         fig, axs = plt.subplots(1, 4, figsize = (15,4))
@@ -651,7 +398,7 @@ def normalization_per_model(df):
     # normalize by features: min max scaling
     result = df.copy()
     for feature_name in df.columns:
-        if feature_name in ["originality", "elaboration", "elaboration_SW", "cosine_dist"]:
+        if feature_name in ["originality", "elaboration", "elaboration_SW", "similarity", "flexibility"]:
             max_value = df[feature_name].max()
             min_value = df[feature_name].min()
             result[feature_name] = (df[feature_name] - min_value) / (max_value - min_value)
