@@ -8,6 +8,8 @@ Comparing the creative outputs of LLMs on the Alternative Uses Task (AUT)
   2. Call API OCSAI to evaluate
   3. Save ideas in dataframe
 
+- Pipeline to generate new ideas with open source LLMs: see code on local server...
+
 **Note:** For now generation of ideas is done one object at the time and one LLM at the time.
 
 - General notebook to see benchmark results: `benchmark.ipynb`
