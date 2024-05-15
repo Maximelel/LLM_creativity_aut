@@ -1,26 +1,27 @@
 # LLM_creativity_aut
-Comparing the creative outputs of LLMs on the Alternative Uses Task (AUT)
+**Comparing the creative outputs of LLMs on the Alternative Uses Task (AUT)**
 
-## Reproducibility
+## 🔁 Reproducibility
 
-- Pipeline to generate new ideas with GPT models: `nb_script_LLM_main.ipynb`
+- **Pipeline to generate new ideas with GPT models**: `nb_script_LLM_main.ipynb`
   1. Call OpenAI API
   2. Call API OCSAI to evaluate
   3. Save ideas in dataframe
 
-- Pipeline to generate new ideas with open source LLMs: see code on local server...
+- **Pipeline to generate new ideas with open source LLMs**: see code on local server...
 
-**Note:** For now generation of ideas is done one object at the time and one LLM at the time.
+**Note:** For now, generation of ideas is done **one object at a time** and **one LLM at a time**.
 
-- General notebook to see benchmark results: `benchmark.ipynb`
-  - Radar charts
+- **General notebook to see benchmark results**: `benchmark.ipynb`
+  - 📊 **Radar charts**
     - Overall radar chart
     - Radar charts per object
     - Radar charts per model
-  - Other plots
+  - 📈 **Other plots**
     - Univariate analysis: kdeplots, boxplots, violinplots
     - Multi-variate analysis: multi-kde, heatmaps
-  - Further analysis
+  - 🔍 **Further analysis**
     - POS tagging
     - Topic modeling
 
+Enjoy exploring the creative potential of LLMs! 🚀
