@@ -182,7 +182,7 @@ def radar_charts_per_model(humans_norm, gpt_35_100_norm, gpt_4_100_norm, mistral
     theta = radar_factory(N, frame='polygon')
     data_visu = example_data_per_model(humans_norm, gpt_35_100_norm, gpt_4_100_norm, mistral_norm, vicuna_norm, features)
     spoke_labels = data_visu.pop(0)
-    fig, axs = plt.subplots(figsize=(9, 9), nrows=2, ncols=2,
+    fig, axs = plt.subplots(figsize=(9, 9), nrows=2, ncols=3,
                             subplot_kw=dict(projection='radar'))
     fig.subplots_adjust(wspace=0.25, hspace=0.20, top=0.85, bottom=0.05)
     #colors = ['b', 'o', 'g', 'r', 'y']
@@ -214,73 +214,63 @@ def radar_charts_per_model(humans_norm, gpt_35_100_norm, gpt_4_100_norm, mistral
 ########################################
 ####### 1 radar chart per object #######
 ########################################
-def example_data_per_object(humans_norm, gpt_35_100_norm, gpt_4_100_norm, mistral_norm, features):
+def prepare_data_for_radar_chart_per_object(data_dict, objects):
+    result_dict = {}
+
+    for object in objects:
+        data_frames = []
+        for model_name, df in data_dict.items():
+            data_frames.append(df[df['prompt'] == object].assign(dataset=model_name))
+        
+        concatenated_data = pd.concat(data_frames)
+        normalized_data = normalization_1(concatenated_data, check_norm=False) # normalize data per object and per feature
+        result_dict[f'{object}_norm'] = normalized_data
+
+    return result_dict
+
+def example_data_per_object(brick_norm, box_norm, knife_norm, rope_norm, features, model_names):
+    if len(model_names) != 5:
+        print("Error: model_names should contain 5 model names...")
+        return 0
+    
     data = [
         features,
         ('Brick', [
-            humans_norm[humans_norm['prompt'] == 'brick'][features].mean().values, # Humans
-            gpt_35_100_norm[gpt_35_100_norm['prompt'] == 'brick'][features].mean().values, # gpt-3.5
-            gpt_4_100_norm[gpt_4_100_norm['prompt'] == 'brick'][features].mean().values, # gpt-4
-            mistral_norm[mistral_norm['prompt'] == 'brick'][features].mean().values]), # mistral
+            brick_norm[brick_norm['dataset'] == model_names[0]][features].mean().values, # Humans
+            brick_norm[brick_norm['dataset'] == model_names[1]][features].mean().values, # model 1
+            brick_norm[brick_norm['dataset'] == model_names[2]][features].mean().values, # model 2
+            brick_norm[brick_norm['dataset'] == model_names[3]][features].mean().values, # model 3
+            brick_norm[brick_norm['dataset'] == model_names[4]][features].mean().values]), # model 4
         ('Box', [
-            humans_norm[humans_norm['prompt'] == 'box'][features].mean().values,
-            gpt_35_100_norm[gpt_35_100_norm['prompt'] == 'box'][features].mean().values,
-            gpt_4_100_norm[gpt_4_100_norm['prompt'] == 'box'][features].mean().values,
-            mistral_norm[mistral_norm['prompt'] == 'box'][features].mean().values]),
+            box_norm[box_norm['dataset'] == model_names[0]][features].mean().values,
+            box_norm[box_norm['dataset'] == model_names[1]][features].mean().values,
+            box_norm[box_norm['dataset'] == model_names[2]][features].mean().values,
+            box_norm[box_norm['dataset'] == model_names[3]][features].mean().values,
+            box_norm[box_norm['dataset'] == model_names[4]][features].mean().values]),
         ('Knife', [
-            humans_norm[humans_norm['prompt'] == 'knife'][features].mean().values,
-            gpt_35_100_norm[gpt_35_100_norm['prompt'] == 'knife'][features].mean().values,
-            gpt_4_100_norm[gpt_4_100_norm['prompt'] == 'knife'][features].mean().values,
-            mistral_norm[mistral_norm['prompt'] == 'knife'][features].mean().values]),
+            knife_norm[knife_norm['dataset'] == model_names[0]][features].mean().values,
+            knife_norm[knife_norm['dataset'] == model_names[1]][features].mean().values,
+            knife_norm[knife_norm['dataset'] == model_names[2]][features].mean().values,
+            knife_norm[knife_norm['dataset'] == model_names[3]][features].mean().values,
+            knife_norm[knife_norm['dataset'] == model_names[4]][features].mean().values]),
         ('Rope', [
-            humans_norm[humans_norm['prompt'] == 'rope'][features].mean().values,
-            gpt_35_100_norm[gpt_35_100_norm['prompt'] == 'rope'][features].mean().values,
-            gpt_4_100_norm[gpt_4_100_norm['prompt'] == 'rope'][features].mean().values,
-            mistral_norm[mistral_norm['prompt'] == 'rope'][features].mean().values])
+            rope_norm[rope_norm['dataset'] == model_names[0]][features].mean().values,
+            rope_norm[rope_norm['dataset'] == model_names[1]][features].mean().values,
+            rope_norm[rope_norm['dataset'] == model_names[2]][features].mean().values,
+            rope_norm[rope_norm['dataset'] == model_names[3]][features].mean().values,
+            rope_norm[rope_norm['dataset'] == model_names[4]][features].mean().values])
     ]
     return data
 
-def example_data_per_object_2(brick_norm, box_norm, knife_norm, rope_norm, features):
-    data = [
-        features,
-        ('Brick', [
-            brick_norm[brick_norm['dataset'] == 'Humans'][features].mean().values, # Humans
-            brick_norm[brick_norm['dataset'] == 'GPT-3.5'][features].mean().values, # gpt-3.5
-            brick_norm[brick_norm['dataset'] == 'GPT-4'][features].mean().values, # gpt-4
-            brick_norm[brick_norm['dataset'] == 'Mistral'][features].mean().values, # mistral
-            brick_norm[brick_norm['dataset'] == 'Vicuna'][features].mean().values]), # vicuna
-        ('Box', [
-            box_norm[box_norm['dataset'] == 'Humans'][features].mean().values,
-            box_norm[box_norm['dataset'] == 'GPT-3.5'][features].mean().values,
-            box_norm[box_norm['dataset'] == 'GPT-4'][features].mean().values,
-            box_norm[box_norm['dataset'] == 'Mistral'][features].mean().values,
-            box_norm[box_norm['dataset'] == 'Vicuna'][features].mean().values]),
-        ('Knife', [
-            knife_norm[knife_norm['dataset'] == 'Humans'][features].mean().values,
-            knife_norm[knife_norm['dataset'] == 'GPT-3.5'][features].mean().values,
-            knife_norm[knife_norm['dataset'] == 'GPT-4'][features].mean().values,
-            knife_norm[knife_norm['dataset'] == 'Mistral'][features].mean().values,
-            knife_norm[knife_norm['dataset'] == 'Vicuna'][features].mean().values]),
-        ('Rope', [
-            rope_norm[rope_norm['dataset'] == 'Humans'][features].mean().values,
-            rope_norm[rope_norm['dataset'] == 'GPT-3.5'][features].mean().values,
-            rope_norm[rope_norm['dataset'] == 'GPT-4'][features].mean().values,
-            rope_norm[rope_norm['dataset'] == 'Mistral'][features].mean().values,
-            rope_norm[rope_norm['dataset'] == 'Vicuna'][features].mean().values])
-    ]
-    return data
-
-def radar_charts_per_object(brick_norm, box_norm, knife_norm, rope_norm, features):
-#def radar_charts_per_object(humans_norm, gpt_35_100_norm, gpt_4_100_norm, mistral_norm, features):
+def radar_charts_per_object(brick_norm, box_norm, knife_norm, rope_norm, features, model_names, colors):
     N = len(features)
     theta = radar_factory(N, frame='polygon')
-    #data_visu = example_data_per_object(humans_norm, gpt_35_100_norm, gpt_4_100_norm, mistral_norm, features)
-    data_visu = example_data_per_object_2(brick_norm, box_norm, knife_norm, rope_norm, features)
+    data_visu = example_data_per_object(brick_norm, box_norm, knife_norm, rope_norm, features, model_names)
     spoke_labels = data_visu.pop(0)
     fig, axs = plt.subplots(figsize=(9, 9), nrows=2, ncols=2,
                             subplot_kw=dict(projection='radar'))
     fig.subplots_adjust(wspace=0.25, hspace=0.20, top=0.85, bottom=0.05)
-    colors = ['b', 'r', 'g', 'm', 'y']
+    #colors = ['b', 'r', 'g', 'm', 'y']
     #colors = ['b', 'o', 'g', 'r', 'y']
     # Plot the four cases from the example data on separate axes
     for ax, (title, case_data) in zip(axs.flat, data_visu):
@@ -298,7 +288,8 @@ def radar_charts_per_object(brick_norm, box_norm, knife_norm, rope_norm, feature
         ax.set_rticks(np.linspace(0, 0.6, 4))  # Set radial ticks from 0 to 1 with 5 intervals
     
     # add legend relative to top-left plot
-    labels = ('Humans', 'GPT-3.5', 'GPT-4', 'Mistral', 'Vicuna')
+    #labels = ('Humans', 'GPT-3.5', 'GPT-4', 'Mistral', 'Vicuna')
+    labels = tuple(model_names)
     legend = axs[0, 0].legend(labels, loc=(0.9, .95),
                             labelspacing=0.1, fontsize='x-large')
     fig.text(0.5, 0.965, 'Creativity comparison per object',
@@ -311,7 +302,7 @@ def radar_charts_per_object(brick_norm, box_norm, knife_norm, rope_norm, feature
 ########### 1 chart in total ###########
 ########################################
 
-def plot_radar_chart(dataframes, titles, avg_per_object):
+def plot_radar_chart(dataframes, titles, colors, avg_per_object):
     # Define categories (assuming all dataframes have the same columns)
     categories = list(dataframes[0].columns)[1:] # to not take into account the prompt column
     num_categories = len(categories)
@@ -322,7 +313,7 @@ def plot_radar_chart(dataframes, titles, avg_per_object):
 
     # Create subplot with polar projection
     fig, ax = plt.subplots(figsize=(6, 6), subplot_kw=dict(polar=True))
-    colors = ['b', 'r', 'g', 'm', 'y']
+    #colors = ['b', 'r', 'g', 'm', 'y']
 
     # Plot each dataframe as a polygon on the radar chart
     for i, df in enumerate(dataframes):
@@ -357,6 +348,36 @@ def plot_radar_chart(dataframes, titles, avg_per_object):
     plt.title('LLMs vs Humans on the AUT')
     plt.show()
         
+def plot_per_object(type, data_dict, features, combined_data_norm_per_object):
+    if type == "kde":
+        for feat in features:
+            fig, axs = plt.subplots(1, 4, figsize=(15, 5))
+            for name, df in data_dict.items():
+                for i, object in enumerate(['brick', 'box', 'knife','rope']):
+                    sns.kdeplot(df[feat], label=name, ax = axs[i])
+                    axs[i].set_title(object)
+                    axs[i].legend()
+        plt.suptitle(f"Comparison on {feat}")
+        plt.tight_layout()
+        plt.show()
+    elif type == "boxplot":
+        for feat in features:
+            plt.figure(figsize=(12, 5))
+            sns.boxplot(data=combined_data_norm_per_object, x='dataset', y=feat, hue = 'prompt')
+            plt.suptitle(f"Comparison on {feat}")
+            plt.tight_layout()
+            plt.show()
+    elif type == "violinplot":
+        for feat in features:
+            plt.figure(figsize=(12, 5))
+            sns.violinplot(data=combined_data_norm_per_object, x='dataset', y=feat, hue = 'prompt')
+            plt.suptitle(f"Comparison on {feat}")
+            plt.tight_layout()
+            plt.show()
+    else:
+        print("Wrong type of plot")
+        return 0
+
 
 ########################################
 ########### Normalization ##############
@@ -366,13 +387,13 @@ def normalization_1(df, check_norm):
     # normalize by features: min max scaling
     result = df.copy()
     for feature_name in df.columns:
-        if feature_name in ["originality", "elaboration", "elaboration_SW", "similarity", "flexibility"]:
+        if feature_name in ["originality", "elaboration", "elaboration_SW", "dissimilarity", "flexibility"]:
             max_value = df[feature_name].max()
             min_value = df[feature_name].min()
             result[feature_name] = (df[feature_name] - min_value) / (max_value - min_value)
     
     if check_norm:
-        features = ['originality', 'elaboration', 'elaboration_SW', 'similarity', 'flexibility']
+        features = ['originality', 'elaboration', 'elaboration_SW', 'dissimilarity', 'flexibility']
 
         # before normalization
         fig, axs = plt.subplots(1, 4, figsize = (15,4))
@@ -398,7 +419,7 @@ def normalization_per_model(df):
     # normalize by features: min max scaling
     result = df.copy()
     for feature_name in df.columns:
-        if feature_name in ["originality", "elaboration", "elaboration_SW", "similarity", "flexibility"]:
+        if feature_name in ["originality", "elaboration", "elaboration_SW", "dissimilarity", "flexibility"]:
             max_value = df[feature_name].max()
             min_value = df[feature_name].min()
             result[feature_name] = (df[feature_name] - min_value) / (max_value - min_value)
