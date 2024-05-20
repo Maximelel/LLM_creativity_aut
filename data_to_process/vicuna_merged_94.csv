@@ -1,0 +1,95 @@
+prompt,response,originality,elaboration
+brick,Use it as a doorstop,1.0,5.0
+brick,Use it as a paperweight,1.0,5.0
+brick,Use it as a stepping stone,1.0,6.0
+brick,Use it as a piggy bank,3.0,6.0
+brick,Use it as a plant holder,1.7,6.0
+brick,Use it as a ramp for toy cars,1.7,8.0
+brick,Use it as a seat in the garden,1.0,8.0
+brick,Use it as a base for a table,1.7,8.0
+brick,Use it as a support for a shelf,1.0,8.0
+brick,Use it as a base for a lamp post,2.0,9.0
+brick,Use it as a base for a bench,1.7,8.0
+brick,Use it as a base for a birdhouse,2.0,8.0
+brick,Use it as a base for a sundial,3.0,8.0
+brick,Use it as a base for a mailbox,1.0,8.0
+brick,Use it as a base for a bird feeder,2.0,9.0
+brick,Use it as a base for a garden gnome,2.0,9.0
+brick,Use it as a base for a wind chime,3.0,9.0
+brick,Use it as a base for a small statue,2.0,9.0
+brick,Use it as a base for a fountain,2.0,8.0
+brick,Use it as a base for a small tree,1.7,9.0
+brick,Use it as a base for a large tree,1.7,9.0
+box,Use it as a step stool,1.3,6.0
+box,Use it as a table,1.3,5.0
+box,Use it as a bookshelf,1.7,5.0
+box,Use it as a storage container,1.0,6.0
+box,Use it as a seat,1.0,5.0
+box,Use it as a desk,1.3,5.0
+box,Use it as a door stop,1.3,6.0
+box,Use it as a planter,2.0,5.0
+box,Use it as a trash can,1.0,6.0
+box,Use it as a toy chest,1.0,6.0
+box,Use it as a nightstand,1.7,5.0
+box,Use it as a pet bed,1.7,6.0
+box,Use it as a laundry basket,1.3,6.0
+box,Use it as a footrest,1.3,5.0
+box,Use it as a coat rack,2.0,6.0
+box,Use it as a hat rack,2.0,6.0
+box,Use it as a magazine rack,1.7,6.0
+box,Use it as a toy box,1.0,6.0
+box,Use it as a mail organizer,1.3,6.0
+box,Use it as a toy storage,1.0,6.0
+box,Use it as a shoe organizer,1.3,6.0
+box,Use it as a pencil holder,1.3,6.0
+box,Use it as a paperweight,1.7,5.0
+box,Use it as a door stop,1.3,6.0
+box,Use it as a paper towel holder,1.7,7.0
+box,Use it as a napkin holder,2.0,6.0
+box,Use it as a key holder,2.0,6.0
+knife,Use it as a letter opener,1.0,6.0
+knife,Use it as a can opener,1.0,6.0
+knife,Use it as a screwdriver,1.7,5.0
+knife,Use it as a saw,1.0,5.0
+knife,Use it as a hammer,2.0,5.0
+knife,Use it as a chisel,1.7,5.0
+knife,Use it as a scraper,1.7,5.0
+knife,Use it as a knife,1.0,5.0
+knife,Use it as a spoon,2.0,5.0
+knife,Use it as a fork,1.0,5.0
+knife,Use it as a spatula,2.0,5.0
+knife,Use it as a ruler,2.0,5.0
+knife,Use it as a level,3.0,5.0
+knife,Use it as a bottle opener,1.7,6.0
+knife,Use it as a glass cutter,1.7,6.0
+knife,Use it as a pizza cutter,1.0,6.0
+knife,Use it as a cheese cutter,1.0,6.0
+knife,Use it as a cake cutter,1.0,6.0
+knife,Use it as a pastry cutter,1.0,6.0
+knife,Use it as a herb cutter,1.0,6.0
+knife,Use it as a vegetable cutter,1.0,6.0
+knife,Use it as a fruit cutter,1.0,6.0
+knife,Use it as a meat cutter,1.0,6.0
+knife,Use it as a fish cutter,1.0,6.0
+knife,Use it,1.0,2.0
+rope,Use it as a makeshift clothesline,1.3,6.0
+rope,Tie it to a tree to make a swing,1.3,9.0
+rope,Use it as a handle for a suitcase,1.3,8.0
+rope,Use it as a makeshift hammock,1.3,6.0
+rope,Use it as a jump rope,1.0,6.0
+rope,Use it as a tie for a present,1.3,8.0
+rope,Use it as a makeshift leash for a dog,1.0,9.0
+rope,Use it as a makeshift lasso,1.3,6.0
+rope,Use it as a makeshift sling,2.0,6.0
+rope,Use it as a makeshift bridge,1.3,6.0
+rope,Use it as a makeshift sled,2.7,6.0
+rope,Use it as a makeshift ladder,1.3,6.0
+rope,Use it as a makeshift hose,2.7,6.0
+rope,Use it as a makeshift slingshot,2.7,6.0
+rope,Use it as a makeshift harness,1.3,6.0
+rope,Use it as a makeshift saddle,2.7,6.0
+rope,Use it as a makeshift tourniquet,1.3,6.0
+rope,Use it as a makeshift trap,1.3,6.0
+rope,Use it as a makeshift whip,1.3,6.0
+rope,Use it as a makeshift lanyard,1.7,6.0
+rope,Use it as,1.0,3.0
