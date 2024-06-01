@@ -205,19 +205,43 @@ def run_LDA_on_humans_data(df, num_topics, num_words, print_keywords, objects):
     return dict_kw_coeff
 
 
-def compute_originality_topic_sentence(sentence, dict_kw_coeff_object, num_topics):
-    originality = 0
+def compute_flexibility_per_sentence(sentence, dict_kw_coeff_object, num_topics):
+    flex_score = 0
     for i in range(num_topics):
         keywords = dict_kw_coeff_object[i]['keywords']
-        N_words_in_topic = sum([1 for kw in keywords if kw in sentence]) 
-        originality += N_words_in_topic * dict_kw_coeff_object[i]['coeff'] # sum
-    return originality
+        is_topic_covered = 0
+        for kw in keywords:
+            if kw in sentence.lower().split():
+                is_topic_covered = 1
+        flex_score += is_topic_covered 
+    return flex_score
 
+def compute_flexibility_augmented_per_sentence(sentence, dict_kw_coeff_object, num_topics):
+    flex_score_augmented = 0
+    for i in range(num_topics):
+        keywords = dict_kw_coeff_object[i]['keywords']
+        N_words_in_topic = 0
+        for kw in keywords:
+            if kw in sentence.lower().split():
+                N_words_in_topic += 1 # count the number of times the sentence contains a keyword of the topic
+        flex_score_augmented += N_words_in_topic * dict_kw_coeff_object[i]['coeff'] # sum
+    return flex_score_augmented
+
+# flexibility score: number of topics covered by each sentence
 def compute_flexibility_score(df, dict_kw_coeff, num_topics, objects):
     df_output = pd.DataFrame()
     for i, object in enumerate(objects):
         df_tmp = df[df['prompt'] == object]
-        df_tmp['flexibility'] = df_tmp['response'].apply(lambda x: compute_originality_topic_sentence(x, dict_kw_coeff[i*num_topics:(i+1)*num_topics], num_topics))
+        df_tmp['flexibility'] = df_tmp['response'].apply(lambda x: compute_flexibility_per_sentence(x, dict_kw_coeff[i*num_topics:(i+1)*num_topics], num_topics))
+        df_output = pd.concat([df_output, df_tmp])
+    return df_output
+
+# flexibility augmented score: number of topics covered by each sentence multipled by a coefficient inversely proportional to the frequency of the topic in the humans data
+def compute_flexibility_augmented_score(df, dict_kw_coeff, num_topics, objects):
+    df_output = pd.DataFrame()
+    for i, object in enumerate(objects):
+        df_tmp = df[df['prompt'] == object]
+        df_tmp['flexibility_augmented'] = df_tmp['response'].apply(lambda x: compute_flexibility_augmented_per_sentence(x, dict_kw_coeff[i*num_topics:(i+1)*num_topics], num_topics))
         df_output = pd.concat([df_output, df_tmp])
     return df_output
 

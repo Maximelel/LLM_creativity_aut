@@ -58,8 +58,12 @@ def compute_all_metrics(df, objects, dict_kw_coeff, num_topics):
     #embeddings_model_name = "distilbert-base-uncased"
     #df['similarity'] = compute_sentences_sim_per_object(df, embeddings_model_name)
     
-    # Compute Flexibility
+    # Flexibility
     print("Compute flexibility...")
     df = compute_flexibility_score(df, dict_kw_coeff, num_topics, objects)
+
+    # Flexibility augmented
+    print("Compute flexibility augmented...")
+    df = compute_flexibility_augmented_score(df, dict_kw_coeff, num_topics, objects)
     
     return df
