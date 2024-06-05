@@ -67,6 +67,49 @@ def compute_sentences_similarity(df, model_name):
 def compute_sentences_sim_per_object(df, model_name):
     for object in df['prompt'].unique():
         avg_cosine_similarities = compute_sentences_similarity(df[df['prompt'] == object], model_name)
-        df.loc[df['prompt'] == object, 'similarity'] = avg_cosine_similarities
+        df.loc[df['prompt'] == object, 'dissimilarity_old'] = avg_cosine_similarities
     
     return df
+
+def compute_avg_similarity_each_sentence(model, tokenizer, sentence_ref, other_sentences):
+
+    inputs_ref = tokenizer(sentence_ref, return_tensors="pt", padding=True, truncation=True)
+    outputs_ref = model(**inputs_ref)
+
+    # Obtain sentence embeddings = each sentence is represented by a 768 elements vector
+    # mean: average of the hidden states of the tokens
+    # detach: returns tensor
+    # numpy: transform to numpy array
+    embeddings_ref = outputs_ref.last_hidden_state.mean(dim=1).detach().numpy()
+    
+    similarity_sentence = []
+    for i in range(len(other_sentences)):
+        text2 = other_sentences[i]
+        inputs2 = tokenizer(text2, return_tensors="pt", padding=True, truncation=True)
+        outputs2 = model(**inputs2)
+        embeddings2 = outputs2.last_hidden_state.mean(dim=1).detach().numpy()
+
+        #Calculate cosine similarity (similar sentence => cosine similarity = 1)
+        similarity_sentence.append(np.dot(embeddings_ref, embeddings2.T) / (np.linalg.norm(embeddings_ref) * np.linalg.norm(embeddings2)))
+
+    return np.mean(similarity_sentence)
+
+def compute_dissimilarity(df, embeddings_model_name):
+
+    tokenizer = AutoTokenizer.from_pretrained(embeddings_model_name)
+    model = AutoModel.from_pretrained(embeddings_model_name)    
+    
+    df_output = pd.DataFrame()
+    
+    # compute dissimilarity per object
+    for object in df['prompt'].unique():
+        df_object = df[df['prompt'] == object]
+        for i in tqdm(range(len(df_object))):
+            df_tmp = df_object.copy()
+            text_ref = df_object.loc[i, 'response']
+            # remove sentence in row i
+            df_tmp = df_tmp.drop(i).reset_index()
+            # compute dissimilarity = 1 - similarity
+            df_object.loc[i, 'dissimilarity'] = 1 - compute_avg_similarity_each_sentence(model, tokenizer, text_ref, df_tmp['response'].tolist())
+        df_output = pd.concat([df_output, df_object])
+    return df_output
