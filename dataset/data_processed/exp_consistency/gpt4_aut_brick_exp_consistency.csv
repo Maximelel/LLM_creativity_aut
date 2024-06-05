@@ -1,0 +1,924 @@
+prompt,response,Run,originality_ocsai,elaboration
+brick,Use it as a doorstop to keep doors open.  ,run 1,1.0,9.0
+brick,Transform it into a bookend for your shelf.  ,run 1,1.0,8.0
+brick,Create a makeshift grill by arranging several bricks.  ,run 1,2.0,8.0
+brick,Break it into pieces for a mosaic art project.  ,run 1,2.0,9.0
+brick,Use it as a paperweight in your home office.  ,run 1,1.0,9.0
+brick,Construct a garden path by laying bricks as stepping stones.  ,run 1,1.0,10.0
+brick,Use it as a hammer for simple construction tasks.  ,run 1,1.7,9.0
+brick,Paint it and use as a decorative garden feature.  ,run 1,2.0,9.0
+brick,Stack several to create a rustic outdoor candle holder.  ,run 1,3.0,9.0
+brick,Utilize it as a base for elevating pot plants for drainage.  ,run 1,3.0,11.0
+brick,Create an outdoor shelving system for small plants.  ,run 1,2.0,8.0
+brick,Use it as an abrasive cleaner for tough stains on pavement.  ,run 1,2.0,11.0
+brick,Chill or heat bricks for a bed warmer or cold compress.  ,run 1,3.0,11.0
+brick,Deploy it as an emergency self-defense tool.  ,run 1,1.0,7.0
+brick,Carve it into a unique sculpture for your garden.  ,run 1,3.0,9.0
+brick,Use several bricks to construct a temporary vehicle wheel stop.  ,run 1,1.7,10.0
+brick,Place under furniture legs for extra height.  ,run 1,1.7,7.0
+brick,Construct a simple outdoor fire pit with multiple bricks.  ,run 1,1.0,9.0
+brick,Utilize as a base for woodworking or metal projects.  ,run 1,2.0,9.0
+brick,Make a minimalist smartphone stand for your desk.  ,run 1,3.0,8.0
+brick,Create a temporary sidewalk or pathway by laying them side by side.  ,run 1,1.0,12.0
+brick,"Stack and glue for a sturdy, improvised bookshelf.  ",run 1,1.0,6.0
+brick,Use it to weigh down a tarp or cover in windy conditions.  ,run 1,1.0,12.0
+brick,Craft a rustic lamp base by hollowing out and installing fixtures.  ,run 1,3.0,11.0
+brick,Organize your garage by using bricks as tool stands.  ,run 1,2.0,9.0
+brick,Lay them as a border for garden beds to keep mulch in place.  ,run 1,1.0,13.0
+brick,Paint and use as a unique address marker at the end of your driveway.  ,run 1,2.0,14.0
+brick,"Build a small, decorative pond or fountain base in your garden.  ",run 1,1.0,3.0
+brick,Embed in plaster or concrete for an industrial-style wall treatment.  ,run 1,2.0,10.0
+brick,Arrange in a circle for a makeshift compost bin perimeter.  ,run 1,3.0,10.0
+brick,Create a decorative kitchen utensil holder.  ,run 1,3.0,6.0
+brick,Use as a workout weight for strength training.  ,run 1,1.0,8.0
+brick,Stack for an improvised laptop or monitor stand.  ,run 1,2.0,8.0
+brick,Embed them in outdoor stairs for added traction.  ,run 1,1.0,8.0
+brick,Use as anchors for outdoor pet leashes or tie-outs.  ,run 1,2.0,9.0
+brick,"Assemble a simple, rustic jewellery stand with hooks and slots.  ",run 1,1.0,3.0
+brick,Recycle into coarse aggregate for concrete projects.  ,run 1,2.0,7.0
+brick,Use crushed brick as part of a water filtration system.  ,run 1,3.0,10.0
+brick,Serve as a base for a sundial in a garden.  ,run 1,3.0,10.0
+brick,Use it as an alternative pestle for grinding in a large mortar.  ,run 1,3.0,12.0
+brick,Paint with special paint to create a chalkboard surface.  ,run 1,3.0,9.0
+brick,Fashion a crude yet functional pen or pencil holder.  ,run 1,3.0,9.0
+brick,"Construct a small, outdoor altar or shrine.  ",run 1,1.0,3.0
+brick,Use as stabilizers or supports for a makeshift shelf.  ,run 1,1.7,9.0
+brick,"Style as an edgy, industrial-inspired door pull or knob.  ",run 1,2.0,4.0
+brick,Incorporate into a homemade outdoor shower base.  ,run 1,2.0,7.0
+brick,Create a simple rain gauge by carving a hole and measuring markings.  ,run 1,3.0,12.0
+brick,Use as a base for soldering or welding projects to prevent burns.  ,run 1,3.0,12.0
+brick,Craft into a unique kitchen backsplash by slicing thin sections.  ,run 1,3.0,10.0
+brick,Form a rustic soap dish with appropriate sealant.  ,run 1,3.0,8.0
+brick,Develop a DIY outdoor lantern by placing candles inside hollowed bricks.  ,run 1,3.0,11.0
+brick,Use to apply pressure for woodworking glue-ups.  ,run 1,2.0,7.0
+brick,Arrange as a heat sink for smoking meats or other foods.  ,run 1,3.0,11.0
+brick,Utilize as a fermentation weight for pickling or making sauerkraut.  ,run 1,3.0,10.0
+brick,Design a key holder by embedding hooks.  ,run 1,3.0,7.0
+brick,Employ as a robust coaster for outdoor furniture.  ,run 1,2.0,8.0
+brick,Convert into signage or wayfinding by painting or etching letters.  ,run 1,3.0,10.0
+brick,Assemble a temporary holding pen for small animals.  ,run 1,2.0,8.0
+brick,Use as a clamp for gluing multiple objects together.  ,run 1,2.0,9.0
+brick,Construct a decorative outdoor kitchen surround.  ,run 1,1.0,6.0
+brick,Utilize as a base for a low-cost outdoor pizza oven.  ,run 1,3.0,10.0
+brick,Serve as weights for deep sea fishing lines.  ,run 1,3.0,8.0
+brick,Build a protective perimeter around a campfire.  ,run 1,1.0,7.0
+brick,Create an improvised weapon for historical reenactments.  ,run 1,2.0,7.0
+brick,"Design a unique, industrial-inspired clock face.  ",run 1,1.0,3.0
+brick,Utilize in a greenhouse as thermal mass to retain heat.  ,run 1,3.0,10.0
+brick,Stack to create a minimalist shoe rack.  ,run 1,2.0,7.0
+brick,Fashion into a stand for a guitar amp or speaker.  ,run 1,3.0,10.0
+brick,Implement as a base for martial arts breaking techniques.  ,run 1,2.0,9.0
+brick,Use as a solid foundation for a small shed or outbuilding.  ,run 1,1.0,11.0
+brick,Construct a brick wind chime with metal pieces.  ,run 1,3.0,8.0
+brick,Carve into a dock or stand for charging smartphones and tablets.  ,run 1,3.0,11.0
+brick,Utilize as a heavy-duty scouring pad for grill cleaning.  ,run 1,3.0,9.0
+brick,Shape into a personalised grave marker for pets.  ,run 1,2.0,8.0
+brick,Use for counterbalancing objects during DIY projects.  ,run 1,2.0,7.0
+brick,Make a simple bird bath by affixing a shallow bowl on top.  ,run 1,3.0,12.0
+brick,Develop a pedestal for displaying art or sculptures in gardens.  ,run 1,2.0,10.0
+brick,Use to press flowers or leaves for arts and crafts.  ,run 1,3.0,10.0
+brick,Create a durable platform for bee hives to protect from ground pests.  ,run 1,3.0,12.0
+brick,"Utilize in construction of a small, outdoor bread baking oven.  ",run 1,1.0,6.0
+brick,Design as part of a homemade dumbbell or barbell for workouts.  ,run 1,2.0,11.0
+brick,Imprint patterns on fabric or paper for art projects.  ,run 1,3.0,9.0
+brick,Integrate into a bike stand for maintenance or storage.  ,run 1,3.0,9.0
+brick,"Construct a simple, durable frame for stretching canvases.  ",run 1,1.0,3.0
+brick,Use as ballast or counterweight in various construction projects.  ,run 1,1.0,9.0
+brick,Develop into a makeshift anvil for metalworking.  ,run 1,3.0,7.0
+brick,Serve as a sturdy base for pole structures or banners.  ,run 1,2.0,10.0
+brick,Transform it into a bookend for your shelves.  ,run 2,1.7,8.0
+brick,Create a garden path by laying bricks as stepping stones.  ,run 2,1.0,10.0
+brick,Build a makeshift grill for outdoor cooking.  ,run 2,1.0,7.0
+brick,Paint and decorate it to use as a unique paperweight.  ,run 2,2.0,10.0
+brick,Stack them to make a temporary stand for plants.  ,run 2,2.0,9.0
+brick,Use it as a hammer for simple construction tasks.  ,run 2,1.7,9.0
+brick,Heat bricks and use them to keep food warm during outdoor events.  ,run 2,3.0,12.0
+brick,Bury bricks partially in garden beds for border edging.  ,run 2,1.0,9.0
+brick,Use it as a base for crafting a lamp or candle holder.  ,run 2,3.0,12.0
+brick,Make a small outdoor bench by stacking bricks and topping with a plank.  ,run 2,1.7,13.0
+brick,Employ as a balance weight in fitness exercises.  ,run 2,1.7,8.0
+brick,Use as a support for leveling furniture.  ,run 2,1.7,7.0
+brick,Create a mini outdoor fireplace or fire pit.  ,run 2,1.7,8.0
+brick,Use it as an anchor for balloons or a small tent.  ,run 2,3.0,11.0
+brick,Turn into a stencil for painting projects.  ,run 2,3.0,7.0
+brick,Utilize as a pestle for grinding spices in a large mortar.  ,run 2,3.0,11.0
+brick,Transform into a hideaway key holder by hollowing out the center.  ,run 2,3.0,11.0
+brick,Use it to scratch itches on animals like horses or cattle.  ,run 2,3.0,11.0
+brick,"Construct a small, raised herb garden.  ",run 2,1.0,3.0
+brick,Implement as a training tool for strength and endurance exercises.  ,run 2,1.7,10.0
+brick,Use it to press flowers or leaves for art projects.  ,run 2,2.0,10.0
+brick,Serve as a base for sculpture or pottery making.  ,run 2,2.0,9.0
+brick,Carve into it for a unique address marker.  ,run 2,2.0,8.0
+brick,Use it as a canvas for mosaic art with tiles or glass.  ,run 2,3.0,12.0
+brick,Embed in the ground as a marker for garden rows.  ,run 2,1.7,10.0
+brick,Create a robust phone or tablet stand.  ,run 2,2.0,7.0
+brick,Stack to make a protective barrier for garden plants.  ,run 2,1.0,9.0
+brick,Utilize to raise your computer monitor to a comfortable viewing height.  ,run 2,2.0,11.0
+brick,Turn it into a base for a bird bath or feeder.  ,run 2,2.0,11.0
+brick,Use bricks to construct a makeshift ladder for small tasks.  ,run 2,1.7,10.0
+brick,Convert into a rugged coaster for pots or pitchers.  ,run 2,3.0,9.0
+brick,Stack and seal with mortar to make a waterproof outdoor storage box.  ,run 2,2.0,12.0
+brick,Break into pieces for use in a French drain.  ,run 2,2.0,9.0
+brick,Create a heat sink for a passive solar heater.  ,run 2,3.0,9.0
+brick,Use it as an abrasive for smoothing rough surfaces.  ,run 2,2.0,9.0
+brick,Incorporate into a centerpiece for rustic decor.  ,run 2,2.0,7.0
+brick,Use to prop open a car hood or trunk while working on it.  ,run 2,1.7,13.0
+brick,Implement as a manual sharpener for garden tools.  ,run 2,3.0,8.0
+brick,Stack to fashion a simple shoe rack.  ,run 2,2.0,7.0
+brick,Embed into a wooden frame to make a trivet for hot dishes.  ,run 2,3.0,12.0
+brick,Arrange as a makeshift dumbbell for home workouts.  ,run 2,2.0,8.0
+brick,Use as a backstop for target practice with archery or airsoft.  ,run 2,2.0,11.0
+brick,Convert into a potting block for pressing soil in seed trays.  ,run 2,3.0,11.0
+brick,Employ as a structural element in making a small pond or fountain.  ,run 2,2.0,12.0
+brick,Use as filler material in constructing a weighted blanket or vest.  ,run 2,3.0,11.0
+brick,Turn into a soap dish with proper sealing and drainage.  ,run 2,3.0,10.0
+brick,Create a rustic jewelry stand by drilling holes for hanging items.  ,run 2,3.0,11.0
+brick,Utilize as a base for mounting a heavy-duty vise.  ,run 2,3.0,9.0
+brick,Fashion into a simple sundial for an educational garden feature.  ,run 2,4.5,10.0
+brick,Use as reinforcement in creating large ice sculptures.  ,run 2,3.0,8.0
+brick,Convert into a buffer for polishing metal or wood surfaces.  ,run 2,3.0,10.0
+brick,Carve into it for personalized nameplates or signs.  ,run 2,3.0,8.0
+brick,Use it as a spacer for home improvement projects like tiling.  ,run 2,1.5,11.0
+brick,Combine with wood to craft a unique picture frame.  ,run 2,3.0,9.0
+brick,Turn into a rugged mount for a security camera.  ,run 2,3.0,9.0
+brick,Employ as a traditional printing press for art or letterpress projects.  ,run 2,3.0,11.0
+brick,Use to create texture in plaster or cement projects.  ,run 2,2.0,9.0
+brick,Implement as a deterrent for parking in unauthorized spaces.  ,run 2,1.0,9.0
+brick,Bundle in fabric as a defensive tool for martial arts training.  ,run 2,3.0,11.0
+brick,Use as a mold for making large ice blocks.  ,run 2,3.0,9.0
+brick,Convert into a rustic chic lamp base.  ,run 2,3.0,7.0
+brick,Serve as a counterweight for balancing scales.  ,run 2,2.0,7.0
+brick,Use to amplify the heat of a small campfire.  ,run 2,3.0,9.0
+brick,Employ as a structural support in erosion control projects.  ,run 2,1.0,9.0
+brick,Stack to build a protective casing for outdoor pipes or taps.  ,run 2,1.0,11.0
+brick,Use as a prop for photography or still-life drawing.  ,run 2,2.0,9.0
+brick,Modify to create a unique door knocker.  ,run 2,2.0,7.0
+brick,Fashion into a robust handle for a homemade drawer or cabinet.  ,run 2,3.0,11.0
+brick,Use as a form for crafting custom concrete pavers.  ,run 2,2.0,9.0
+brick,Implement as a base for creating epoxy resin art.  ,run 2,3.0,9.0
+brick,Serve as a historical teaching tool for construction methods.  ,run 2,3.0,9.0
+brick,Use to smoothen out bubbles in wallpaper application.  ,run 2,3.0,8.0
+brick,Turn into a solid core for crafting metal tools or weapons.  ,run 2,2.0,11.0
+brick,Utilize as a counterbalance in mechanical projects or machines.  ,run 2,2.0,9.0
+brick,Employ as a minimalist chess or checkerboard by painting squares.  ,run 2,3.0,10.0
+brick,Fashion into a mount for an outdoor solar light.  ,run 2,3.0,9.0
+brick,Use as a grounding tool for static electricity in laboratories.  ,run 2,3.0,10.0
+brick,Incorporate into a DIY outdoor seating arrangement.  ,run 2,2.0,7.0
+brick,Use as a base for creating snow sculptures that last longer.  ,run 2,3.0,11.0
+brick,Employ as an emergency brake pad for lightweight vehicles or carts.  ,run 2,2.0,11.0
+brick,Convert into a calibration weight for scales.  ,run 2,3.0,7.0
+brick,Utilize for thermal mass in greenhouses to regulate temperature.  ,run 2,3.0,9.0
+brick,Embed in sidewalks for a decorative touch.  ,run 2,1.0,7.0
+brick,Use as a form for making homemade candles.  ,run 2,3.0,8.0
+brick,Serve as a guide for cutting uniform pieces of wood or other materials.  ,run 2,3.0,13.0
+brick,Implement as a base for testing hovercraft designs or air levitation projects.  ,run 2,3.0,12.0
+brick,Fashion into a coat hook by attaching metal hooks.  ,run 2,3.0,9.0
+brick,Use to create raised designs in plaster walls or ceilings.  ,run 2,2.0,10.0
+brick,Utilize as a stabilizer for unsteady tables or chairs.  ,run 2,1.0,9.0
+brick,Employ as the foundation for a miniature model town or landscape.  ,run 2,2.0,11.0
+brick,Convert into a durable platform for a pet's food and water bowls.  ,run 2,3.0,12.0
+brick,Use as a rustic addition to fish tanks or terrariums for natural decor.  ,run 2,3.0,13.0
+brick,Use it as a doorstop.,run 3,1.0,5.0
+brick,Stack under furniture legs to adjust height.,run 3,1.7,7.0
+brick,Create a makeshift bookshelf.,run 3,2.0,4.0
+brick,Use as a flowerpot for succulents. ,run 3,3.0,6.0
+brick,Employ it as a paperweight.,run 3,1.0,5.0
+brick,Construct a garden path.,run 3,1.0,4.0
+brick,Implement as a grill elevation platform.,run 3,3.0,6.0
+brick,Utilize to prop open windows.,run 3,1.0,5.0
+brick,Craft into a unique lamp base.,run 3,3.0,6.0
+brick,Engrave as a personalized award.,run 3,3.0,5.0
+brick,Integrate into a homemade smoker.,run 3,3.0,5.0
+brick,Develop a small herb garden.,run 3,2.0,5.0
+brick,Implement in a rainwater harvesting system.,run 3,3.0,6.0
+brick,Assemble an outdoor fire pit.,run 3,1.0,5.0
+brick,Fashion into coasters.,run 3,2.0,3.0
+brick,Retrofit as a bookend.,run 3,1.7,4.0
+brick,Convert into a rustic serving platter.,run 3,3.0,6.0
+brick,Use as a base for candle holders.,run 3,3.0,7.0
+brick,Incorporate in DIY furniture.,run 3,2.0,4.0
+brick,Build a temporary wheel stop for a car.,run 3,1.0,8.0
+brick,Manufacture a compost bin.,run 3,3.0,4.0
+brick,Fashion a makeshift hammer.,run 3,2.0,4.0
+brick,Utilize as workout weights.,run 3,1.0,4.0
+brick,Create a boundary for a pet's grave.,run 3,1.7,7.0
+brick,Design an outdoor chess/checkerboard.,run 3,3.0,4.0
+brick,Use as a mold for concrete projects.,run 3,2.0,7.0
+brick,Anchor for a tarp or tent.,run 3,1.7,6.0
+brick,Construct a bird bath base.,run 3,1.0,5.0
+brick,Develop a butterfly puddling station.,run 3,4.5,5.0
+brick,Use as a fermentation weight.,run 3,3.0,5.0
+brick,Fabricate a makeshift knife sharpener.,run 3,3.0,5.0
+brick,Create a key-hiding spot in the garden.,run 3,3.0,7.0
+brick,Utilize as a smartphone stand.,run 3,2.0,5.0
+brick,Craft into a DSLR camera stabilizer.,run 3,3.0,6.0
+brick,Utilize as a leveling tool for construction projects.,run 3,1.0,8.0
+brick,Implement as a thermal mass for solar cooking.,run 3,3.0,8.0
+brick,Fabricate a footpath in a muddy area.,run 3,1.0,7.0
+brick,Construct a minimalist Christmas tree base.,run 3,2.0,6.0
+brick,Use as a weight for pressing flowers.,run 3,3.0,7.0
+brick,Implement as a hot plate for outdoor cooking.,run 3,3.0,8.0
+brick,Create a rustic picture frame.,run 3,2.0,5.0
+brick,Develop a base for a homemade rocket stove.,run 3,3.0,8.0
+brick,Utilize for acoustic treatment as sound diffusers.,run 3,3.0,7.0
+brick,Craft an insect hotel.,run 3,3.0,4.0
+brick,Employ as a stabilizer for woodworking.,run 3,2.0,6.0
+brick,Use as a radiator heat reflector.,run 3,3.0,6.0
+brick,Create a garden edge trim.,run 3,1.0,5.0
+brick,Act as a weight in a pickup truck bed for traction.,run 3,1.7,11.0
+brick,Implement as a base for solar light posts.,run 3,3.0,8.0
+brick,Construct raised beds for gardening.,run 3,1.0,5.0
+brick,Use to repair a crumbling brick structure.,run 3,1.0,7.0
+brick,Create a cooling stand for laptops.,run 3,3.0,6.0
+brick,Develop a marker for parking spaces.,run 3,2.0,6.0
+brick,Utilize as a support for a seesaw.,run 3,2.0,7.0
+brick,Create an unconventional jewelry stand.,run 3,3.0,5.0
+brick,Construct a privacy screen base.,run 3,1.0,5.0
+brick,Use as a sinkhole filler.,run 3,2.0,5.0
+brick,Develop a textured stamp for concrete or pottery.,run 3,3.0,8.0
+brick,Utilize as a ballistic pendulum experiment weight.,run 3,3.0,7.0
+brick,Create a base for a water feature.,run 3,2.0,7.0
+brick,Employ as a target for throwing practices.,run 3,2.0,7.0
+brick,Use to break down larger soil clumps in the garden.,run 3,1.0,10.0
+brick,Create a makeshift anvil.,run 3,2.0,4.0
+brick,Utilize as a stabilizer for large plants or trees.,run 3,2.0,9.0
+brick,Use as a base for a homemade antenna.,run 3,3.0,8.0
+brick,Create a rustic napkin holder.,run 3,3.0,5.0
+brick,Utilize in a photography project for texture or backdrop.,run 3,3.0,9.0
+brick,Use as a prop for theater productions.,run 3,2.0,7.0
+brick,Create a soap dish with drainage.,run 3,3.0,6.0
+brick,Utilize as a rustic shelf.,run 3,2.0,5.0
+brick,Use as a boundary marker for property or gardening.,run 3,1.0,9.0
+brick,Construct a pit for roasting marshmallows.,run 3,2.0,6.0
+brick,Implement as a stepping stone.,run 3,1.0,5.0
+brick,Create a manual grinding tool for grains or spices.,run 3,3.0,9.0
+brick,Construct a base for a tabletop fountain.,run 3,2.0,7.0
+brick,Utilize to elevate a rain barrel.,run 3,2.0,6.0
+brick,Use as a pot stand to avoid scalding surfaces.,run 3,2.0,9.0
+brick,Create a backdrop for photographing small items.,run 3,3.0,7.0
+brick,Employ as a guide for drawing straight lines.,run 3,2.0,8.0
+brick,Use as a counterbalance in machinery or pulley systems.,run 3,2.5,9.0
+brick,Create a holder for a tablet or recipe book.,run 3,3.0,9.0
+brick,Utilize to break ice or compact materials.,run 3,1.0,7.0
+brick,Develop a makeshift sled for moving heavy objects.,run 3,2.0,8.0
+brick,Implement as a traditional brick oven's building block.,run 3,2.0,8.0
+brick,Create a hiding place for spare keys.,run 3,3.0,7.0
+brick,Utilize as a base for mounting or clamping projects.,run 3,2.0,9.0
+brick,"Fashion into a cool, eco-friendly pen holder.",run 3,1.0,4.0
+brick,Implement as ballast for stability in boats or balloons.,run 3,3.0,9.0
+brick,Use as a decorative element in aquariums or terrariums.,run 3,3.0,9.0
+brick,Develop a personalized time capsule.,run 3,3.0,5.0
+brick,Utilize as an egg incubator weight.,run 3,3.0,6.0
+brick,Craft into a traditional door knocker.,run 3,2.0,6.0
+brick,Use as a dampener for noise or vibration.,run 3,3.0,8.0
+brick,Create an educational tool for physics demonstrations.,run 3,3.0,7.0
+brick,"Develop a low-tech security device (e.g., for wedging doors).",run 3,2.0,6.0
+brick,Use as a primitive tool for shaping or cutting softer materials.,run 3,2.0,11.0
+brick,Embed into walls for natural insulation.,run 3,2.0,6.0
+brick,Use as a rustic stepping stone in a fairy garden.,run 3,3.0,10.0
+brick,Develop a unique guitar stand.,run 3,3.0,5.0
+brick,Use as a way to display business cards or brochures. ,run 3,3.0,10.0
+brick,Stack them to create a bookshelf.  ,run 4,1.7,6.0
+brick,Paint and use as a garden decoration.  ,run 4,2.0,7.0
+brick,Bury partially in the ground as stepping stones.  ,run 4,1.0,8.0
+brick,Use it as a paperweight.  ,run 4,1.0,5.0
+brick,Construct a makeshift outdoor grill.  ,run 4,1.0,5.0
+brick,Create a makeshift dumbbell for exercising.  ,run 4,1.7,6.0
+brick,Use to prop up a vehicle axle when changing a tire.  ,run 4,1.0,11.0
+brick,Build a small fire pit for camping or backyard.  ,run 4,1.0,9.0
+brick,Employ as a hammer for simple tasks.  ,run 4,2.0,7.0
+brick,Assemble into a compost bin structure.  ,run 4,2.0,6.0
+brick,Utilize as a makeshift anvil for metal work.  ,run 4,2.0,8.0
+brick,Arrange into a pedestal for plant pots.  ,run 4,2.0,7.0
+brick,Incorporate into interior design for a rustic look.  ,run 4,2.0,8.0
+brick,Fashion into a tablet or book stand.  ,run 4,3.0,7.0
+brick,"Create a small, raised bed for gardening.  ",run 4,1.0,3.0
+brick,Use to elevate a bed or furniture for extra storage underneath.  ,run 4,1.7,11.0
+brick,Embed in a driveway as decorative edging.  ,run 4,1.0,7.0
+brick,Assemble as a structure for a bee hotel.  ,run 4,3.0,8.0
+brick,Carve into a unique sculpture.  ,run 4,3.0,5.0
+brick,Implement as a base for a water feature.  ,run 4,2.0,8.0
+brick,Construct a bird bath base.  ,run 4,1.0,5.0
+brick,Employ as an outdoor candle holder.  ,run 4,3.0,6.0
+brick,Lay out as edging for flower beds or pathways.  ,run 4,1.0,9.0
+brick,Assemble into a sundial.  ,run 4,3.0,4.0
+brick,Use as weights for a tent or awning.  ,run 4,1.7,8.0
+brick,Build a key hiding spot in the garden.  ,run 4,2.0,8.0
+brick,Create a boundary or marker for sports or games.  ,run 4,1.0,9.0
+brick,Use as a base for a patio umbrella.  ,run 4,1.7,8.0
+brick,Arrange into a temporary shelf.  ,run 4,2.0,5.0
+brick,Make into a holder for charging phones (with slots).  ,run 4,3.0,9.0
+brick,"Design a creative, rustic pen holder.  ",run 4,1.0,3.0
+brick,"Construct a small, decorative wishing well.  ",run 4,1.0,3.0
+brick,Utilize as a platform for photography subjects.  ,run 4,2.5,7.0
+brick,Carve out a niche for holding business cards.  ,run 4,3.0,8.0
+brick,Transform into a door knocker.  ,run 4,2.0,5.0
+brick,Use as a rest for a soldering iron.  ,run 4,3.0,8.0
+brick,Make a simple rain gauge by marking levels on the side.  ,run 4,3.0,11.0
+brick,Use as a base for a small tabletop fountain.  ,run 4,3.0,9.0
+brick,Turn into a stamp for pottery or crafts.  ,run 4,3.0,8.0
+brick,"Create a small, one-use grill.  ",run 4,1.0,3.0
+brick,Implement as a spacer for drying homemade pasta.  ,run 4,3.0,8.0
+brick,Convert into a rustic napkin holder.  ,run 4,3.0,6.0
+brick,Use it to crack nuts in a pinch.  ,run 4,2.0,8.0
+brick,Sandpaper a brick to use as a foot scrubber.  ,run 4,3.0,9.0
+brick,Use as a base for a lamp.  ,run 4,2.0,7.0
+brick,Employ as a diffuser for essential oils.  ,run 4,4.0,7.0
+brick,Carve and use as a personalized house number display.  ,run 4,3.0,9.0
+brick,"Build a small, portable seat or stool.  ",run 4,1.0,3.0
+brick,Use to stabilize shaky tables or chairs.  ,run 4,1.0,7.0
+brick,Make a hideaway spot for spare keys.  ,run 4,3.0,7.0
+brick,Construct a mini greenhouse base.  ,run 4,2.0,5.0
+brick,Use to press flowers or leaves.  ,run 4,2.0,6.0
+brick,Incorporate into a zen garden for texture.  ,run 4,3.0,7.0
+brick,Use as a smoker chip holder for grilling.  ,run 4,3.0,8.0
+brick,Assemble into a retro computer monitor stand.  ,run 4,3.0,7.0
+brick,Utilize as a boundary for a driveway or parking spot.  ,run 4,1.0,10.0
+brick,Create a box garden for herbs.  ,run 4,2.0,6.0
+brick,Use in artwork projects as a canvas.  ,run 4,3.0,7.0
+brick,Construct a simple outdoor lantern holder.  ,run 4,2.0,6.0
+brick,Fashion as a boot scraper.  ,run 4,3.0,5.0
+brick,Develop a unique yoga block.  ,run 4,3.0,5.0
+brick,Employ as an anchor for balloon bouquets.  ,run 4,3.0,7.0
+brick,Create a rustic base for a Christmas tree stand.  ,run 4,2.0,9.0
+brick,Utilize as support for tiered garden beds.  ,run 4,1.5,7.0
+brick,Form into a makeshift tripod for camera stability.  ,run 4,3.0,8.0
+brick,Use to elevate potted plants for better drainage.  ,run 4,2.5,8.0
+brick,Assemble into a base for outdoor lighting.  ,run 4,2.0,7.0
+brick,Build a boundary for pet areas.  ,run 4,1.0,6.0
+brick,Use as a makeshift cricket bat for backyard games.  ,run 4,3.0,9.0
+brick,Implement as a scrubber for dirty boots or tools.  ,run 4,3.0,9.0
+brick,Repurpose as a rustic serving platter.  ,run 4,3.0,6.0
+brick,Use bricks to create a unique headboard design.  ,run 4,2.0,8.0
+brick,Build an improvised shelter for small wildlife.  ,run 4,2.0,7.0
+brick,Use in photo shoots as an industrial prop.  ,run 4,2.5,8.0
+brick,Create a textured rubbing for art projects.  ,run 4,3.0,7.0
+brick,Utilize as a border for a koi pond.  ,run 4,1.7,8.0
+brick,Make a tower for garden vines to climb.  ,run 4,2.0,8.0
+brick,Incorporate into a homemade obstacle course.  ,run 4,2.0,6.0
+brick,Carve out and use as a unique flower vase.  ,run 4,3.0,9.0
+brick,Stack as a minimalist nightstand.  ,run 4,2.0,5.0
+brick,Employ as a sturdy base for a swing set.  ,run 4,1.7,9.0
+brick,Assemble into a sculpture for a community project.  ,run 4,3.0,8.0
+brick,Use as a foundation for a small windmill or garden spinner.  ,run 4,3.0,11.0
+brick,Build a containment area for a campfire.  ,run 4,1.0,7.0
+brick,Implement as a weight for underwater plants in aquariums.  ,run 4,3.0,9.0
+brick,Turn into a simple bird feeder.  ,run 4,3.0,6.0
+brick,Create a protective enclosure for outdoor power outlets.  ,run 4,3.0,8.0
+brick,Use to build a terrarium base.  ,run 4,2.0,6.0
+brick,Develop as a rustic frame for mirrors or artwork.  ,run 4,2.0,9.0
+brick,Employ as markers in a treasure hunt.  ,run 4,3.0,7.0
+brick,Utilize as a heat sink for passive heating.  ,run 4,3.0,8.0
+brick,Use it as a doorstop to keep doors ajar.  ,run 5,1.0,9.0
+brick,Stack several to create a rustic outdoor plant stand.  ,run 5,2.0,9.0
+brick,Bury partially in a garden to create edging for your flower beds.  ,run 5,1.0,12.0
+brick,Paint and seal to make unique coasters for your table.  ,run 5,3.0,10.0
+brick,Drill holes to create a quirky pencil holder for your desk.  ,run 5,3.0,11.0
+brick,Implement it as a paperweight to keep your documents in place.  ,run 5,1.0,11.0
+brick,Wrap with fabric or yarn to create a decorative door stopper.  ,run 5,2.0,11.0
+brick,Use as a base for mounting a mailbox post.  ,run 5,1.7,9.0
+brick,Submerge in a fish tank to provide shelter for fish or to anchor plants.  ,run 5,3.0,14.0
+brick,Heat in an oven and then wrap in fabric to use as a bed warmer.  ,run 5,3.0,15.0
+brick,Embed in outdoor pathways for a rustic look.  ,run 5,1.0,8.0
+brick,Create a smartphone stand by carving a small notch.  ,run 5,3.0,9.0
+brick,Assemble multiple bricks to construct a makeshift barbecue pit.  ,run 5,2.0,9.0
+brick,Place around a campfire for added safety and containment.  ,run 5,2.0,9.0
+brick,Cover with cushioning to make a simple outdoor seat.  ,run 5,2.0,9.0
+brick,Glue felt to one side and use as a scratch pad for cats.  ,run 5,3.0,13.0
+brick,Use as elevation platforms for potted plants for better drainage.  ,run 5,3.0,10.0
+brick,Carve and create a unique sculpture for your garden.  ,run 5,3.0,9.0
+brick,Incorporate into a homemade outdoor pizza oven.  ,run 5,3.0,7.0
+brick,Stack under furniture legs to raise them to a more desirable height.  ,run 5,1.0,12.0
+brick,Place in the bottom of a trash bag to prevent it from being blown away.  ,run 5,2.0,15.0
+brick,Use it to even out the legs of a wobbly table or chair.  ,run 5,1.0,13.0
+brick,Secure loose gates by placing a brick on one side.  ,run 5,1.0,10.0
+brick,Disguise as a book for a secret storage solution on your shelf.  ,run 5,3.0,12.0
+brick,Use broken pieces as makeshift stepping stones in a garden.  ,run 5,1.7,10.0
+brick,Layer with other materials to create interesting textures in mixed-media art.  ,run 5,2.5,11.0
+brick,Chill in a freezer and use to keep food cold during picnics.  ,run 5,3.0,12.0
+brick,Embed in walls as hidden compartments for valuables.  ,run 5,3.0,8.0
+brick,Break into smaller pieces for use in a DIY patio or mosaic.  ,run 5,1.0,12.0
+brick,Incorporate into a zen garden for a touch of industrial contrast.  ,run 5,3.0,11.0
+brick,Modify into a holder for incense sticks.  ,run 5,3.0,7.0
+brick,Place in a toilet tank to conserve water with each flush.  ,run 5,3.0,11.0
+brick,Use as an anchor for a dog leash in the yard.  ,run 5,1.7,11.0
+brick,Convert into a mold for concrete projects.  ,run 5,2.0,7.0
+brick,Turn into a pedestal for showcasing small art pieces.  ,run 5,3.0,9.0
+brick,"Assemble into a low, decorative garden wall.  ",run 5,1.0,4.0
+brick,Fill with wax and a wick to create a large candle.  ,run 5,3.0,11.0
+brick,Carve into a stamp for large-scale prints in art projects.  ,run 5,3.0,10.0
+brick,Tie a rope around and use as a boat anchor for small boats.  ,run 5,2.0,13.0
+brick,Craft into a rustic key holder by adding hooks.  ,run 5,3.0,9.0
+brick,Use as a base for homemade lamps.  ,run 5,2.5,7.0
+brick,Incorporate into a weightlifting regimen for added resistance.  ,run 5,2.0,8.0
+brick,Modify to serve as signs or markers in a garden.  ,run 5,2.0,10.0
+brick,Stack to create a unique jewelry stand.  ,run 5,3.0,7.0
+brick,Place on a gas grill to enhance thermal mass for more even cooking.  ,run 5,3.0,13.0
+brick,Implement as a sturdy base for a tabletop fountain.  ,run 5,3.0,9.0
+brick,Carve out and use as a hideaway for outdoor keys.  ,run 5,3.0,10.0
+brick,Paint with glow-in-the-dark paint for a nighttime garden path marker.  ,run 5,3.0,10.0
+brick,Use as spacers for drying homemade pasta.  ,run 5,3.0,7.0
+brick,Construct a simple sundial for an educational garden feature.  ,run 5,3.0,9.0
+brick,Create a minimalistic toothbrush holder with holes.  ,run 5,3.0,7.0
+brick,Use crushed bricks as base material for pathways or driveways.  ,run 5,1.0,10.0
+brick,Embed in plaster to create a textured accent wall.  ,run 5,2.0,9.0
+brick,Turn into a support stand for soldering or welding small items.  ,run 5,3.0,11.0
+brick,Use in photography as a rustic prop or as a support for elevating objects.  ,run 5,3.0,14.0
+brick,Develop into a base for mounting street signs.  ,run 5,2.0,8.0
+brick,Carve into a unique door knocker.  ,run 5,2.0,6.0
+brick,Employ as a training tool for martial arts to practice breaking techniques.  ,run 5,2.0,12.0
+brick,Alter into a fixture for holding garden hoses.  ,run 5,3.0,8.0
+brick,Use to tamp down soil or sand in small areas.  ,run 5,1.0,10.0
+brick,Implement as a base for raised gardening beds.  ,run 5,2.0,8.0
+brick,Position under car tires for emergency traction in snow or mud.  ,run 5,1.7,11.0
+brick,Design as a template for sidewalk chalk art.  ,run 5,3.0,8.0
+brick,Modify for use in an outdoor survival stove.  ,run 5,3.0,8.0
+brick,Craft into a simple loom for weaving projects.  ,run 5,3.0,8.0
+brick,Use in a freezer to help maintain cold temperatures during power outages.  ,run 5,3.0,12.0
+brick,Turn into a quirky cheese serving platter after proper sealing.  ,run 5,3.0,10.0
+brick,Lay out as a protective surface for hot dishes or pans.  ,run 5,3.0,11.0
+brick,Employ as foundation blocks in small-scale model buildings.  ,run 5,2.0,8.0
+brick,Use shattered pieces in a clear vase for a rustic floral arrangement base.  ,run 5,3.0,13.0
+brick,Incorporate into a mechanical press as a weight.  ,run 5,3.0,8.0
+brick,Arrange as a minimalist bike stand.  ,run 5,3.0,6.0
+brick,Carve into a groove to hold a hair dryer or other tools.  ,run 5,3.0,12.0
+brick,Utilize as a counterweight for balancing mechanical devices.  ,run 5,3.0,8.0
+brick,Stack to fashion a simple outdoor shower base.  ,run 5,2.0,8.0
+brick,Use as a deterrent around vegetable gardens to discourage small animals.  ,run 5,2.0,11.0
+brick,Secure a tarp or plastic sheeting in place with bricks around the edges.  ,run 5,1.7,13.0
+brick,Carve into a base for setting up a small tabletop Christmas tree.  ,run 5,3.0,12.0
+brick,Lay in a pattern to create a unique outdoor game board.  ,run 5,3.0,11.0
+brick,Fill with soil and plant succulents for a rustic planter.  ,run 5,3.0,10.0
+brick,Use as a heavy base for stabilizing tripod stands or outdoor umbrellas.  ,run 5,2.0,12.0
+brick,Embed with solar lights to create illuminated garden markers.  ,run 5,4.0,9.0
+brick,Utilize broken bits as drainage material at the bottom of plant pots.  ,run 5,3.0,12.0
+brick,Turn into a primitive gym by lifting for strength training.  ,run 5,2.0,10.0
+brick,Use as a base for firing ceramics in a kiln for certain techniques.  ,run 5,3.0,13.0
+brick,Stack to create a protective barrier around outdoor utilities.  ,run 5,1.0,9.0
+brick,Employ as an abrasive surface for sharpening garden tools.  ,run 5,3.0,9.0
+brick,Break down and use particles for grip on icy paths.  ,run 5,3.0,10.0
+brick,Utilize as a template for drawing or spray painting uniform shapes.  ,run 5,3.0,11.0
+brick,Carve to create a custom smartphone or tablet dock.  ,run 5,3.0,9.0
+brick,Use in DIY acoustic room treatments for absorbing sound.  ,run 5,3.0,9.0
+brick,Fashion into a rugged outdoor game set for games like tic-tac-toe.  ,run 5,3.0,11.0
+brick,Implement as an integral part of a homemade water filtration system.  ,run 5,3.0,11.0
+brick,Paint it and use it as a doorstop.  ,run 6,2.0,8.0
+brick,Stack several to create a rustic outdoor plant stand.  ,run 6,2.0,9.0
+brick,Drill holes to make a unique pencil holder for your desk.  ,run 6,3.0,11.0
+brick,Bury it partially in garden beds for edging.  ,run 6,1.0,8.0
+brick,Use it as a weight to press items such as tofu or pressed sandwiches.  ,run 6,2.0,14.0
+brick,Wrap it in fabric or yarn for a homemade yoga block.  ,run 6,3.0,11.0
+brick,Construct a small outdoor fire pit with multiple bricks.  ,run 6,1.0,9.0
+brick,Create a makeshift hammer for minor tasks.  ,run 6,2.0,7.0
+brick,Arrange a series of bricks as a pathway in your garden.  ,run 6,1.0,11.0
+brick,Use it to crack nuts in a pinch.  ,run 6,2.0,8.0
+brick,Paint and personalize bricks as unique nameplates for rooms or desks.  ,run 6,3.0,11.0
+brick,Submerge it in a fish tank as an interesting aquarium feature.  ,run 6,3.0,11.0
+brick,Glue felt to one side and use it as a scratch pad for cats.  ,run 6,3.0,14.0
+brick,Mount it on a wall as a rustic shelf for small items.  ,run 6,2.0,12.0
+brick,Embed into the ground to stabilize a wobbly outdoor table or chair.  ,run 6,1.7,12.0
+brick,Use it to elevate a laptop for better ergonomics.  ,run 6,2.0,9.0
+brick,"Turn it into a quirky, industrial-style lamp base.  ",run 6,1.0,5.0
+brick,Wrap it with waterproof material to use as a garden kneeler.  ,run 6,3.0,11.0
+brick,Lay it flat to prop open doors during high-traffic events.  ,run 6,1.0,10.0
+brick,Use it as a base for making candle holders.  ,run 6,3.0,9.0
+brick,Heat it in an oven and use it as a bed warmer on cold nights.  ,run 6,3.0,15.0
+brick,Chisel a groove to hold your smartphone or tablet for hands-free viewing.  ,run 6,3.0,12.0
+brick,Use it as a base for soldering or other crafts that may damage surfaces.  ,run 6,3.0,14.0
+brick,Wrap it in cloth and use as a cold compress by refrigerating it.  ,run 6,3.0,13.0
+brick,Hollow out a compartment for hiding keys outdoors.  ,run 6,3.0,8.0
+brick,Create a mini barbecue grill with several bricks.  ,run 6,3.0,8.0
+brick,Use as a base for drying fresh herbs by suspending them over the brick.  ,run 6,3.0,14.0
+brick,"Build a small, temporary outdoor altar for ceremonies.  ",run 6,1.0,3.0
+brick,Use it to level pavers in a patio or walkway setup.  ,run 6,1.0,11.0
+brick,"Assemble a series of bricks to form a low, garden boundary.  ",run 6,1.0,9.0
+brick,Carve it slightly and use as a stamp for large patterns in pottery or cement.  ,run 6,3.0,15.0
+brick,Use as a spacer when painting items to ensure all sides dry evenly.  ,run 6,3.0,13.0
+brick,Turn it into a temporary smartphone amplifier by creating a sound channel.  ,run 6,3.0,12.0
+brick,Situate under furniture legs to prevent carpet indentations during relocations.  ,run 6,2.0,10.0
+brick,Use it as a riser for tiered seating or plant displays.  ,run 6,2.0,11.0
+brick,Create an impromptu workout weight for exercises like squats.  ,run 6,1.7,9.0
+brick,Secure a mailbox post by anchoring it with bricks underground.  ,run 6,1.0,10.0
+brick,Serve as a boundary marker for property or plant zones.  ,run 6,1.0,10.0
+brick,"Use it to crush large ice chunks into smaller, more manageable pieces.  ",run 6,2.0,9.0
+brick,Incorporate it as a rustic photo frame with minor modifications.  ,run 6,3.0,10.0
+brick,Utilize as a hardy base for crafting projects that require glue or paint.  ,run 6,2.0,13.0
+brick,"Fashion a simple, outdoor sundial with a brick and a stick.  ",run 6,1.0,3.0
+brick,Use it to apply pressure for DIY bookbinding or gluing flat projects.  ,run 6,3.0,12.0
+brick,Create a series of brick steps for small pets to reach higher surfaces.  ,run 6,3.0,13.0
+brick,Modify for a discrete outdoor spare key holder.  ,run 6,3.0,8.0
+brick,Employ it as a sturdy support for propping up a motorcycle or bicycle during repairs.  ,run 6,2.0,15.0
+brick,Use bricks to construct a temporary support for woodworking projects.  ,run 6,1.7,10.0
+brick,Place at the corners of a picnic blanket to prevent it from blowing away.  ,run 6,2.0,14.0
+brick,Set up an outdoor movie projector stand with bricks.  ,run 6,3.0,9.0
+brick,Adapt it into a simple loom weight for weaving projects.  ,run 6,3.0,10.0
+brick,Design a minimalist jewelry stand by attaching hooks.  ,run 6,3.0,8.0
+brick,Use to hold down the edges of tarps or plastic sheeting while painting.  ,run 6,2.0,13.0
+brick,"Convert into a quaint, small town for children's imaginative play.  ",run 6,1.0,4.0
+brick,Heat and use for relaxation or therapy as a hot stone.  ,run 6,3.0,11.0
+brick,Stack to create diverse levels for photography shots.  ,run 6,3.0,8.0
+brick,Embed in plaster to make original sculptures or art pieces.  ,run 6,3.0,10.0
+brick,Lay out as a base for a miniature zen garden.  ,run 6,3.0,10.0
+brick,Use it to tenderize meat in a traditional way.  ,run 6,3.0,9.0
+brick,Construct a basic soil compactor for small garden areas.  ,run 6,2.0,9.0
+brick,Situate as a base for setting up a camp stove outdoors.  ,run 6,2.0,11.0
+brick,Use as ballast to stabilize items in windy conditions.  ,run 6,2.0,9.0
+brick,Implement it in a DIY pulley system for physics experiments or demonstrations.  ,run 6,3.0,12.0
+brick,Affix hooks and use as a hanging tool organizer in workshops.  ,run 6,3.0,11.0
+brick,Create a quaint doorbell chime holder for a rustic look.  ,run 6,3.0,10.0
+brick,Develop an urban style tablet stand for kitchens or offices.  ,run 6,3.0,10.0
+brick,Use it to practice balance exercises or low-height step aerobics.  ,run 6,2.0,10.0
+brick,Adjust as a temporary fix for uneven table or chair legs.  ,run 6,1.5,11.0
+brick,Configure as a makeshift anchor for small boats or kayaks in shallow waters.  ,run 6,2.0,13.0
+brick,Utilize in crafting a durable outdoor lantern or candle holder.  ,run 6,3.0,10.0
+brick,Employ as a robust base for a standalone mailbox.  ,run 6,1.7,9.0
+brick,Utilize as a steady platform for photography or videography.  ,run 6,2.0,9.0
+brick,Arrange a few as a base to improve airflow for composting efforts.  ,run 6,3.0,12.0
+brick,Assemble a chain of bricks as a bike stand.  ,run 6,2.0,9.0
+brick,Use for a low-tech butter churn base by moving a plunger in a cylinder set atop.  ,run 6,3.0,16.0
+brick,Lay as a foundation for a small outdoor shower stall.  ,run 6,1.0,10.0
+brick,Insert in large plant pots to improve stability against wind.  ,run 6,2.0,10.0
+brick,Fix into a row to stop car wheels when parking in a tight space.   ,run 6,1.0,14.0
+brick,Use to create a rustic outdoor brochure or flyer holder for events.  ,run 6,3.0,12.0
+brick,As a manual grain or spice grinder with another similar brick.  ,run 6,3.0,11.0
+brick,Craft a unique outdoor game by painting bricks as game pieces.  ,run 6,3.0,11.0
+brick,Use as a thermal mass to regulate temperature in a greenhouse.  ,run 6,3.0,11.0
+brick,Stack and secure as a temporary flood barrier.  ,run 6,2.0,8.0
+brick,Shape into a holder for incense sticks.  ,run 6,3.0,7.0
+brick,Place as a stopper to prevent doors or windows from slamming.  ,run 6,1.0,11.0
+brick,Use as a bookend on a shelf.,run 7,1.0,7.0
+brick,Turn into a doorstop.,run 7,1.0,4.0
+brick,Paint and use as a garden decoration.,run 7,2.0,7.0
+brick,Wrap in fabric and use as a pin cushion.,run 7,3.0,9.0
+brick,Employ as a makeshift hammer.,run 7,2.0,5.0
+brick,Use as a radiator heat diffuser.,run 7,3.0,6.0
+brick,Stack to create outdoor seating.,run 7,1.5,5.0
+brick,Utilize as a paperweight.,run 7,1.0,4.0
+brick,Bury partially in the garden as a stepping stone.,run 7,1.0,9.0
+brick,Incorporate into a homemade outdoor grill.,run 7,2.0,6.0
+brick,Anchor for a pet leash.,run 7,2.0,5.0
+brick,Base for a lamp post.,run 7,1.5,5.0
+brick,Hold down the cover of an outdoor pool.,run 7,1.0,8.0
+brick,Edge for a flower bed.,run 7,1.0,5.0
+brick,Cooling stone for drinks (after being chilled).,run 7,3.0,7.0
+brick,Heat retention for a smoker grill.,run 7,3.0,6.0
+brick,Smash to create coarse gravel for drainage.,run 7,2.0,7.0
+brick,Place in toilet tank to save water.,run 7,3.0,7.0
+brick,Use as a counterbalance or weight.,run 7,1.0,6.0
+brick,Serve as supports for a makeshift shelf.,run 7,1.7,7.0
+brick,Craft into a unique kitchen trivet.,run 7,3.0,6.0
+brick,Layer for a pizza oven base.,run 7,2.0,6.0
+brick,Ballast for stabilizing tents or umbrellas.,run 7,2.0,6.0
+brick,Foundation for a small garden pond.,run 7,2.0,6.0
+brick,Build a sundial.,run 7,3.0,3.0
+brick,Construct a simple outdoor fireplace.,run 7,1.0,5.0
+brick,Carve out a niche to hold keys or small items.,run 7,3.0,10.0
+brick,Embed into walls as decorative elements.,run 7,1.0,6.0
+brick,Break up and use as potting material for orchids.,run 7,3.0,9.0
+brick,Assemble a compost bin.,run 7,2.0,4.0
+brick,Create a pathway in your yard.,run 7,1.0,6.0
+brick,Form a border for a sandbox.,run 7,1.0,6.0
+brick,Use as a pressing iron for clothes.,run 7,3.0,7.0
+brick,Securely elevate a laptop for better airflow.,run 7,3.0,7.0
+brick,Organize tools in a workshop.,run 7,2.0,5.0
+brick,Prop open windows.,run 7,1.0,3.0
+brick,Hand paint for unique bookshelf decor.,run 7,3.0,6.0
+brick,Drill holes and convert into a candle holder.,run 7,3.0,8.0
+brick,Lay as flooring for a rustic patio.,run 7,1.0,7.0
+brick,Set up a small retaining wall.,run 7,1.0,6.0
+brick,Mold clay around it for a sculpture base.,run 7,3.0,8.0
+brick,Fashion a knife sharpener.,run 7,3.0,4.0
+brick,Embed in concrete for artistic stepping stones.,run 7,2.0,7.0
+brick,Make a rain gauge holder.,run 7,3.0,5.0
+brick,Set up a temporary anchor for a small boat.,run 7,2.0,9.0
+brick,Stack to create an herb garden structure.,run 7,2.0,7.0
+brick,Use as resistance for underwater exercise.,run 7,2.0,6.0
+brick,Mount as a base for solar path lights.,run 7,3.0,8.0
+brick,Construct a phone or tablet stand.,run 7,2.0,6.0
+brick,Use in a boot scrubber construction.,run 7,3.0,6.0
+brick,Place in beds to keep bedding in place.,run 7,2.0,8.0
+brick,Secure protective coverings for plants.,run 7,2.0,5.0
+brick,Create a mini outdoor altar.,run 7,2.0,5.0
+brick,Make a rustic picture frame.,run 7,2.0,5.0
+brick,Break to fit and fill potholes in gravel driveways.,run 7,1.0,9.0
+brick,Pave a small area for outdoor cooking.,run 7,1.0,7.0
+brick,Fill with sand and use for sharpening tools.,run 7,3.0,8.0
+brick,Mount and use as a hose guide.,run 7,3.0,7.0
+brick,Construct a minimalist bird bath.,run 7,2.0,5.0
+brick,Use as a base for a makeshift outdoor shower.,run 7,2.0,9.0
+brick,Serve as a planter for succulents.,run 7,3.0,6.0
+brick,Stabilize outdoor furniture by placing underneath.,run 7,1.7,6.0
+brick,Insert in bags as fitness weights.,run 7,2.0,6.0
+brick,Use in juggling for strength training.,run 7,3.0,6.0
+brick,Convert into a simple anvil for metal work.,run 7,2.0,8.0
+brick,Implement as a grounding stone in meditation.,run 7,3.0,7.0
+brick,Balance training tool for physical therapy.,run 7,2.5,6.0
+brick,Use in thermal cooking as a retained heat source.,run 7,3.0,9.0
+brick,Stage for product photography with a rustic theme.,run 7,3.0,8.0
+brick,Create a low-cost musical instrument.,run 7,3.0,5.0
+brick,Position as a guide for parking in a garage.,run 7,1.7,9.0
+brick,Construct a basic outdoor pet shelter.,run 7,1.0,6.0
+brick,Use as markers for a garden maze.,run 7,2.0,7.0
+brick,Support for starting a raised bed garden.,run 7,2.0,7.0
+brick,Fashion into a sturdy base for a flagpole.,run 7,3.0,8.0
+brick,Turn into a simple loom weight.,run 7,3.0,6.0
+brick,Utilize as weights for deep-sea fishing lines.,run 7,3.0,7.0
+brick,Employ as emergency road flares stand.,run 7,3.0,6.0
+brick,Develop into a low-budget boundary marker.,run 7,1.0,6.0
+brick,Design a unique fish tank decoration.,run 7,3.0,6.0
+brick,Convert into a hideaway spot for outdoor keys.,run 7,3.0,8.0
+brick,Re-purpose as a rugged outdoor footrest.,run 7,2.0,6.0
+brick,Heat and use for aches and pains.,run 7,2.0,7.0
+brick,Build a protective surround for young trees.,run 7,1.5,7.0
+brick,Use as part of a land art project.,run 7,2.5,8.0
+brick,Anchor for garden cloth.,run 7,2.0,4.0
+brick,Create a decorative outdoor lantern.,run 7,2.0,5.0
+brick,Use as a base for crafting mosaics.,run 7,2.0,7.0
+brick,Construct a simple smokehouse.,run 7,2.0,4.0
+brick,Aggregate for making concrete.,run 7,1.0,4.0
+brick,Use as a measure for fitness obstacle courses.,run 7,2.0,8.0
+brick,Functional piece in a large outdoor game.,run 7,3.0,7.0
+brick,Create a pedal for hands-free sink operation.,run 7,3.0,7.0
+brick,Use in a backwater valve for flood prevention.,run 7,3.0,8.0
+brick,As flooring for a rustic cellar.,run 7,1.0,6.0
+brick,Use as a murder mystery game prop.,run 7,3.0,7.0
+brick,Ice melt weight for roofs.,run 7,3.0,5.0
+brick,Outdoor projector stand for movie nights.,run 7,3.0,6.0
+brick,Support for woodworking projects.,run 7,2.0,4.0
+brick,Create a makeshift bookend for a unique library setup.  ,run 8,2.0,9.0
+brick,Build a small garden edge to define spaces.  ,run 8,1.0,8.0
+brick,Paint and use as a paperweight.  ,run 8,2.0,6.0
+brick,Construct an outdoor grill for summer barbecues.  ,run 8,1.0,7.0
+brick,Assemble a raised flower bed for better drainage.  ,run 8,2.0,8.0
+brick,Stack to create a rustic outdoor bench.  ,run 8,2.0,7.0
+brick,Use as a base for candle holders for outdoor ambiance.  ,run 8,3.0,10.0
+brick,Turn into a unique lamp base for industrial decor.  ,run 8,3.0,9.0
+brick,Engrave as a personalized garden stepping stone.  ,run 8,2.0,7.0
+brick,Employ as a rustic serving platter for cheeses.  ,run 8,3.0,8.0
+brick,Heat in the oven to use as a pizza stone.  ,run 8,3.0,10.0
+brick,Create a backyard fire pit for gatherings.  ,run 8,1.7,7.0
+brick,Use to weigh down a picnic blanket on a windy day.  ,run 8,1.7,11.0
+brick,Organize jewelry by hanging them on hooks screwed into a brick.  ,run 8,3.0,11.0
+brick,Fashion into a key holder by adding hooks.  ,run 8,3.0,8.0
+brick,Place in the toilet tank to save water with each flush.  ,run 8,3.0,11.0
+brick,Craft a quirky succulent planter.  ,run 8,3.0,5.0
+brick,Design an innovative pen holder for your desk.  ,run 8,3.0,8.0
+brick,Utilize as a holder for your smartphone or tablet.  ,run 8,3.0,9.0
+brick,Transform into a unique door knocker.  ,run 8,2.0,6.0
+brick,Use to press tofu or homemade cheese.  ,run 8,3.0,7.0
+brick,Create a minimalist clock for your wall.  ,run 8,3.0,7.0
+brick,Assemble a sturdy base for a desktop monitor stand.  ,run 8,2.0,9.0
+brick,Construct a simple outdoor shower base.  ,run 8,1.0,6.0
+brick,Develop a mini obstacle course for pets.  ,run 8,3.0,7.0
+brick,Use as a texture stamp in clay or cement projects.  ,run 8,3.0,10.0
+brick,Create a homemade weights set for exercise.  ,run 8,1.7,7.0
+brick,Use to crack open nuts in a pinch.  ,run 8,2.0,8.0
+brick,Turn into a rustic soap dish.  ,run 8,3.0,6.0
+brick,Fabricate a novel coat rack with bricks as the base.  ,run 8,3.0,10.0
+brick,Implement as a balance challenge for fitness routines.  ,run 8,3.0,8.0
+brick,Craft a garden hose guide to protect plants.  ,run 8,3.0,8.0
+brick,Develop an artistic sculpture by combining multiple bricks.  ,run 8,2.0,8.0
+brick,Use as a base for drying boots or shoes outdoors.  ,run 8,2.0,10.0
+brick,Construct a simple bird bath for your garden.  ,run 8,1.7,8.0
+brick,Assemble a temporary outdoor stage for performances.  ,run 8,2.0,7.0
+brick,Create a boundary for playing outdoor games.  ,run 8,1.0,7.0
+brick,Use to stabilize shaky outdoor furniture.  ,run 8,1.7,6.0
+brick,Design a unique chess or checkerboard using bricks as squares.  ,run 8,3.0,10.0
+brick,Fabricate a frost-proof stand for potted plants.  ,run 8,3.0,7.0
+brick,Construct a makeshift shelf for outdoor tools.  ,run 8,1.0,7.0
+brick,Develop a simple sundial for your garden.  ,run 8,3.0,7.0
+brick,Use as a hammer for small nails when in a pinch.  ,run 8,2.0,11.0
+brick,Create a boot scraper for muddy shoes.  ,run 8,2.0,7.0
+brick,Assemble a protective guard around a young tree.  ,run 8,2.0,8.0
+brick,Design a driveway marker for better visibility.  ,run 8,2.0,7.0
+brick,Use to elevate a plant pot for better drainage.  ,run 8,2.0,9.0
+brick,Implement as a spacer when laying out garden paths.  ,run 8,1.0,9.0
+brick,Craft as a portable seat for gardening.  ,run 8,2.0,7.0
+brick,Use to improve posture by sitting on it during meditation.  ,run 8,3.0,10.0
+brick,Store as a heat source after warming in a fire.  ,run 8,3.0,10.0
+brick,Create a minimalist fish tank decoration.  ,run 8,3.0,6.0
+brick,Use as a makeshift anvil for small metalworking projects.  ,run 8,3.0,9.0
+brick,Construct a sturdy base for outdoor lanterns.  ,run 8,2.0,7.0
+brick,Assemble a decorative garden wall feature.  ,run 8,1.0,6.0
+brick,Develop a small-scale model of a building or maze.  ,run 8,3.0,9.0
+brick,Use as a backdrop for photographing small items.  ,run 8,3.0,8.0
+brick,Fashion into a robust holder for garden tools.  ,run 8,3.0,8.0
+brick,Utilize in minimalist interior design as a shelf support.  ,run 8,2.0,9.0
+brick,Transform into a base for a rustic table lamp.  ,run 8,3.0,9.0
+brick,Use to level an uneven table or chair.  ,run 8,1.0,8.0
+brick,Create a firm foundation for a beehive stand.  ,run 8,2.0,8.0
+brick,Assemble a quirky wine rack with space between bricks.  ,run 8,3.0,9.0
+brick,Implement as anchor points for a temporary gazebo or tent.  ,run 8,2.0,10.0
+brick,Craft a unique backdrop for a photography project.  ,run 8,2.0,8.0
+brick,Develop a coded message system using different brick arrangements.  ,run 8,4.0,9.0
+brick,Use as a base for soldering or welding small projects.  ,run 8,3.0,10.0
+brick,Construct a simple loom for weaving projects.  ,run 8,3.0,7.0
+brick,Form a rustic kitchen utensil holder.  ,run 8,3.0,6.0
+brick,Design a makeshift spear thrower for athletic training.  ,run 8,3.0,8.0
+brick,Curate a sound absorption panel for recording sounds.  ,run 8,3.0,8.0
+brick,Use to prop open a hood or trunk of a car safely.  ,run 8,1.7,12.0
+brick,Assemble a set of emergency road weights for vehicle traction.  ,run 8,2.3,10.0
+brick,Develop a heat retention cooking tool for slow roasting.  ,run 8,3.0,9.0
+brick,Fashion into a sturdy base for a swing or hanging chair.  ,run 8,3.0,11.0
+brick,Utilize as reinforcement for a punching bag base.  ,run 8,2.0,8.0
+brick,Transform into a guide for painting straight lines on sports fields.  ,run 8,3.0,11.0
+brick,Implement as a tire stop for parking on inclines.  ,run 8,1.0,9.0
+brick,Craft into a sturdy base for mounting outdoor solar lights.  ,run 8,3.0,10.0
+brick,Use to create a fixed point for measuring distances in fieldwork.  ,run 8,3.0,11.0
+brick,Develop as a support for propping up a motorcycle or bicycle for repairs.  ,run 8,2.0,13.0
+brick,Design an anchor for securing outdoor decorations against wind.  ,run 8,2.0,9.0
+brick,Utilize for defensive strategy training in security training courses.  ,run 8,2.0,9.0
+brick,Implement as a physical challenge in obstacle courses or boot camps.  ,run 8,2.0,11.0
+brick,Use as calibration weights for engineering projects.  ,run 8,2.5,7.0
+brick,Use it as a doorstop to keep doors open.,run 9,1.0,9.0
+brick,Stack several to create a bookshelf.,run 9,1.7,6.0
+brick,Paint and use as a garden marker for plant names.,run 9,2.0,10.0
+brick,Heat it and use as a bed warmer on cold nights.,run 9,3.0,11.0
+brick,Wrap in fabric and use as a tailor's ham for ironing.,run 9,3.0,11.0
+brick,Create a makeshift grill for outdoor cooking.,run 9,2.0,7.0
+brick,Use as a weight for pressing flowers or leaves.,run 9,3.0,9.0
+brick,Incorporate into a homemade dumbbell for workouts.,run 9,2.0,7.0
+brick,"Use as a base for candle making, adding stability.",run 9,3.0,7.0
+brick,Embed into the ground as a stepping stone.,run 9,1.0,8.0
+brick,Use as a hammer for small nails when in a pinch.,run 9,2.0,11.0
+brick,Wrap in decorative paper and use as a bookend.,run 9,2.0,9.0
+brick,Burry partially in soil as a habitat for insects.,run 9,3.0,9.0
+brick,Use it to break larger ice blocks into usable pieces.,run 9,1.7,10.0
+brick,Stack to create a makeshift desk organizer.,run 9,2.0,7.0
+brick,Turn it into a unique canvas for street art.,run 9,3.0,9.0
+brick,Place under furniture legs to adjust height or level.,run 9,2.0,9.0
+brick,Secure a tarp or picnic blanket against the wind.,run 9,2.0,9.0
+brick,Incorporate into a DIY outdoor fireplace.,run 9,1.0,6.0
+brick,Use in photography as a rustic or industrial prop.,run 9,3.0,9.0
+brick,Fill with soil and use as a small planter.,run 9,3.0,9.0
+brick,Place in the tank of an older toilet to save water.,run 9,3.0,11.0
+brick,Use as a pestle for grinding in large mortar.,run 9,2.0,9.0
+brick,Carve and use as a stamp for pottery.,run 9,3.0,8.0
+brick,Install as non-traditional shelving supports.,run 9,2.0,5.0
+brick,Serve as a base for a sundial.,run 9,3.0,7.0
+brick,Drop in a rain barrel to keep mosquitoes out.,run 9,3.0,9.0
+brick,Fashion into a quirky lamp base.,run 9,3.0,6.0
+brick,Use as a base for welding small projects.,run 9,2.0,8.0
+brick,Create a mobile phone stand for viewing.,run 9,2.0,7.0
+brick,Use to weigh down a pool cover.,run 9,1.5,7.0
+brick,Build a temporary support for woodworking projects.,run 9,1.0,7.0
+brick,Use as a backdrop for product photography.,run 9,2.5,7.0
+brick,Heat in an oven and use for home baking to retain heat.,run 9,3.0,12.0
+brick,Assemble into a temporary staircase for small pets.,run 9,3.0,8.0
+brick,Use as a base for hot glue projects.,run 9,3.0,8.0
+brick,Stack to prop open automotive hoods or trunks safely.,run 9,2.0,9.0
+brick,Use to crush cans for recycling.,run 9,2.0,6.0
+brick,Build a mini fort or castle for a child's playset.,run 9,1.0,10.0
+brick,Use as a spacer for DIY home projects.,run 9,1.0,8.0
+brick,Create a makeshift anvil for small metal works.,run 9,3.0,8.0
+brick,Layer as a fire-resistant base for fireworks.,run 9,3.0,7.0
+brick,Use as a counterweight in mechanical projects.,run 9,2.0,7.0
+brick,Turn into a minimalist wallet or cardholder.,run 9,3.0,7.0
+brick,Use as a footrest under desks.,run 9,2.0,6.0
+brick,Stack around plants as a frost guard.,run 9,2.0,7.0
+brick,Use as a canvas for mosaic art.,run 9,3.0,7.0
+brick,Preheat and use for fermenting vegetables.,run 9,4.0,6.0
+brick,Build a small containment area for painting projects.,run 9,1.7,8.0
+brick,Use as a heavy base for stabilizing tripod stands.,run 9,2.0,9.0
+brick,Place in boots to keep them upright.,run 9,2.0,7.0
+brick,Use for alignment in laying out garden paths.,run 9,1.0,8.0
+brick,Make a cool resting spot for pets.,run 9,2.0,7.0
+brick,Use as a base for a makeshift coat rack.,run 9,2.5,9.0
+brick,Serve as an outdoor ashtray.,run 9,2.0,5.0
+brick,Use to compress waste materials for easier disposal.,run 9,2.0,8.0
+brick,Convert into a quirky clock face.,run 9,3.0,6.0
+brick,Stack to make wildlife shelters.,run 9,2.0,5.0
+brick,Use as a prop in theatre productions.,run 9,2.0,7.0
+brick,Integrate into fitness routines for added resistance.,run 9,2.0,7.0
+brick,Line a pet's bed for added warmth.,run 9,3.0,7.0
+brick,Balance on for yoga or balance training.,run 9,2.5,7.0
+brick,Incorporate into a meditation garden as a focal point.,run 9,3.0,9.0
+brick,Use as a sturdy hook or hanger with modifications.,run 9,3.0,9.0
+brick,Implement as a bicycle stand.,run 9,2.0,5.0
+brick,Secure windows or doors from opening.,run 9,1.0,6.0
+brick,Use in place of sandbags for flood control.,run 9,2.0,8.0
+brick,Create a low border for garden beds.,run 9,1.0,7.0
+brick,Utilize as a traditional printing block.,run 9,3.0,6.0
+brick,Make a base for setting up a portable stove.,run 9,3.0,9.0
+brick,Use as a grounding object for anxiety relief.,run 9,2.5,8.0
+brick,Serve as a counterbalance for pulley systems.,run 9,3.0,7.0
+brick,Utilize in soundproofing experiments.,run 9,3.0,4.0
+brick,Carve out and create a secret storage box.,run 9,3.0,8.0
+brick,Use as a solid base for archery targets.,run 9,2.0,8.0
+brick,Lay as a foundation for miniature landscapes.,run 9,2.0,7.0
+brick,Stack as a unique headphone stand.,run 9,3.0,6.0
+brick,Use to stabilize wobbly tables or chairs.,run 9,1.0,7.0
+brick,Make a keyholder by embedding hooks.,run 9,3.0,6.0
+brick,Use as a makeshift mousepad.,run 9,3.0,5.0
+brick,Stack to create a coffee table centerpiece.,run 9,2.0,7.0
+brick,Use as a base for soldering electronics.,run 9,3.0,7.0
+brick,Place in fridge to reduce humidity and odors.,run 9,3.0,8.0
+brick,Assemble a personalized trophy base.,run 9,3.0,5.0
+brick,Set as a historical teaching tool.,run 9,3.0,6.0
+brick,Turn into a paper towel dispenser with modifications.,run 9,3.0,8.0
+brick,Use as an emergency road flare holder.,run 9,3.0,7.0
+brick,Make a creative office supply holder.,run 9,2.0,6.0
+brick,Use to apply pressure in adhesive projects.,run 9,2.0,7.0
+brick,Carve for a garden gnome home.,run 9,3.0,6.0
+brick,Use as a base for clay sculpting.,run 9,2.0,7.0
+brick,Create a low-cost home security system prop.,run 9,2.0,7.0
+brick,Use to tenderize large cuts of meat.,run 9,3.0,7.0
+brick,"Construct a small, outdoor altar.",run 9,1.0,3.0
+brick,Assemble into a simple compost bin.,run 9,3.0,6.0
+brick,Serve as a manual grain mill with modifications.,run 9,3.0,8.0
+brick,Use as a decorative garden path marker.,run 9,1.0,7.0
+brick,Incorporate as a puzzle piece in team-building activities.,run 9,3.0,8.0
+brick,Use for amateur rocket launch platforms.,run 9,3.0,6.0
+brick,Turn into a unique charging station for gadgets.,run 9,3.0,8.0
+brick,Stack several to create a makeshift bookshelf.  ,run 10,1.7,7.0
+brick,Bury partially in the garden as a stepping stone.  ,run 10,1.0,9.0
+brick,Paint and use as a unique paperweight.  ,run 10,2.0,7.0
+brick,Wrap in fabric to create a rustic door stopper.  ,run 10,2.0,9.0
+brick,Use as a base for a homemade lamp.  ,run 10,2.0,8.0
+brick,Carve out as a secret storage space for keys.  ,run 10,3.0,9.0
+brick,Place in the oven to evenly distribute heat for baking.  ,run 10,3.0,10.0
+brick,Use as a stand for a plant pot.  ,run 10,1.7,8.0
+brick,"Construct a small, outdoor barbecue pit.  ",run 10,1.0,3.0
+brick,Embed in walls as decorative accents.  ,run 10,1.0,6.0
+brick,Build a makeshift outdoor bench by stacking.  ,run 10,1.0,7.0
+brick,"Lay flat for a simple, sturdy mouse pad.  ",run 10,1.0,5.0
+brick,Use to press and dry flowers.  ,run 10,3.0,6.0
+brick,Create a personalized garden path.  ,run 10,1.0,5.0
+brick,"Make a small, outdoor fire pit.  ",run 10,1.0,3.0
+brick,Use as a base for anchoring a tarp or tent.  ,run 10,2.0,10.0
+brick,Employ as a rugged outdoor coaster for large plant pots.  ,run 10,3.0,10.0
+brick,Utilize as weights to hold down a picnic blanket.  ,run 10,1.7,9.0
+brick,Use as a foundation for a mailbox post.  ,run 10,1.0,8.0
+brick,"Fashion into a small, outdoor side table.  ",run 10,1.7,4.0
+brick,"Turn into a unique, rustic picture frame.  ",run 10,1.0,4.0
+brick,Use as a makeshift hammer in emergencies.  ,run 10,1.7,7.0
+brick,Carve into a unique sculpture.  ,run 10,3.0,5.0
+brick,Construct a temporary wheel chock for cars.  ,run 10,1.0,7.0
+brick,"Assemble into a makeshift, outdoor grill.  ",run 10,1.0,4.0
+brick,Fashion into a boot scraper for muddy shoes.  ,run 10,3.0,8.0
+brick,Utilize as a base for setting up outdoor lighting.  ,run 10,2.0,9.0
+brick,Use to elevate a computer monitor.  ,run 10,2.0,6.0
+brick,Create a compost bin by stacking several bricks.  ,run 10,3.0,8.0
+brick,"Develop a small, herb garden wall.  ",run 10,1.0,3.0
+brick,Use to break ice in winter for safe walking paths.  ,run 10,1.7,10.0
+brick,Implement as a workout weight for strength training.  ,run 10,1.0,8.0
+brick,Use as an anchor for pet leashes outdoors.  ,run 10,2.0,8.0
+brick,Stack to make a boundary for garden beds.  ,run 10,1.0,8.0
+brick,Design and build a bird bath base.  ,run 10,2.0,7.0
+brick,Employ as a rugged backdrop for photography.  ,run 10,2.5,7.0
+brick,Use in a smoker to retain heat.  ,run 10,3.0,7.0
+brick,Stack under furniture for added height.  ,run 10,1.7,6.0
+brick,Modify to hold candles for outdoor lighting.  ,run 10,3.0,7.0
+brick,Use to level ground before setting up a pool.  ,run 10,1.0,9.0
+brick,"Create an inexpensive, durable outdoor table.  ",run 10,1.0,3.0
+brick,Utilize in a classroom for science experiments on weight and balance.  ,run 10,3.0,11.0
+brick,Fashion into a holder for kitchen utensils.  ,run 10,3.0,7.0
+brick,Use to prop open vehicle trunks or hoods safely.  ,run 10,1.7,9.0
+brick,Implement as a base for drying boots or umbrellas.  ,run 10,2.0,9.0
+brick,Construct a small protective wall for young plants.  ,run 10,1.0,8.0
+brick,Use in theatrical productions as props.  ,run 10,2.5,6.0
+brick,Create a boundary for a pet's outdoor area.  ,run 10,1.0,8.0
+brick,Utilize as a counterweight for DIY projects.  ,run 10,1.7,7.0
+brick,Stack to form a simple bike stand.  ,run 10,2.0,7.0
+brick,Carve and use as a stamp for large patterns in pottery.  ,run 10,3.0,11.0
+brick,Use to tenderize meat in cooking preparations.  ,run 10,3.0,7.0
+brick,Stack as a cellphone stand for hands-free viewing.  ,run 10,3.0,8.0
+brick,Implement in erosion control projects.  ,run 10,2.0,5.0
+brick,Construct a tiny library for sharing books with neighbors.  ,run 10,3.0,9.0
+brick,Use as a rustic serving platter for cheese and snacks.  ,run 10,3.0,10.0
+brick,Employ as a stabilizer for woodworking projects.  ,run 10,2.0,7.0
+brick,Use to practice striking techniques in martial arts.  ,run 10,2.0,8.0
+brick,Make a minimalist candle holder.  ,run 10,3.0,5.0
+brick,Employ as an abrasive surface for cleaning tough grime.  ,run 10,2.0,9.0
+brick,Use as ballast for stabilizing outdoor furniture in wind.  ,run 10,2.0,9.0
+brick,Create stepping stones with children's handprints in wet cement.  ,run 10,3.0,9.0
+brick,Stack to construct a simple compost bin.  ,run 10,2.0,7.0
+brick,Use to weigh down the cover of a pool.  ,run 10,1.0,9.0
+brick,Fashion into a base for a sundial.  ,run 10,3.0,7.0
+brick,Embed with tiles to make a mosaic outdoor decoration.  ,run 10,2.0,9.0
+brick,Use as a thermal mass in greenhouses to regulate temperature.  ,run 10,3.0,10.0
+brick,Stack to make a simple meditation platform.  ,run 10,2.3,7.0
+brick,Use as a heat sink for computers and electronics.  ,run 10,3.0,9.0
+brick,Implement as a tool for smashing spices in cooking.  ,run 10,3.0,9.0
+brick,Carve into a holder for business cards or phones.  ,run 10,3.0,9.0
+brick,Use as a grounding object in stress relief exercises.  ,run 10,2.5,9.0
+brick,Set up as a minimalist chess or checkerboard.  ,run 10,3.0,8.0
+brick,Employ as a texture tool in clay and pottery work.  ,run 10,2.0,10.0
+brick,"Use to create a small, raised bed for gardening.  ",run 10,1.0,5.0
+brick,"Fashion into a simple, rugged jewelry holder.  ",run 10,1.0,4.0
+brick,Implement as a rustic signboard by painting on it.  ,run 10,3.0,9.0
+brick,Use as supports for a temporary shelf.  ,run 10,1.7,7.0
+brick,Modify to create a wind chime with a unique sound.  ,run 10,3.0,10.0
+brick,"Fashion into a simple, durable wallet or phone stand.  ",run 10,1.0,4.0
+brick,Use as a base for creating ice sculptures.  ,run 10,3.0,8.0
+brick,Employ as a sturdy base for a fishing rod holder.  ,run 10,3.0,10.0
+brick,Stack to construct a mini obstacle course for pets.  ,run 10,3.0,9.0
+brick,"Design as a simple, reusable game board for outdoor games.  ",run 10,1.0,4.0
+brick,Implement as a stable base for a telescope.  ,run 10,3.0,8.0
+brick,Create a unique bookend with a painted or carved design.  ,run 10,2.0,10.0
+brick,Use to balance and stabilize homemade furniture.  ,run 10,2.0,7.0
+brick,Fashion into a base for a DIY coat rack.  ,run 10,3.0,9.0
+brick,Utilize as a deterrent for pests in the garden.  ,run 10,2.0,9.0
+brick,Employ as a training tool for sports like cricket or baseball to improve throwing accuracy.  ,run 10,2.0,15.0
+brick,Use as rustic invitations by writing event details on them.  ,run 10,3.0,10.0
+brick,"Implement to create a small, urban survival kit holder.  ",run 10,1.0,5.0

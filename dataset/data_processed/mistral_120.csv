@@ -1,0 +1,121 @@
+prompt,response,originality,elaboration,elaboration_SW,dissimilarity,flexibility
+brick,Use it as a doorstop,1.0,5,2,0.20365379750728607,0.0
+brick,Use it as a paperweight,1.0,5,2,0.1481379270553589,0.7852289512555392
+brick,Use it as a paperweight for important documents,1.0,8,4,0.15249110758304596,0.7852289512555392
+brick,Use it as a paperweight for your desk,1.0,8,3,0.09353497624397278,0.7852289512555392
+brick,Use it as a paperweight for your study table,1.0,9,4,0.1098981723189354,0.7852289512555392
+brick,Use it as a paperweight for your office desk,1.0,9,4,0.10201620310544968,0.7852289512555392
+brick,Use it as a weight for your plants,2.0,8,3,0.09632407128810883,0.7852289512555392
+brick,Use it as a weight for your garden tools,1.5,9,4,0.07806801050901413,1.6629246676514033
+brick,Use it as a weight for your hammock,1.7,8,3,0.09923657029867172,0.7852289512555392
+brick,Use it as a weight for your picnic blanket,2.0,9,4,0.09336727857589722,0.7852289512555392
+brick,Use it as a weight for your beach umbrella,2.0,9,4,0.09073875844478607,0.7852289512555392
+brick,Use it as a weight for your camping gear,1.0,9,4,0.09163761883974075,0.7852289512555392
+brick,Use it as a weight for your luggage,1.0,8,3,0.07218822836875916,0.7852289512555392
+brick,Use it as a weight for your gym bag,1.0,9,4,0.08557549864053726,0.7852289512555392
+brick,Use it as a weight for your backpack,1.0,8,3,0.07944364100694656,0.7852289512555392
+brick,Use it as a weight for your shopping bags,1.7,9,4,0.07514207065105438,0.7852289512555392
+brick,Use it as a weight for your tote bag,1.0,9,4,0.07614482194185257,0.7852289512555392
+brick,Use it as a weight for your handbag,1.7,8,3,0.07048486173152924,0.7852289512555392
+brick,Use it as a weight for your purse,1.7,8,3,0.07014647871255875,0.7852289512555392
+brick,Use it as a weight for your wallet,2.0,8,3,0.07750759273767471,0.7852289512555392
+brick,Use it as a weight for your keys,1.7,8,3,0.0972190871834755,0.7852289512555392
+brick,Use it as a weight for your phone,1.4,8,3,0.08332972973585129,0.7852289512555392
+brick,Use it as a weight for your charger,3.0,8,3,0.07661160081624985,0.7852289512555392
+brick,Use it as a weight for your earphones,3.0,8,3,0.08928665518760681,0.7852289512555392
+brick,Use it as a weight for your pens and pencils,2.0,10,4,0.08983456343412399,0.7852289512555392
+brick,Use it as a weight for your stationery,1.0,8,3,0.07103656232357025,0.7852289512555392
+brick,Use it as a weight for your art supplies,2.0,9,4,0.07644880563020706,0.7852289512555392
+brick,Use it as a weight for your craft supplies,2.0,9,4,0.08107714354991913,0.7852289512555392
+brick,Use it as a weight for your tools,1.0,8,3,0.07240734994411469,0.7852289512555392
+brick,Use it as a weight for your gardening tools,1.7,9,4,0.07671321928501129,1.6629246676514033
+box,"Store small items like jewelry, stationery, or craft supplies.",1.0,9,11,0.1768319457769394,0.8862047043865225
+box,Create a DIY storage system for your closet or pantry.,1.0,10,7,0.13479094207286835,0.0
+box,Use it as a makeshift drawer for organizing office supplies.,1.7,10,7,0.12540407478809357,0.6522568340750159
+box,Turn it into a portable lunch box for picnics or work.,1.7,11,7,0.12978486716747284,1.5384615384615383
+box,Use it as a portable cooler for keeping drinks cold on-the-go.,1.7,11,8,0.1737157553434372,0.8862047043865225
+box,Create a DIY first aid kit to keep in your car or home.,1.7,13,9,0.15332141518592834,0.0
+box,Use it as a portable toy box for kids to carry their toys around.,1.3,14,9,0.1506788432598114,3.344564526382708
+box,Turn it into a makeshift shoe rack for your entryway.,1.7,10,6,0.15552979707717896,0.6522568340750159
+box,Use it as a pencil case for school or work.,1.3,10,6,0.15136051177978516,0.8728544183089637
+box,Create a DIY gift box for wrapping presents.,1.0,8,7,0.16996508836746216,0.6522568340750159
+box,Use it as a makeshift laundry sorter for separating colors and whites.,1.7,12,8,0.153964102268219,0.6522568340750159
+box,Turn it into a portable pet food container for traveling with your pet.,1.7,13,8,0.12992316484451294,1.8061029879211699
+box,Use it as a makeshift planter for small plants or herbs.,2.0,11,7,0.17877821624279022,0.6522568340750159
+box,Create a DIY storage system for your crafting supplies.,1.3,9,7,0.1455475091934204,0.0
+box,Use it as a portable container for carrying snacks or lunch to work.,1.0,13,8,0.11373079568147659,0.8862047043865225
+box,Turn it into a makeshift toolbox for storing small tools and hardware.,1.3,12,8,0.13180792331695557,1.3045136681500318
+box,Use it as a portable container for carrying groceries from the store to your home.,1.0,15,8,0.1181369498372078,0.8862047043865225
+box,Create a DIY storage system for your makeup or skincare products.,1.3,11,8,0.15850761532783508,0.6522568340750159
+box,Use it as a portable container for carrying clothes or linens when traveling.,1.0,13,8,0.12950830161571503,0.8862047043865225
+box,Turn it into a makeshift storage system for your office supplies or stationery.,1.0,13,8,0.11809319257736206,0.6522568340750159
+box,Use it as a portable container for carrying gardening tools or supplies.,1.3,12,8,0.11895985156297684,0.8862047043865225
+box,Create a DIY storage system for your kitchen gadgets or appliances.,1.3,11,8,0.14691992104053497,0.0
+box,Use it as a portable container for carrying sports equipment or gear.,1.0,12,8,0.12855634093284607,0.8862047043865225
+box,Turn it into a makeshift storage system for your cleaning supplies.,1.3,11,7,0.12285856902599335,0.6522568340750159
+box,Use it as a portable container for carrying art supplies or crafting materials.,1.3,13,9,0.1278579980134964,0.8862047043865225
+box,Create a DIY storage system for your books or magazines.,1.0,10,7,0.15743021667003632,0.0
+box,Use it as a portable container for carrying laundry supplies or detergent.,1.3,12,8,0.1322799026966095,0.8862047043865225
+box,Turn it into a makeshift storage system for your office or school supplies.,1.0,13,8,0.11917662620544434,0.6522568340750159
+box,Use it as a portable container for carrying camping gear or supplies.,1.0,12,8,0.13487349450588226,0.8862047043865225
+box,Create a DIY storage system for your seasonal decorations or holiday items.<dummy32000>,1.3,12,11,0.22217079997062683,0.0
+knife,Use it as a letter opener,1.0,6,3,0.26811638474464417,0.8380843785632839
+knife,Cut open packages,1.0,3,3,0.25890350341796875,0.8380843785632839
+knife,Sharpen pencils,1.7,2,2,0.22853077948093414,0.0
+knife,Open cans,1.0,2,2,0.2722824215888977,0.0
+knife,Scrape paint off surfaces,1.3,4,3,0.21444697678089142,0.6984036488027365
+knife,Remove splinters,1.0,2,2,0.21013107895851135,0.0
+knife,Cut rope or string,1.0,4,3,0.23073874413967133,0.0
+knife,Trim nails,1.3,2,2,0.2222048044204712,0.0
+knife,Peel fruits and vegetables,1.0,4,3,0.3221088647842407,0.0
+knife,Cut fabric for sewing projects,1.0,5,4,0.20201028883457184,0.0
+knife,Make paper snowflakes,1.7,3,3,0.23586000502109528,0.0
+knife,Create stencils for art projects,2.0,5,4,0.24635432660579681,0.0
+knife,Cut cardstock for scrapbooking,1.0,4,3,0.19280247390270233,0.6984036488027365
+knife,Score paper for origami,1.7,4,3,0.36057981848716736,0.0
+knife,Cut plastic for crafting,1.0,4,3,0.18749204277992249,0.0
+knife,Make notches in sticks for camping,1.0,6,4,0.24350057542324066,0.8745724059293044
+knife,Whittle small wooden objects,1.0,4,4,0.23305903375148773,0.8836944127708096
+knife,Carve initials into wood,1.0,4,3,0.22163715958595276,0.8836944127708096
+knife,Cut through zip ties,1.0,4,3,0.21417933702468872,0.0
+knife,Open packages with a tight seal,1.0,6,4,0.2384680062532425,0.0
+knife,Remove burrs from clothing,1.7,4,3,0.22414468228816986,0.7052451539338654
+knife,Cut through light plastic packaging,1.0,5,4,0.1699601411819458,0.0
+knife,Cut through lightweight cardboard,1.0,4,3,0.17947062849998474,0.6984036488027365
+knife,Cut through lightweight plastic sheeting,1.0,5,4,0.1744171530008316,0.0
+knife,Cut through lightweight fabric,1.0,4,3,0.19029521942138672,0.0
+knife,Cut through lightweight rope or twine,1.0,6,4,0.23751121759414673,0.0
+knife,Cut through lightweight packaging tape,1.0,5,4,0.18669186532497406,0.0
+knife,Cut through lightweight adhesive tape,1.0,5,4,0.18437115848064423,0.0
+knife,Cut through lightweight duct tape,1.0,5,4,0.1988377720117569,0.0
+knife,"Cut through lightweight packing material (bubble wrap, etc.)<dummy32000>",1.0,8,14,0.3355698883533478,0.0
+rope,Use it as a clothesline for drying laundry,1.3,8,4,0.18708015978336334,0.0
+rope,Create a makeshift hammock for relaxation,1.3,6,4,0.16579753160476685,0.6739659367396593
+rope,Use it as a leash for your pet,1.0,8,3,0.17181885242462158,0.0
+rope,Create a lasso for cowboy or cowgirl play,1.3,8,5,0.19229227304458618,0.0
+rope,Use it as a tourniquet in case of an emergency,2.0,10,4,0.19406810402870178,0.0
+rope,Create a makeshift seatbelt in a pinch,2.3,7,4,0.21873530745506287,1.362530413625304
+rope,Use it as a clothesline for drying laundry,1.3,8,4,0.18708015978336334,0.0
+rope,Create a makeshift hammock for relaxation,1.3,6,4,0.16579753160476685,0.6739659367396593
+rope,Use it as a leash for your pet,1.0,8,3,0.17181885242462158,0.0
+rope,Create a lasso for cowboy or cowgirl play,1.3,8,5,0.19229227304458618,0.0
+rope,Use it as a tourniquet in case of an emergency,2.0,10,4,0.19406810402870178,0.0
+rope,Use it as a clothesline for drying laundry,1.3,8,4,0.18708015978336334,0.0
+rope,Create a makeshift hammock for relaxation,1.3,6,4,0.16579753160476685,0.6739659367396593
+rope,Use it as a leash for your pet,1.0,8,3,0.17181885242462158,0.0
+rope,Create a lasso for cowboy or cowgirl play,1.3,8,5,0.19229227304458618,0.0
+rope,Use it as a tourniquet in case of an emergency,2.0,10,4,0.19406810402870178,0.0
+rope,Use it as a clothesline for drying laundry,1.3,8,4,0.18708015978336334,0.0
+rope,Create a makeshift hammock for relaxation,1.3,6,4,0.16579753160476685,0.6739659367396593
+rope,Use it as a leash for your pet,1.0,8,3,0.17181885242462158,0.0
+rope,Create a lasso for cowboy or cowgirl play,1.3,8,5,0.19229227304458618,0.0
+rope,Use it as a tourniquet in case of an emergency,2.0,10,4,0.19406810402870178,0.0
+rope,Use it as a clothesline for drying laundry,1.3,8,4,0.18708015978336334,0.0
+rope,Create a makeshift hammock for relaxation,1.3,6,4,0.16579753160476685,0.6739659367396593
+rope,Use it as a leash for your pet,1.0,8,3,0.17181885242462158,0.0
+rope,Create a lasso for cowboy or cowgirl play,1.3,8,5,0.19229227304458618,0.0
+rope,Use it as a tourniquet in case of an emergency,2.0,10,4,0.19406810402870178,0.0
+rope,Use it as a clothesline for drying laundry,1.3,8,4,0.18708011507987976,0.0
+rope,Create a makeshift hammock for relaxation,1.3,6,4,0.16579753160476685,0.6739659367396593
+rope,Use it as a leash for your pet,1.0,8,3,0.1718188226222992,0.0
+rope,Create a lasso for cowboy or cowgirl play<dummy32000>,1.3,8,8,0.24941463768482208,0.0

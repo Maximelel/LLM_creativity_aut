@@ -44,7 +44,6 @@ import pyLDAvis.gensim
 from gensim.models import LdaModel
 
 ###############################################
-###############################################
 
 # Functions:
 # - clean
@@ -55,8 +54,19 @@ from gensim.models import LdaModel
 # - compute_coeff_topic_object
 # - compute_coeff_topic_all_objects
 # - run_LDA_on_humans_data
+# - jaccard_similarity
+# - check_overlap_keywords
+
+# - compute_flexibility_per_sentence
+# - compute_flexibility_augmented_per_sentence
+# - compute_flexibility_score
+# - compute_flexibility_augmented_score
+
 # - plot_originality_per_topic
 # - visu_with_pyldavis
+
+##############################################
+
 
 # clean text
 def clean(doc):
@@ -115,7 +125,7 @@ def kw_in_sentence(sentence, keywords):
 def assign_topic_all(df_model, lda_model_list, print_keywords, num_topics, num_words):
 
     df_output = pd.DataFrame()
-    df_kw_per_topic = pd.DataFrame(columns = ['object', 'topic', 'keywords'])#, 'coherence score'])
+    df_kw_per_topic = pd.DataFrame(columns = ['object', 'topic', 'keywords'])
     objects = ['brick', 'box', 'knife', 'rope']
     # evaluate performance
     perplexity = []
@@ -155,10 +165,12 @@ def assign_topic_all(df_model, lda_model_list, print_keywords, num_topics, num_w
         # Compute Coherence Score
         coherence_model_lda = CoherenceModel(model=lda_model, texts=clean_texts, dictionary=dictionary, coherence='c_v')
         coherence_score.append(coherence_model_lda.get_coherence())
-        #df_kw_per_topic.loc[df_kw_per_topic, 'coherence score'] = coherence_model_lda.get_coherence()
         coherence_score_per_topic.append(coherence_model_lda.get_coherence_per_topic())
+    
+    # add coherence score for each topic
+    df_kw_per_topic['coherence'] = np.array(coherence_score_per_topic).flatten()
 
-    return df_output, df_kw_per_topic, perplexity, coherence_score, coherence_score_per_topic
+    return df_output, df_kw_per_topic, perplexity, coherence_score
 
 def compute_coeff_topic_object(df_kw_per_topic, humans, object, num_topics):
     topic_freq = [0]*num_topics
@@ -168,12 +180,11 @@ def compute_coeff_topic_object(df_kw_per_topic, humans, object, num_topics):
         keywords = df_object[df_object['topic'] == N]['keywords'].tolist()[0]
         
         # add 1 if there is at least 1 keyword in the sentence
-        #topic_freq[N] = humans_object['response'].apply(lambda x: sum([1 for kw in keywords if kw in x])).sum()
         topic_freq[N] = humans_object['response'].apply(lambda x: sum([1 for kw in keywords if kw in x]) > 0).sum()
     print(f"Frequency of topics: {topic_freq}")
     # softmax to get probabilities
     topic_prob = [freq/sum(topic_freq) for freq in topic_freq]
-    topic_coeff = 1 - np.array(topic_prob)
+    topic_coeff = 1 - np.array(topic_prob) # the higher the frequency, the lower the coefficient
     return topic_coeff
 
 def compute_coeff_topic_all_objects(df_kw_per_topic, humans, num_topics):
@@ -188,8 +199,8 @@ def run_LDA_on_humans_data(df, num_topics, num_words, print_keywords, objects):
     lda_model_list = generate_lda_models(df, num_topics)
     
     # assign topic to all sentences in df
-    humans_topic,  df_kw_per_topic, perplexity, coherence_score, coherence_score_per_topic = assign_topic_all(df, lda_model_list, print_keywords = print_keywords, num_topics = num_topics, num_words = num_words)
-    df_kw_per_topic['coherence_score'] = np.array(coherence_score_per_topic).reshape(-1)
+    humans_topic,  df_kw_per_topic, perplexity, coherence_score = assign_topic_all(df, lda_model_list, print_keywords = print_keywords, num_topics = num_topics, num_words = num_words)
+    #df_kw_per_topic['coherence_score'] = np.array(coherence_score_per_topic).reshape(-1)
     # compute the coefficient for each topic for each object
     dict_topic_coeff = compute_coeff_topic_all_objects(df_kw_per_topic, df, num_topics)
     
@@ -205,6 +216,47 @@ def run_LDA_on_humans_data(df, num_topics, num_words, print_keywords, objects):
     return dict_kw_coeff
 
 
+# Function to calculate Jaccard similarity between two lists
+def jaccard_similarity(list1, list2):
+    set1 = set(list1)
+    set2 = set(list2)
+    intersection = len(set1.intersection(set2))
+    union = len(set1.union(set2))
+    return intersection / union if union != 0 else 0
+
+def check_overlap_keywords(humans, num_topics, num_words, objects):
+    lda_model_brick = create_lda_model(humans, 'brick', num_topics)
+    lda_model_box = create_lda_model(humans, 'box', num_topics)
+    lda_model_knife = create_lda_model(humans, 'knife', num_topics)
+    lda_model_rope = create_lda_model(humans, 'rope', num_topics)
+    lda_model_list = [lda_model_brick, lda_model_box, lda_model_knife, lda_model_rope]
+    humans_topic,  df_kw_per_topic, perplexity, coherence_score = assign_topic_all(humans, lda_model_list, print_keywords = False, num_topics = num_topics, num_words = num_words)
+
+    fig, axs = plt.subplots(1, 4, figsize = (20,5))
+    for idx, object in enumerate(objects):
+        
+        keyword_lists = df_kw_per_topic[df_kw_per_topic['object'] == object]['keywords'].tolist()
+        
+        # Calculate Jaccard similarity matrix
+        num_lists = len(keyword_lists)
+        similarity_matrix = np.zeros((num_lists, num_lists))
+        for i in range(num_lists):
+            for j in range(i, num_lists):
+                similarity_matrix[i, j] = jaccard_similarity(keyword_lists[i], keyword_lists[j])
+                similarity_matrix[j, i] = similarity_matrix[i, j]  # Symmetric matrix
+        # Plot heatmap
+        sns.heatmap(similarity_matrix, annot=False, cmap='coolwarm', fmt='.2f', xticklabels=range(1, num_lists + 1), yticklabels=range(1, num_lists + 1), ax = axs[idx])
+        axs[idx].set_xlabel('List of keywords for each topic')
+        axs[idx].set_ylabel('List of keywords for each topic')
+        axs[idx].set_title(object, fontsize = 17)
+    plt.suptitle(f"Jaccard Similarity Between lists of keywords for each object: {num_topics} topics, {num_words} keywords per topic", fontsize = 17)
+    plt.tight_layout()
+    plt.show()
+    
+    return humans_topic, df_kw_per_topic, coherence_score
+
+################################################
+################################################
 def compute_flexibility_per_sentence(sentence, dict_kw_coeff_object, num_topics):
     flex_score = 0
     for i in range(num_topics):

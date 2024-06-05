@@ -48,15 +48,15 @@ def calculate_elaboration(sentence, remove_stop_words):
 def compute_all_metrics(df, objects, dict_kw_coeff, num_topics):
     
     # Compute Elaboration
-    print("Compute elaboration...")
-    df['elaboration'] = df['response'].apply(lambda x: calculate_elaboration(x, remove_stop_words = False))
+    #print("Compute elaboration...")
+    #df['elaboration'] = df['response'].apply(lambda x: calculate_elaboration(x, remove_stop_words = False))
     print("Compute elaboration without stop words...")
     df['elaboration_SW'] = df['response'].apply(lambda x: calculate_elaboration(x, remove_stop_words = True))
     
     # Compute Similarity
-    #print("Compute similarity...")
-    #embeddings_model_name = "distilbert-base-uncased"
-    #df['similarity'] = compute_sentences_sim_per_object(df, embeddings_model_name)
+    print("Compute dissimilarity...")
+    embeddings_model_name = "distilbert-base-uncased"
+    df = compute_dissimilarity(df, embeddings_model_name)
     
     # Flexibility
     print("Compute flexibility...")

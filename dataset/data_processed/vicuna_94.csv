@@ -1,0 +1,95 @@
+prompt,response,originality,elaboration,elaboration_SW,dissimilarity,flexibility
+brick,Use it as a doorstop,1.0,5.0,2,0.15553894639015198,0.0
+brick,Use it as a paperweight,1.0,5.0,2,0.16113539040088654,0.7852289512555392
+brick,Use it as a stepping stone,1.0,6.0,3,0.14113132655620575,0.0
+brick,Use it as a piggy bank,3.0,6.0,3,0.1626104861497879,0.0
+brick,Use it as a plant holder,1.7,6.0,3,0.1665206402540207,1.509010339734121
+brick,Use it as a ramp for toy cars,1.7,8.0,4,0.16383609175682068,0.842245199409158
+brick,Use it as a seat in the garden,1.0,8.0,3,0.16230091452598572,0.8776957163958641
+brick,Use it as a base for a table,1.7,8.0,3,0.19081948697566986,0.0
+brick,Use it as a support for a shelf,1.0,8.0,3,0.1547001302242279,0.0
+brick,Use it as a base for a lamp post,2.0,9.0,4,0.11328647285699844,0.0
+brick,Use it as a base for a bench,1.7,8.0,3,0.1125795990228653,0.0
+brick,Use it as a base for a birdhouse,2.0,8.0,3,0.14533185958862305,1.473559822747415
+brick,Use it as a base for a sundial,3.0,8.0,3,0.1266191005706787,0.0
+brick,Use it as a base for a mailbox,1.0,8.0,3,0.1586775779724121,0.0
+brick,Use it as a base for a bird feeder,2.0,9.0,4,0.15843060612678528,0.0
+brick,Use it as a base for a garden gnome,2.0,9.0,4,0.11633684486150742,0.8776957163958641
+brick,Use it as a base for a wind chime,3.0,9.0,4,0.14774516224861145,0.0
+brick,Use it as a base for a small statue,2.0,9.0,4,0.13122598826885223,0.0
+brick,Use it as a base for a fountain,2.0,8.0,3,0.11601617187261581,0.0
+brick,Use it as a base for a small tree,1.7,9.0,4,0.12227215617895126,0.0
+brick,Use it as a base for a large tree,1.7,9.0,4,0.12463034689426422,0.0
+box,Use it as a step stool,1.3,6.0,3,0.1183352917432785,0.0
+box,Use it as a table,1.3,5.0,2,0.17405304312705994,0.8862047043865225
+box,Use it as a bookshelf,1.7,5.0,2,0.15057255327701569,0.0
+box,Use it as a storage container,1.0,6.0,3,0.1250929832458496,0.0
+box,Use it as a seat,1.0,5.0,2,0.14737766981124878,0.0
+box,Use it as a desk,1.3,5.0,2,0.11031636595726013,0.0
+box,Use it as a door stop,1.3,6.0,3,0.12917941808700562,0.0
+box,Use it as a planter,2.0,5.0,2,0.1744459569454193,0.0
+box,Use it as a trash can,1.0,6.0,2,0.13633690774440765,0.0
+box,Use it as a toy chest,1.0,6.0,3,0.11313783377408981,0.8862047043865225
+box,Use it as a nightstand,1.7,5.0,2,0.11692032217979431,0.0
+box,Use it as a pet bed,1.7,6.0,3,0.13079975545406342,0.9198982835346472
+box,Use it as a laundry basket,1.3,6.0,3,0.1149706095457077,0.0
+box,Use it as a footrest,1.3,5.0,2,0.12844732403755188,0.0
+box,Use it as a coat rack,2.0,6.0,3,0.09644521772861481,0.0
+box,Use it as a hat rack,2.0,6.0,3,0.09765098989009857,0.0
+box,Use it as a magazine rack,1.7,6.0,3,0.1143188551068306,0.0
+box,Use it as a toy box,1.0,6.0,3,0.11670085042715073,1.5384615384615383
+box,Use it as a mail organizer,1.3,6.0,3,0.15796947479248047,0.0
+box,Use it as a toy storage,1.0,6.0,3,0.11042647063732147,0.8862047043865225
+box,Use it as a shoe organizer,1.3,6.0,3,0.11821486055850983,0.0
+box,Use it as a pencil holder,1.3,6.0,3,0.11342132836580276,1.792752701843611
+box,Use it as a paperweight,1.7,5.0,2,0.12733818590641022,0.0
+box,Use it as a door stop,1.3,6.0,3,0.12917941808700562,0.0
+box,Use it as a paper towel holder,1.7,7.0,4,0.12099961936473846,0.9198982835346472
+box,Use it as a napkin holder,2.0,6.0,3,0.10477680712938309,0.9198982835346472
+box,Use it as a key holder,2.0,6.0,3,0.14786666631698608,0.9198982835346472
+knife,Use it as a letter opener,1.0,6.0,3,0.14680157601833344,0.8380843785632839
+knife,Use it as a can opener,1.0,6.0,2,0.11894527822732925,0.8380843785632839
+knife,Use it as a screwdriver,1.7,5.0,2,0.16392774879932404,0.0
+knife,Use it as a saw,1.0,5.0,2,0.12602971494197845,0.0
+knife,Use it as a hammer,2.0,5.0,2,0.12781719863414764,0.0
+knife,Use it as a chisel,1.7,5.0,2,0.1356978863477707,0.0
+knife,Use it as a scraper,1.7,5.0,2,0.10753706097602844,0.8745724059293044
+knife,Use it as a knife,1.0,5.0,2,0.13132837414741516,0.8380843785632839
+knife,Use it as a spoon,2.0,5.0,2,0.1166231632232666,0.0
+knife,Use it as a fork,1.0,5.0,2,0.16006557643413544,0.0
+knife,Use it as a spatula,2.0,5.0,2,0.1609555333852768,0.0
+knife,Use it as a ruler,2.0,5.0,2,0.1872197389602661,0.0
+knife,Use it as a level,3.0,5.0,2,0.25746744871139526,0.0
+knife,Use it as a bottle opener,1.7,6.0,3,0.11921646445989609,0.8380843785632839
+knife,Use it as a glass cutter,1.7,6.0,3,0.10402927547693253,0.7052451539338654
+knife,Use it as a pizza cutter,1.0,6.0,3,0.10937895625829697,0.7052451539338654
+knife,Use it as a cheese cutter,1.0,6.0,3,0.11203286796808243,0.7052451539338654
+knife,Use it as a cake cutter,1.0,6.0,3,0.1066153421998024,0.7052451539338654
+knife,Use it as a pastry cutter,1.0,6.0,3,0.11170554906129837,0.7052451539338654
+knife,Use it as a herb cutter,1.0,6.0,3,0.1335090845823288,0.7052451539338654
+knife,Use it as a vegetable cutter,1.0,6.0,3,0.11509300023317337,0.7052451539338654
+knife,Use it as a fruit cutter,1.0,6.0,3,0.11505705118179321,0.7052451539338654
+knife,Use it as a meat cutter,1.0,6.0,3,0.1158372163772583,0.7052451539338654
+knife,Use it as a fish cutter,1.0,6.0,3,0.11138931661844254,0.7052451539338654
+knife,Use it,1.0,2.0,1,0.2953071892261505,0.0
+rope,Use it as a makeshift clothesline,1.3,6.0,3,0.11176584661006927,0.6739659367396593
+rope,Tie it to a tree to make a swing,1.3,9.0,4,0.18430063128471375,2.3552311435523112
+rope,Use it as a handle for a suitcase,1.3,8.0,3,0.15599200129508972,0.0
+rope,Use it as a makeshift hammock,1.3,6.0,3,0.1339760720729828,0.6739659367396593
+rope,Use it as a jump rope,1.0,6.0,3,0.129245325922966,0.0
+rope,Use it as a tie for a present,1.3,8.0,3,0.22411075234413147,0.6739659367396593
+rope,Use it as a makeshift leash for a dog,1.0,9.0,4,0.148393914103508,0.6739659367396593
+rope,Use it as a makeshift lasso,1.3,6.0,3,0.10593010485172272,0.6739659367396593
+rope,Use it as a makeshift sling,2.0,6.0,3,0.1024615615606308,0.6739659367396593
+rope,Use it as a makeshift bridge,1.3,6.0,3,0.13173630833625793,1.5450121654501217
+rope,Use it as a makeshift sled,2.7,6.0,3,0.12928128242492676,0.6739659367396593
+rope,Use it as a makeshift ladder,1.3,6.0,3,0.10681047290563583,0.6739659367396593
+rope,Use it as a makeshift hose,2.7,6.0,3,0.11000700294971466,0.6739659367396593
+rope,Use it as a makeshift slingshot,2.7,6.0,3,0.10882560908794403,0.6739659367396593
+rope,Use it as a makeshift harness,1.3,6.0,3,0.0980929583311081,0.6739659367396593
+rope,Use it as a makeshift saddle,2.7,6.0,3,0.10728023201227188,0.6739659367396593
+rope,Use it as a makeshift tourniquet,1.3,6.0,3,0.13292527198791504,0.6739659367396593
+rope,Use it as a makeshift trap,1.3,6.0,3,0.11849065870046616,0.6739659367396593
+rope,Use it as a makeshift whip,1.3,6.0,3,0.11043860763311386,0.6739659367396593
+rope,Use it as a makeshift lanyard,1.7,6.0,3,0.12323082983493805,0.6739659367396593
+rope,Use it as,1.0,3.0,1,0.29173317551612854,0.0

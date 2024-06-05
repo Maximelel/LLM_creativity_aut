@@ -1,0 +1,383 @@
+prompt,response,originality,elaboration,elaboration_SW,dissimilarity,flexibility,flexibility_augmented
+brick,grind into powder for pottery glaze.,3.0,6.0,5,0.2317827343940735,0,0.0
+brick,improvised bookend.,1.5,2.0,3,0.25350821018218994,0,0.0
+brick,create a garden path.,1.0,4.0,4,0.24446719884872437,1,0.7509287402904424
+brick,heat in the oven for a pizza stone.,3.0,8.0,5,0.23236089944839478,0,0.0
+brick,use as a base for candle making.,3.0,7.0,5,0.22882670164108276,1,0.7612293144208038
+brick,create a makeshift grill.,2.0,4.0,4,0.21457111835479736,0,0.0
+brick,use for acupressure by standing on it.,3.0,7.0,4,0.2517894506454468,1,0.7612293144208038
+brick,put in a cloth bag as a self-defense tool.,1.5,9.0,6,0.21604615449905396,1,0.8134076325565687
+brick,break parts away to sculpt an art piece.,2.0,8.0,7,0.22412842512130737,2,1.5746369469773724
+brick,use as a photography prop.,2.0,5.0,4,0.22548705339431763,1,0.7612293144208038
+brick,painted as a decorative doorstop.,2.0,5.0,4,0.26789408922195435,0,0.0
+brick,make a raised bed for gardening.,1.0,6.0,5,0.20876801013946533,2,1.6648091860857819
+brick,use to create a natural dye by rubbing.,3.0,8.0,6,0.22999626398086548,1,0.7612293144208038
+brick,tear apart for making a textured painting.,3.0,7.0,6,0.2234322428703308,0,0.0
+brick,serve as a spacer in construction projects.,1.0,7.0,5,0.22672522068023682,0,0.0
+brick,clean shoes on the rough surface.,2.0,6.0,5,0.25194770097732544,0,0.0
+brick,anchor for a pet's leash.,2.0,5.0,5,0.2648482918739319,0,0.0
+brick,drill holes to make a pencil holder.,3.0,7.0,6,0.19887369871139526,1,0.7612293144208038
+brick,use as a base for soldering.,3.0,6.0,4,0.24445539712905884,1,0.7612293144208038
+brick,mark your parking spot.,1.0,4.0,4,0.2840074896812439,0,0.0
+brick,use to crack nuts.,2.0,4.0,4,0.22779232263565063,1,0.7612293144208038
+brick,lay flat for a mousepad.,3.0,5.0,4,0.23878717422485352,0,0.0
+brick,makeshift hammer for light tasks.,2.0,5.0,5,0.21892023086547852,0,0.0
+brick,build into a stand for a small TV or monitor.,1.7,10.0,6,0.2243940234184265,2,2.3777440054035797
+brick,place inside a safe for added weight.,1.7,7.0,6,0.21778303384780884,1,0.8473488686254644
+brick,use as a mold for clay or cement.,2.0,8.0,5,0.25611060857772827,1,0.7612293144208038
+brick,balance on for exercise.,2.0,4.0,3,0.2620534896850586,0,0.0
+brick,carve out space for a secret storage.,3.0,7.0,5,0.22490626573562622,0,0.0
+brick,levelling furniture by placing underneath.,1.5,5.0,5,0.21804320812225342,0,0.0
+brick,fill with soil for a succulent planter.,3.0,7.0,5,0.25184452533721924,0,0.0
+brick,line them as boundaries for pet areas.,1.0,7.0,5,0.26683783531188965,0,0.0
+brick,insulate pipes by surrounding them.,2.0,5.0,4,0.24959152936935425,0,0.0
+brick,press flowers or leaves for crafts.,2.5,6.0,5,0.22936171293258667,0,0.0
+brick,make a minimalist bird bath.,2.0,5.0,5,0.21887952089309692,1,0.7612293144208038
+brick,create a small fire pit.,2.0,5.0,5,0.20581012964248657,1,0.8134076325565687
+brick,use as a dumbbell for lifting.,1.7,6.0,4,0.22450649738311768,1,0.7612293144208038
+brick,scratch post for cats.,3.0,4.0,4,0.24262726306915283,0,0.0
+brick,break and use pieces for mosaic art.,2.0,7.0,6,0.2262566089630127,2,1.5746369469773724
+brick,create a labyrinth for garden decor.,2.0,6.0,5,0.21960604190826416,1,0.7509287402904424
+brick,cool in the fridge for a cold compress.,3.0,8.0,5,0.2804868817329407,0,0.0
+brick,heat up and use for back pain relief.,3.0,8.0,6,0.24750912189483643,1,0.7612293144208038
+brick,barrier for flood control.,1.0,4.0,4,0.25585001707077026,0,0.0
+brick,distill alcohol by modifying with copper tubing.,4.0,7.0,6,0.30553245544433594,0,0.0
+brick,construct a sundial.,3.0,3.0,3,0.22490936517715454,0,0.0
+brick,makeshift anvil for light metalworking.,2.0,5.0,5,0.20834600925445557,0,0.0
+brick,stepping stones for a miniature fairy garden.,1.8,7.0,6,0.22442978620529175,0,0.0
+brick,enhance your car's traction in snow.,2.0,6.0,6,0.25124144554138184,0,0.0
+brick,break slightly and use as a jagged knife.,2.0,8.0,6,0.23351478576660156,2,1.5746369469773724
+brick,use as a slide for guitar.,3.0,6.0,4,0.2483852505683899,1,0.7612293144208038
+brick,makeshift chessboard by painting squares.,3.0,5.0,5,0.22203660011291504,0,0.0
+brick,DIY speaker by carving a slot for your phone.,3.0,9.0,6,0.23822981119155884,0,0.0
+brick,display base for collectibles.,2.0,4.0,4,0.24435466527938843,0,0.0
+brick,heat retention in a camping tent.,3.0,6.0,5,0.2251131534576416,0,0.0
+brick,crush into aggregate for concrete.,2.0,5.0,4,0.2315846085548401,0,0.0
+brick,test your strength by breaking them.,1.7,6.0,4,0.2826653718948364,0,0.0
+brick,make a manual grain mill.,3.0,5.0,5,0.22013133764266968,1,0.7612293144208038
+brick,create a compost bin.,3.0,4.0,4,0.21695667505264282,0,0.0
+brick,line the bottom of fish tanks.,2.0,6.0,5,0.23215705156326294,0,0.0
+brick,cold smoking chamber by stacking them.,3.0,6.0,5,0.2363804578781128,0,0.0
+brick,makeshift tripod for photography.,3.0,4.0,4,0.21012777090072632,0,0.0
+brick,sound absorber for recording music.,3.0,5.0,5,0.2496730089187622,0,0.0
+brick,drop anchor for small boats.,2.0,5.0,5,0.23956692218780518,1,0.8134076325565687
+brick,rolling pin for baking.,3.0,4.0,4,0.19446533918380737,1,0.9235055724417427
+brick,dehumidify by baking then placing in damp areas.,3.0,8.0,6,0.2592449188232422,0,0.0
+brick,base for mounting a pole or flag.,2.0,7.0,5,0.24406582117080688,0,0.0
+brick,outdoor chess or checkers board by painting tiles.,3.0,8.0,7,0.25933486223220825,0,0.0
+brick,key hideaway by hollowing out.,3.0,5.0,4,0.24156415462493896,0,0.0
+brick,natural refrigerator by evaporation.,3.0,4.0,4,0.26121246814727783,0,0.0
+brick,construct a time capsule.,3.0,4.0,4,0.25852787494659424,0,0.0
+brick,make a hand weight for physical therapy.,1.7,7.0,6,0.2210627794265747,2,1.6085781830462682
+brick,bases for homemade scaffolding.,2.0,4.0,4,0.22567999362945557,0,0.0
+brick,use in physics experiments on mass and density.,3.0,8.0,6,0.28699153661727905,1,0.7612293144208038
+brick,add texture to drums for unique music.,3.0,7.0,6,0.24539995193481445,0,0.0
+brick,use as an echo dampener in empty rooms.,3.0,8.0,6,0.23151350021362305,1,0.7612293144208038
+brick,lay as a foundation for a small shed.,1.0,8.0,5,0.2284519076347351,1,0.8134076325565687
+brick,makeshift stove for outdoor cooking.,2.0,5.0,5,0.2106921672821045,0,0.0
+brick,create a simple smokehouse.,3.0,4.0,4,0.21201330423355103,0,0.0
+brick,calibrate industrial scales.,3.0,3.0,4,0.2780410647392273,0,0.0
+brick,sharpen knives against the edge.,3.0,5.0,4,0.2575100064277649,0,0.0
+brick,practice coding by building a simple sorting machine.,3.0,8.0,7,0.24011379480361938,1,0.8134076325565687
+brick,line them up for a hopscotch.,2.0,6.0,3,0.2654595971107483,0,0.0
+brick,erect a small memorial or monument.,2.0,6.0,5,0.2522755265235901,1,0.8134076325565687
+brick,leg press for home workout.,2.0,5.0,5,0.266265869140625,0,0.0
+brick,balance training for athletes.,2.0,4.0,4,0.2720643877983093,0,0.0
+brick,base for a small wind turbine model.,3.0,7.0,6,0.25886887311935425,1,0.8134076325565687
+brick,create a DIY loom for weaving.,3.0,6.0,5,0.22982656955718994,0,0.0
+brick,craft homemade bricks into a kiln.,2.0,6.0,5,0.22808784246444702,0,0.0
+brick,assemble a basic solar oven.,3.0,5.0,5,0.22508949041366577,0,0.0
+brick,engrave names or messages as gifts.,2.0,6.0,5,0.2611706256866455,0,0.0
+brick,makeshift seat when camping.,2.0,4.0,4,0.23321044445037842,0,0.0
+brick,teach history by making ancient tools.,3.0,6.0,6,0.241135835647583,0,0.0
+brick,mount for action camera.,3.0,4.0,4,0.29661494493484497,0,0.0
+brick,art project base.,2.0,3.0,4,0.29911696910858154,1,0.7612293144208038
+brick,navigation practice by orienting bricks.,3.0,5.0,5,0.2048642635345459,0,0.0
+brick,physical puzzle by assembling a specific structure.,3.0,7.0,6,0.25314801931381226,0,0.0
+brick,break down for sand in sandbags.,1.5,6.0,4,0.2096623182296753,1,0.8134076325565687
+brick,homemade incense holder by carving.,3.0,5.0,5,0.20776325464248657,1,0.9235055724417427
+brick,training for martial arts board breaking.,2.0,6.0,6,0.28514188528060913,0,0.0
+box,disassemble and weave into a decorative mat,3.0,7.0,4,0.2480623722076416,1,0.9020537124802528
+box,create an emergency insulation blanket by stuffing with newspaper,3.0,9.0,6,0.24500995874404907,0,0.0
+box,turn into a desktop organizer for supplies,1.7,7.0,4,0.22080332040786743,0,0.0
+box,assemble a makeshift sled for snow days,2.0,7.0,5,0.23166263103485107,1,1.425750394944708
+box,cut into shapes for a child's learning puzzle,2.0,8.0,6,0.23564410209655762,1,0.8700631911532386
+box,design a portable puppet theatre,3.0,5.0,4,0.23100215196609497,1,0.712875197472354
+box,use as molds for big ice sculptures,3.0,7.0,5,0.23005306720733643,1,0.712875197472354
+box,transform into a light diffuser for photography,3.0,7.0,4,0.2286745309829712,0,0.0
+box,build a temporary bird feeder,2.0,5.0,4,0.25189459323883057,1,0.8700631911532386
+box,craft into a child’s toy stove,3.0,6.0,5,0.23960340023040771,1,0.8732227488151658
+box,make a rain gauge by marking levels on the side,3.3,10.0,6,0.2422003149986267,1,0.712875197472354
+box,assemble a series of boxes into a play maze for pets,2.7,11.0,6,0.22965091466903687,1,0.8732227488151658
+box,construct a mock voting booth for classroom elections,3.0,8.0,6,0.23084455728530884,0,0.0
+box,create a time capsule for burying precious memories,2.0,8.0,6,0.2521475553512573,0,0.0
+box,fashion into a set of drums for a music project,3.0,10.0,5,0.2191331386566162,0,0.0
+box,use as a frame for paper mâché projects,2.0,8.0,5,0.23454952239990234,1,0.712875197472354
+box,repurpose as a shoe shining kit container,2.0,7.0,5,0.21224308013916016,0,0.0
+box,transform into a portable lap desk with cushioning underneath,3.0,9.0,6,0.22175025939941406,0,0.0
+box,convert into a standing garden for herbs,2.7,7.0,4,0.25405293703079224,0,0.0
+box,create a Wi-Fi signal booster by positioning as a parabolic reflector,3.3,11.0,7,0.24733364582061768,0,0.0
+box,use as a base for making giant soap bubbles,3.3,9.0,6,0.23931670188903809,1,0.712875197472354
+box,put together as a temporary bookshelf,1.7,6.0,4,0.23618024587631226,1,0.7768562401263823
+box,turn into a geometric photo or art display,2.0,8.0,5,0.22809839248657227,1,0.712875197472354
+box,construct a basic solar oven for science experiments,3.0,8.0,6,0.22552227973937988,0,0.0
+box,slice into strips for garden plant labels,3.0,7.0,5,0.24199801683425903,0,0.0
+box,cut out and use as a template for drawing uniform shapes,3.0,11.0,6,0.22512197494506836,2,1.5829383886255926
+box,repurpose as a holder for wrapping paper tubes,2.0,8.0,5,0.20855927467346191,1,0.7768562401263823
+box,fashion a privacy shield for desk work,2.0,7.0,5,0.23172545433044434,0,0.0
+box,create a vehicle for a pet hamster by adding wheels,2.7,10.0,6,0.20466351509094238,1,0.7768562401263823
+box,turn into a simple hand puppet stage,3.0,7.0,5,0.24402451515197754,0,0.0
+box,design a personalized charging station for devices,2.0,7.0,5,0.2565611004829407,1,0.712875197472354
+box,cut into pieces for custom board game tokens,3.0,8.0,6,0.2666451930999756,1,0.8700631911532386
+box,assemble into a makeshift basketball hoop,2.7,6.0,4,0.23402470350265503,0,0.0
+box,develop into a basic compost bin for small spaces,2.7,9.0,6,0.20060515403747559,1,0.8700631911532386
+box,craft into decorative lanterns with LED lights,3.0,7.0,5,0.2537810206413269,0,0.0
+box,make a shadow box for displaying collectibles,2.0,7.0,5,0.215684711933136,2,1.4897314375987363
+box,use as a sound amplifier by cutting a hole for a smartphone,3.0,12.0,6,0.24648302793502808,2,1.5778041074249605
+box,convert into a simple loom for weaving projects,3.0,8.0,5,0.2164210081100464,0,0.0
+box,turn into a basic raft for science experiments on buoyancy,3.0,10.0,6,0.2453474998474121,0,0.0
+box,create a sorting system for recyclables,1.7,6.0,4,0.2586630582809448,0,0.0
+box,fashion into a camera obscura for educational purposes,3.3,8.0,5,0.24212348461151123,0,0.0
+box,develop a kite from the lighter box material,3.0,8.0,5,0.25566625595092773,1,0.7768562401263823
+box,make a series of tunnels for a small pet,2.7,9.0,5,0.22170644998550415,3,2.359794628751975
+box,design into a foldable picnic basket,2.0,6.0,4,0.21103668212890625,1,0.712875197472354
+box,use as a base for making a temporary fish pond,3.3,10.0,6,0.24452495574951172,1,0.712875197472354
+box,transform into a DIY pedal board for musicians,3.0,8.0,5,0.20869475603103638,0,0.0
+box,cut into coasters for drinks,2.0,5.0,3,0.25795185565948486,1,0.8700631911532386
+box,create a simple wind vane for weather-related projects,3.3,8.0,6,0.217065691947937,0,0.0
+box,fashion into a basic incubator for science projects,3.0,8.0,5,0.23270851373672485,0,0.0
+box,use as a dummy TV for staging homes or plays,3.0,10.0,6,0.22604840993881226,1,0.712875197472354
+box,make a miniature golf obstacle course,3.3,6.0,5,0.26441681385040283,1,0.712875197472354
+box,turn into a balance beam for practicing gymnastics,2.7,8.0,5,0.268799364566803,0,0.0
+box,assemble a photography backdrop stand,2.0,5.0,4,0.24039232730865479,0,0.0
+box,craft into a portable sun shade for the beach,2.7,9.0,5,0.2241654396057129,0,0.0
+box,create a basic periscope with mirrors,3.3,6.0,4,0.23363280296325684,0,0.0
+box,use to organize power cords and chargers,1.3,7.0,5,0.23037630319595337,1,0.712875197472354
+box,fashion as a mock airplane for children's play,3.0,8.0,6,0.22928714752197266,1,0.8732227488151658
+box,transform into a sandbox cover,2.0,5.0,3,0.21359604597091675,1,0.8649289099526066
+box,devise a simple hydroponics system,3.3,5.0,4,0.2377297282218933,0,0.0
+box,assemble into a bee hotel for garden pollinators,3.3,8.0,5,0.24956226348876953,0,0.0
+box,use as a base for a vertical strawberry planter,3.0,9.0,5,0.24409198760986328,1,0.712875197472354
+box,fashion into a manual scoreboard for games,3.3,7.0,4,0.2349100112915039,0,0.0
+box,create a background for online meetings,2.0,6.0,4,0.253034770488739,0,0.0
+box,make into a simple speaker enclosure,2.7,6.0,4,0.2276732325553894,1,0.712875197472354
+box,design a portable privacy screen,2.7,5.0,4,0.25216132402420044,1,0.712875197472354
+box,construct a folding play kitchen,2.7,5.0,4,0.22935259342193604,1,0.8732227488151658
+box,develop into a mock fireplace for Christmas decor,3.0,8.0,5,0.23279058933258057,0,0.0
+box,turn into footing for a temporary outdoor table,2.0,8.0,5,0.20558947324752808,1,0.8732227488151658
+box,craft a guide for practicing parallel parking,3.0,7.0,5,0.24830210208892822,0,0.0
+box,use as a mold for homemade bricks,3.0,7.0,4,0.2491062879562378,1,0.712875197472354
+box,create an acoustic treatment panel by filling with sound-absorbing materials,3.0,10.0,7,0.2513427734375,0,0.0
+box,develop a storage solution for under the bed,1.0,8.0,4,0.21853852272033691,1,0.8732227488151658
+box,stage as a dinosaur excavation site for kids,3.3,8.0,5,0.24099493026733398,0,0.0
+box,make into a quilt or fabric scrap organizer,2.0,8.0,5,0.24308830499649048,1,0.712875197472354
+box,fashion as a holder for long stem flowers,3.0,8.0,5,0.27478617429733276,1,0.7768562401263823
+box,use for creating large stencil art,3.0,6.0,5,0.25636065006256104,1,1.425750394944708
+box,transform into a hideaway for outdoor pets,2.0,7.0,4,0.2394886612892151,0,0.0
+box,assemble a basic manual treadmill for exercise demonstrations,3.3,8.0,6,0.23724395036697388,0,0.0
+box,create an overhead camera rig for filming,3.0,7.0,5,0.2405286431312561,0,0.0
+box,"design a themed playhouse (castle, space ship, etc.)",2.0,5.0,12,0.26506489515304565,2,1.4897314375987363
+box,make a portable windbreak for windy days at the park,3.3,10.0,6,0.23633134365081787,1,0.712875197472354
+box,convert into a base for stacking canned goods,2.0,8.0,5,0.2205207347869873,0,0.0
+box,fashion into a removable car trunk organizer,2.0,7.0,5,0.23378562927246094,1,0.7768562401263823
+box,use as emergency flotation devices during a flood,3.0,8.0,5,0.28644973039627075,1,0.712875197472354
+box,craft into a guide for learning to throw darts,3.0,9.0,5,0.25617629289627075,0,0.0
+box,create a pocketed organizer for the back of a door,2.0,10.0,5,0.22346502542495728,0,0.0
+box,turn into dividers for organizing drawers,2.0,6.0,4,0.2480441927909851,0,0.0
+box,assemble a basic squat box for exercise routines,2.0,8.0,6,0.22761434316635132,1,0.7768562401263823
+box,develop a tilt table for physics experiments,3.0,7.0,5,0.21541839838027954,1,0.8732227488151658
+box,make into a simple playpen for small pets,2.0,8.0,5,0.22211992740631104,2,1.5829383886255926
+box,design as a protective cover for outdoor plants,2.7,8.0,5,0.23943877220153809,2,1.5778041074249605
+box,use as a prop for theater productions,2.0,7.0,4,0.25674188137054443,1,0.712875197472354
+box,craft into a manual scoreboard for local sports games,3.3,9.0,6,0.23334670066833496,0,0.0
+box,develop a collection of painted story-telling cubes,3.0,7.0,5,0.23920506238937378,0,0.0
+box,create a giant calendar wall organizer,3.0,6.0,5,0.22377848625183105,1,0.8732227488151658
+box,design a mobile for a baby’s room using lightweight box pieces,2.7,11.0,9,0.22395795583724976,4,3.2567140600315954
+box,turn into an indoor compost bin with proper lining,2.7,9.0,6,0.21734172105789185,0,0.0
+box,assemble a planting guide with cut-out holes for seed spacing,3.3,10.0,7,0.24987947940826416,0,0.0
+knife,trimming excess threads off clothing  ,1.0,5.0,4,0.25075119733810425,0,0.0
+knife,stir coffee or tea when no spoon is available  ,2.0,9.0,5,0.28425371646881104,0,0.0
+knife,remove burrs from a pet's fur  ,1.7,6.0,5,0.27360910177230835,0,0.0
+knife,press it lightly to create patterns on soft clay  ,2.0,9.0,6,0.24177509546279907,0,0.0
+knife,use it as a makeshift screwdriver  ,1.7,6.0,3,0.26265621185302734,1,0.7413522012578616
+knife,smooth out caulk or sealant while doing home repairs  ,2.0,9.0,5,0.23514074087142944,0,0.0
+knife,clean out the grooves on the sole of boots or shoes  ,1.7,11.0,5,0.25853604078292847,1,0.8038522012578616
+knife,sharpen pencils in a pinch  ,1.7,5.0,3,0.24712097644805908,0,0.0
+knife,use as a guide for folding paper neatly  ,2.0,8.0,5,0.24513781070709229,2,1.5566037735849056
+knife,pry open cans when can opener is not available  ,1.7,9.0,5,0.27396583557128906,1,0.7413522012578616
+knife,makeshift bookmark in a hefty novel  ,3.0,6.0,4,0.296927809715271,0,0.0
+knife,cut homemade pasta dough into shapes  ,1.0,6.0,5,0.27840209007263184,1,0.815251572327044
+knife,create air vents in pie crust before baking  ,2.0,8.0,6,0.26183873414993286,0,0.0
+knife,makeshift ruler when straight edge is needed  ,2.0,7.0,5,0.24764209985733032,0,0.0
+knife,remove staples or nails with the handle end  ,2.0,8.0,5,0.2323826551437378,0,0.0
+knife,split pills if a pill cutter is unavailable  ,2.0,8.0,5,0.26834481954574585,0,0.0
+knife,tenderize meat by making incisions  ,1.0,5.0,4,0.2459619641304016,0,0.0
+knife,scratch off lottery tickets  ,1.7,4.0,3,0.32618606090545654,0,0.0
+knife,cut and serve cake at a party  ,1.0,7.0,4,0.2775203585624695,1,0.815251572327044
+knife,split a sandwich in half without crushing it  ,1.0,8.0,5,0.2804552912712097,0,0.0
+knife,create decorative garnishes for cocktails  ,2.0,5.0,4,0.2729109525680542,0,0.0
+knife,score bread dough before baking for artisan look  ,1.7,8.0,6,0.25224924087524414,0,0.0
+knife,scrape paint from windows  ,1.3,4.0,3,0.2654133439064026,2,1.7503930817610063
+knife,use as a prop in theater productions  ,2.0,7.0,4,0.30520719289779663,1,0.7413522012578616
+knife,test the doneness of a cake (insert and check if it comes out clean)  ,1.7,14.0,9,0.26817357540130615,0,0.0
+knife,guide yarn or thread while sewing or crocheting  ,2.0,8.0,5,0.2520216107368469,0,0.0
+knife,loosen a tight jar lid by prying gently  ,1.7,8.0,6,0.251526415348053,0,0.0
+knife,emergency whistle by blowing over the blade edge  ,3.0,8.0,5,0.2634889483451843,1,0.8482704402515724
+knife,create silicone molds by first carving a pattern  ,3.0,8.0,6,0.25220513343811035,1,0.8482704402515724
+knife,freeze and use as a cold pack for injuries  ,3.0,9.0,5,0.2590445280075073,1,0.7413522012578616
+knife,straighten bent picture frame hooks  ,2.0,5.0,5,0.2822362184524536,0,0.0
+knife,make a fishing spear by attaching to a pole  ,1.7,9.0,5,0.25380563735961914,1,0.8482704402515724
+knife,slice open plastic packaging effortlessly  ,1.0,5.0,5,0.27916228771209717,1,0.7413522012578616
+knife,remove gum from shoes   ,1.7,4.0,3,0.2749398350715637,0,0.0
+knife,scratch off price tags or stickers  ,1.7,6.0,4,0.2545856237411499,0,0.0
+knife,create distress effects on wood for crafts  ,1.7,7.0,5,0.2516636252403259,1,0.8482704402515724
+knife,pop balloons quietly from a distance  ,2.0,6.0,4,0.3112340569496155,0,0.0
+knife,transfer a drawing by scratching through paper onto another surface  ,2.0,10.0,7,0.26715314388275146,1,0.815251572327044
+knife,fashion a simple compass with a knife and shadow  ,3.0,9.0,5,0.2579297423362732,1,0.7413522012578616
+knife,cut through ice around car wheels stuck in snow  ,1.3,9.0,7,0.272341251373291,3,2.4587264150943398
+knife,gently pry open electronic devices for repair  ,2.0,7.0,6,0.24126505851745605,1,0.7413522012578616
+knife,makeshift paddle for small boats in emergencies  ,3.0,7.0,5,0.2753981947898865,0,0.0
+knife,smooth out frosting on cakes  ,1.7,5.0,3,0.26196086406707764,0,0.0
+knife,cut plant cuttings for propagation  ,1.0,5.0,4,0.3126325011253357,1,0.815251572327044
+knife,fashion a makeshift guitar pick  ,3.0,5.0,4,0.25489675998687744,1,0.8482704402515724
+knife,checkerboard fruits like melons for presentation  ,2.0,6.0,5,0.26193809509277344,1,0.8482704402515724
+knife,prepare flowers for arrangements by cutting stems at angles  ,1.7,9.0,6,0.2986688017845154,1,0.8482704402515724
+knife,cut cord or rope in emergency situations  ,1.0,7.0,5,0.27218103408813477,1,0.815251572327044
+knife,makeshift monopod for balancing a camera  ,3.5,6.0,4,0.2984233498573303,0,0.0
+knife,bend it to create a custom tool for unique needs  ,2.0,10.0,6,0.3191484808921814,1,0.902122641509434
+knife,measure depth in snow or sand  ,2.0,6.0,4,0.2836402654647827,0,0.0
+knife,etch designs into glass for crafts  ,1.7,6.0,4,0.27373212575912476,0,0.0
+knife,cut through roots while repotting plants  ,1.3,6.0,4,0.2685675621032715,1,0.815251572327044
+knife,straighten bent bike spokes in a pinch  ,2.0,7.0,5,0.2503809332847595,0,0.0
+knife,carve soap for homemade gifts  ,1.0,5.0,4,0.2272626757621765,1,0.8038522012578616
+knife,use to guide fabric when sewing  ,2.0,6.0,4,0.23667418956756592,1,0.7413522012578616
+knife,"dislodge items stuck in a toaster unplugged, of course  ",2.0,7.0,7,0.2623510956764221,0,0.0
+knife,test soil pH by observing how it reacts over time  ,3.5,10.0,6,0.29759615659713745,0,0.0
+knife,make a mini sledge by attaching the handle to a weight  ,3.0,11.0,6,0.2530803680419922,1,0.8482704402515724
+knife,remove scales from fish  ,1.0,4.0,3,0.2895404100418091,0,0.0
+knife,hold down papers on a windy day  ,2.0,7.0,4,0.2968043088912964,1,0.8038522012578616
+knife,break apart hard soil for gardening  ,1.7,6.0,5,0.25618821382522583,1,0.8891509433962264
+knife,scratch lottery tickets  ,1.7,3.0,3,0.39023715257644653,0,0.0
+knife,cut fruit skins without piercing the inside  ,1.0,7.0,6,0.27249765396118164,1,0.815251572327044
+knife,lever to fix a bicycle chain off its track  ,2.0,9.0,5,0.2641417384147644,0,0.0
+knife,use the reflection for signaling in emergencies  ,2.0,7.0,4,0.28137272596359253,1,0.7413522012578616
+knife,mark leveling points on walls  ,2.0,5.0,4,0.26303529739379883,0,0.0
+knife,peel labels or stickers from surfaces  ,1.0,6.0,4,0.23794591426849365,0,0.0
+knife,cut synthetic materials like nylon without fraying  ,1.0,7.0,7,0.23157143592834473,2,1.6635220125786163
+knife,create a makeshift door latch  ,2.0,5.0,4,0.24903810024261475,1,0.7413522012578616
+knife,remove rust from surfaces with the blade edge  ,1.7,8.0,5,0.2525731325149536,1,0.8482704402515724
+knife,use as a percussion instrument with metal objects  ,3.0,8.0,5,0.272722065448761,1,0.7413522012578616
+knife,cut away excess candle wax from holders  ,1.0,7.0,6,0.24483001232147217,1,0.815251572327044
+knife,scrape out old caulking or grout   ,1.7,6.0,4,0.2747892737388611,1,0.8482704402515724
+knife,create a DIY phone stand by bending the knife  ,3.0,9.0,6,0.2266092300415039,1,0.7413522012578616
+knife,makeshift can tab lever if broken  ,2.0,6.0,4,0.2921496033668518,0,0.0
+knife,score tiles or glass before cutting for crafts  ,1.7,8.0,5,0.23506754636764526,1,0.8482704402515724
+knife,tap it to check the ripeness of watermelons  ,2.0,8.0,4,0.28582763671875,0,0.0
+knife,fashion a mini sculpture by bending and twisting  ,2.0,8.0,5,0.25995373725891113,0,0.0
+knife,clean out narrow bottle necks with the tip  ,2.0,8.0,5,0.2523370385169983,2,1.5452044025157232
+knife,emboss patterns on leather  ,1.7,4.0,3,0.2873988747596741,0,0.0
+knife,trim and edge lawns where a mower can't reach  ,2.0,9.0,7,0.2545210123062134,0,0.0
+knife,scratch off old vehicle decals  ,1.7,5.0,4,0.2754175662994385,0,0.0
+knife,cut tennis balls for chairs or walkers  ,2.0,7.0,5,0.23202908039093018,1,0.815251572327044
+knife,impromptu diving weight for shallow dives  ,3.0,6.0,5,0.3130742907524109,0,0.0
+knife,makeshift axle in small toy repairs  ,3.0,6.0,5,0.25351274013519287,0,0.0
+knife,heat and seal the ends of nylon ropes  ,2.0,8.0,5,0.2403666377067566,0,0.0
+knife,makeshift bell by hitting it against metal objects  ,3.0,8.0,5,0.25103551149368286,0,0.0
+rope,create a sturdy leash for large dogs.,1.0,7.0,6,0.18509328365325928,2,1.7474466109563602
+rope,weave together to make a durable outdoor rug.,2.7,8.0,7,0.1903964877128601,2,1.4948932219127204
+rope,assemble into a vertical garden by hanging pots.,3.3,8.0,6,0.19540005922317505,1,0.8802228412256268
+rope,construct a makeshift bridge over small creeks.,1.3,7.0,6,0.2145574688911438,1,0.8867223769730733
+rope,"craft into a unique, bohemian chandelier.",1.3,4.0,6,0.3036615252494812,0,0.0
+rope,form a series of knots for a nautical-themed wall decoration.,2.3,10.0,7,0.1993522047996521,1,0.6638811513463324
+rope,twist into DIY drawer pulls for a rustic look.,3.3,9.0,7,0.27496659755706787,0,0.0
+rope,braid into a heavy-duty belt.,1.3,5.0,4,0.23565256595611572,0,0.0
+rope,develop a survival bracelet that includes several survival tools.,3.0,9.0,8,0.20165181159973145,0,0.0
+rope,design an obstacle course for fitness training.,2.0,7.0,6,0.19854044914245605,0,0.0
+rope,tie into a swing for a backyard tree.,1.3,8.0,5,0.18627780675888062,2,1.5311049210770658
+rope,coil into coasters and place mats for rustic table decor.,3.3,10.0,8,0.17427384853363037,1,0.8310120705663882
+rope,knot into a net for a homemade soccer goal.,3.3,9.0,6,0.19391310214996338,1,0.8867223769730733
+rope,lash together bamboo to create a raft.,2.7,7.0,6,0.18817943334579468,2,1.6982358402971216
+rope,form into a circle for a game of tug-of-war.,1.3,9.0,5,0.2474210262298584,0,0.0
+rope,wrap around a wooden post to create a scratching post for cats.,3.3,12.0,9,0.17529559135437012,3,2.4020427112349116
+rope,string up as a clothesline in a backyard or camping trip.,1.3,11.0,6,0.19080185890197754,1,0.8867223769730733
+rope,integrate into a sculpture for an art project.,2.7,8.0,5,0.2235984206199646,0,0.0
+rope,loop into an overhead storage solution for bikes.,3.0,8.0,6,0.20021164417266846,0,0.0
+rope,"tie around old tires to make a durable, outdoor loveseat.",1.0,8.0,10,0.1880795955657959,1,1.9916434540389973
+rope,weave into a basket for storing household items.,2.0,8.0,6,0.1843978762626648,0,0.0
+rope,construct a simple pulley system for lifting heavy objects.,2.0,9.0,8,0.1982666254043579,0,0.0
+rope,fashion into decorative fringe for curtains or tablecloths.,2.7,8.0,6,0.21999585628509521,0,0.0
+rope,create a netting for plant support in a garden.,2.7,9.0,6,0.1847822070121765,1,0.8672237697307335
+rope,form a protective barrier around a campsite from wildlife.,2.3,9.0,7,0.2052978277206421,1,0.6638811513463324
+rope,"design jewelry, such as bracelets and necklaces.",2.0,2.0,6,0.22831708192825317,0,0.0
+rope,make a bookshelf by hanging planks with rope.,3.0,8.0,6,0.17980384826660156,2,1.544103992571959
+rope,assemble into a tightrope for balance training.,1.7,7.0,5,0.20382589101791382,0,0.0
+rope,craft a sling for carrying materials or injured limbs.,2.0,9.0,7,0.1838170289993286,0,0.0
+rope,build a ladder for access to loft spaces.,1.0,8.0,6,0.18571245670318604,0,0.0
+rope,secure cargo on a vehicle's roof rack.,1.0,7.0,7,0.2128291130065918,0,0.0
+rope,knot into a series of loops for a DIY yoga strap.,2.7,11.0,7,0.20616167783737183,1,0.8867223769730733
+rope,braid together for a homemade handle for bags or purses.,2.0,10.0,7,0.19315165281295776,1,0.8310120705663882
+rope,tie into a buoyancy aid for swimming or rescue.,2.0,9.0,6,0.19816571474075317,1,0.6638811513463324
+rope,create a boundary line for sports or games.,1.3,8.0,6,0.21690398454666138,1,0.8672237697307335
+rope,use to suspend a porch swing from a ceiling or beam.,1.3,11.0,7,0.21003234386444092,2,1.5311049210770658
+rope,weave into a footbridge for garden ponds.,2.7,7.0,5,0.18886446952819824,0,0.0
+rope,lash together logs for cabin construction in survival situations.,1.3,9.0,8,0.1879926323890686,1,0.8310120705663882
+rope,make a leash for pet rodents to explore safely outside.,3.3,10.0,8,0.20003032684326172,2,1.544103992571959
+rope,craft a fishing net for catching small fish.,1.3,8.0,7,0.2021113634109497,0,0.0
+rope,use as a guide line for visually impaired individuals.,3.3,9.0,7,0.2620433568954468,1,0.6638811513463324
+rope,design a system of cords for a puppet show.,2.7,9.0,6,0.1770901083946228,0,0.0
+rope,tie around jars and hang as outdoor lanterns.,3.3,8.0,7,0.19133472442626953,2,2.198700092850511
+rope,create a hanging spice rack for kitchens.,3.3,7.0,6,0.18754154443740845,2,1.7474466109563602
+rope,use to tie up tomato plants in a garden.,1.3,9.0,6,0.19213253259658813,1,1.3277623026926648
+rope,fashion a holder for yoga mats.,2.7,6.0,5,0.18945366144180298,0,0.0
+rope,construct a bird feeder stand.,2.7,5.0,5,0.20991867780685425,0,0.0
+rope,weave a seat for a homemade chair.,2.0,7.0,5,0.19275933504104614,0,0.0
+rope,make a mobile for above a baby's crib.,2.7,8.0,6,0.21758615970611572,1,0.6638811513463324
+rope,create a safety line for rock climbing.,1.0,7.0,6,0.18715029954910278,1,0.8672237697307335
+rope,fashion into a belt for carrying tools.,2.0,7.0,5,0.1752490997314453,1,0.8802228412256268
+rope,design an attachment system for securing a boat.,2.0,8.0,6,0.19399243593215942,0,0.0
+rope,construct a canopy frame for beds.,3.0,6.0,5,0.18502873182296753,0,0.0
+rope,make a kite tail for stability.,2.7,6.0,5,0.21297216415405273,1,0.6638811513463324
+rope,craft a camera strap for photographers.,2.0,6.0,5,0.17439770698547363,0,0.0
+rope,form a loop for a resistance band workout.,2.7,8.0,6,0.20137959718704224,0,0.0
+rope,design a pathway marker for hiking trails.,2.7,7.0,6,0.2259809970855713,0,0.0
+rope,lash skis together for easy transport.,2.7,6.0,6,0.20903539657592773,1,0.8310120705663882
+rope,make a protective wrap for tree trunks against animals.,3.3,9.0,7,0.1775791049003601,2,2.405756731662024
+rope,construct a see-saw for children by tying a plank to a secure midpoint.,3.0,13.0,8,0.19363200664520264,1,0.8709377901578459
+rope,create a guide rope for cave explorers.,1.3,7.0,6,0.19073772430419922,1,0.8672237697307335
+rope,fashion a snare trap for survival situations.,2.0,7.0,6,0.1829184889793396,0,0.0
+rope,design a makeshift stretcher for emergency evacuations.,2.7,7.0,6,0.19991475343704224,0,0.0
+rope,wrap around a gift for a rustic touch.,1.3,8.0,6,0.21235895156860352,2,1.5348189415041782
+rope,tie into a keychain for easy access.,1.3,7.0,5,0.23322242498397827,1,0.6638811513463324
+rope,make a playpen boundary for pets.,2.3,6.0,5,0.19534212350845337,1,0.6638811513463324
+rope,create a loop for hanging bicycles in a garage.,2.7,9.0,6,0.16197597980499268,2,1.7474466109563602
+rope,fashion a grip for gymnastics rings.,2.0,6.0,5,0.179179847240448,0,0.0
+rope,design a locking mechanism for gates.,2.0,6.0,5,0.21639353036880493,0,0.0
+rope,construct a balance beam for gymnastics practice.,2.7,7.0,6,0.23305708169937134,0,0.0
+rope,braid into a headband for sports or fashion.,1.9,8.0,5,0.22483450174331665,0,0.0
+rope,form a harness for tree cutting safety.,2.3,7.0,6,0.15212076902389526,1,0.8709377901578459
+rope,make a swing for dolls or toys.,1.9,7.0,5,0.177374005317688,2,1.5311049210770658
+rope,craft a ladder for bunk beds.,1.3,6.0,5,0.1775493025779724,0,0.0
+rope,design a retention system for a car trunk.,2.7,8.0,6,0.18796706199645996,1,0.8802228412256268
+rope,construct a hammock chair for cozy reading spots.,2.3,8.0,7,0.18877875804901123,0,0.0
+rope,braid into a dog toy for chewing and tugging.,2.0,9.0,6,0.19221454858779907,1,0.8802228412256268
+rope,create a shoe rack by hanging ropes from a frame.,3.0,10.0,7,0.1719028353691101,2,1.7474466109563602
+rope,fashion a handle for homemade fitness weights.,2.7,7.0,6,0.16879713535308838,0,0.0
+rope,make a decorative border for garden beds.,2.7,7.0,6,0.18071115016937256,1,0.6638811513463324
+rope,construct a fire starter kit with dry rope fibers.,3.3,9.0,8,0.18043869733810425,0,0.0
+rope,weave into a mat for cleaning dirty shoes.,2.7,8.0,6,0.18285202980041504,0,0.0
+rope,lace through a deck for a safety railing.,2.3,8.0,5,0.1855001449584961,0,0.0
+rope,tie into a wrist rest for computer users.,3.3,8.0,6,0.17537301778793335,1,0.6638811513463324
+rope,design a trap for catching small animals humanely.,2.3,8.0,7,0.18601477146148682,0,0.0
+rope,make a carrier for multiple grocery bags.,2.0,7.0,6,0.19965416193008423,1,0.6638811513463324
+rope,build a storage solution for stuffed animals.,2.7,7.0,6,0.1867242455482483,0,0.0
+rope,craft a footstool by wrapping rope around a sturdy frame.,3.0,10.0,8,0.18386811017990112,1,0.6638811513463324
+rope,create a grip for climbing poles.,1.0,6.0,5,0.16507720947265625,2,1.6982358402971216
+rope,fashion a belt for martial arts or other sports.,2.0,9.0,6,0.22141331434249878,1,0.8802228412256268
+rope,use to secure a tent firmly on windy days.,1.3,9.0,7,0.20097649097442627,1,0.6638811513463324
+rope,make a jump rope for fitness or play.,1.3,8.0,6,0.1751546859741211,1,1.3277623026926648
+rope,tie as a stylish accessory for hats.,2.7,7.0,5,0.25307244062423706,1,0.6638811513463324
+rope,construct a floating dock line for boats.,1.3,7.0,6,0.22037982940673828,0,0.0
+rope,weave a protective case for glasses.,3.0,6.0,5,0.1792624592781067,0,0.0
+rope,design a custom picture frame with a rope border.,3.0,9.0,7,0.18646132946014404,0,0.0
+rope,create a safety tether for children in crowded places.,1.3,9.0,7,0.20408648252487183,1,0.8672237697307335
+rope,use as a guideline for painting straight lines.,2.7,8.0,6,0.21115857362747192,1,0.6638811513463324

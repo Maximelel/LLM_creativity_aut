@@ -1,0 +1,330 @@
+prompt,response,originality,elaboration,elaboration_SW,dissimilarity,flexibility,flexibility_augmented
+brick,Use it as a bookend,1.0,5.0,2,0.24361419677734375,2,1.512158054711246
+brick,Paint it and turn it into a paperweight,2.0,8.0,3,0.20419687032699585,2,1.512158054711246
+brick,Create a doorstop with it,1.0,5.0,2,0.20223718881607056,1,0.7509287402904424
+brick,Turn it into a makeshift dumbbell for exercise,1.7,8.0,4,0.17866605520248413,1,1.5018574805808849
+brick,Stack multiple to create a mini wall for plant pots,1.7,10.0,7,0.19720923900604248,2,1.598277608915907
+brick,Repurpose it as a garden marker,2.0,6.0,3,0.26283401250839233,1,1.5018574805808849
+brick,Use it as a weight to keep a tablecloth in place during outdoor picnics,2.0,14.0,7,0.23110336065292358,4,4.130361364403917
+brick,Build a mini fireplace by stacking them creatively,1.0,8.0,5,0.21304631233215332,1,0.7509287402904424
+brick,Transform it into a door holder during windy days,1.7,9.0,5,0.19330120086669922,2,2.5979398851739277
+brick,Use it as a makeshift percussion instrument by tapping it,3.0,10.0,5,0.2171679139137268,2,1.512158054711246
+brick,Turn it into a base for a DIY outdoor coffee table,2.0,11.0,6,0.19471347332000732,2,1.564336372847011
+brick,Use as a prop in a theater or film production,2.0,10.0,5,0.2804757356643677,2,1.6847348868625465
+brick,Create a DIY camera stabilizer with it,3.0,7.0,4,0.23932480812072754,1,0.7509287402904424
+brick,Fashion it into a rustic nameplate for your house,3.0,9.0,4,0.20101535320281982,2,1.6545086119554204
+brick,Use it as a bookstand for larger books,2.0,8.0,4,0.21405762434005737,2,1.512158054711246
+brick,Build a makeshift stand for a tablet or phone,2.0,9.0,5,0.1986667513847351,2,1.564336372847011
+brick,Turn it into a weight for a homemade hack squat machine,2.0,11.0,6,0.19901692867279053,2,1.598277608915907
+brick,Create a modern art piece by painting it in vibrant colors,2.0,11.0,7,0.25062668323516846,2,1.512158054711246
+brick,Use it as a prop in a photoshoot,2.0,8.0,3,0.24435162544250488,3,2.435663627152989
+brick,Build a small raised flower bed with it,1.0,8.0,5,0.20509403944015503,3,3.969773725092874
+brick,Transform it into a chalk holder for outdoor play,3.0,9.0,5,0.1671696901321411,3,2.435663627152989
+brick,Create a unique door knocker with it,2.0,7.0,4,0.211742103099823,2,1.6744343127321852
+brick,Stack them to make a rustic side table,2.0,8.0,5,0.21457862854003906,3,2.421985815602837
+brick,Use it as a makeshift hammer for light DIY tasks,2.0,10.0,6,0.19507867097854614,2,1.512158054711246
+brick,Turn it into a DIY garden border,1.5,7.0,4,0.2258450984954834,1,1.5018574805808849
+brick,Use as a spacer for even tile placement,2.0,8.0,5,0.2366514801979065,1,0.7612293144208038
+brick,Fashion it into a pen holder for your desk,2.0,9.0,4,0.2223454713821411,2,1.6744343127321852
+brick,Build a mini wildlife shelter with it,2.0,7.0,4,0.21091395616531372,1,1.5018574805808849
+brick,Create a makeshift phone stand for video calls,2.0,8.0,6,0.19904720783233643,1,0.8134076325565687
+brick,Turn it into a rustic jewelry holder,3.0,7.0,4,0.18587231636047363,2,1.6744343127321852
+brick,Use it as a weight for pressing flowers,3.0,8.0,4,0.22663503885269165,3,2.3595069233367107
+brick,Stack them to create a modern art sculpture,2.0,8.0,5,0.20717352628707886,2,1.6085781830462682
+brick,Turn it into a unique doorstop by adding a handle,2.0,10.0,5,0.21442526578903198,1,0.7509287402904424
+brick,Create a makeshift candle holder for outdoors,3.0,7.0,5,0.18282711505889893,1,0.9235055724417427
+brick,Use as a tool for breaking ice during winter,1.5,9.0,5,0.25254303216934204,2,1.6847348868625465
+brick,Fashion it into a garden tool holder,2.0,7.0,4,0.1637822389602661,2,3.3488686254643705
+brick,Build a mini wishing well with it,2.0,7.0,4,0.20233845710754395,1,1.5018574805808849
+brick,Turn it into a makeshift soap dish for outdoor use,3.0,10.0,6,0.17863857746124268,2,1.512158054711246
+brick,Use it as a makeshift plant stand,2.0,7.0,4,0.21420377492904663,3,2.3255656872678148
+brick,Create a unique table centerpiece with it,2.0,7.0,4,0.21688783168792725,2,1.564336372847011
+brick,Turn it into a phone dock for charging,3.0,8.0,4,0.21446847915649414,1,0.7509287402904424
+brick,Stack them to create a faux fireplace for decoration,2.0,9.0,5,0.20597851276397705,1,0.8473488686254644
+brick,Fashion it into a rustic photo frame,3.0,7.0,4,0.22214621305465698,1,0.7509287402904424
+brick,Use it as a makeshift key holder,2.0,7.0,4,0.1912946105003357,3,2.435663627152989
+brick,Build a mini zen garden with it,3.0,7.0,4,0.21700704097747803,1,2.2527862208713274
+brick,Turn it into a rustic tray for serving food,3.0,9.0,5,0.1990872621536255,1,0.7509287402904424
+brick,Use as a door holder during painting projects,2.0,8.0,5,0.2280728816986084,2,2.608240459304289
+brick,Create a DIY mosaic with broken pieces,2.0,7.0,5,0.218269944190979,0,0.0
+brick,Turn it into a garden path border,1.0,7.0,4,0.23464053869247437,1,1.5018574805808849
+brick,Use it as a weight for pressing tofu,3.0,8.0,4,0.22892272472381592,3,2.3595069233367107
+brick,Stack them to create a rustic lantern holder,3.0,8.0,5,0.18717360496520996,2,1.7708544410672071
+brick,Fashion it into a garden tool organizer,3.0,7.0,4,0.17852675914764404,2,2.4253630530226276
+brick,Build a mini well for collecting rainwater with it,2.0,9.0,5,0.20821160078048706,1,1.5018574805808849
+brick,Turn it into a unique door handle,2.0,7.0,4,0.2245233654975891,2,1.6744343127321852
+brick,Use as a makeshift garden tool rest,2.5,7.0,5,0.20649820566177368,3,2.435663627152989
+brick,Create a makeshift spice rack with it,3.0,7.0,4,0.17879068851470947,1,0.7509287402904424
+brick,Turn it into a rustic coaster for outdoor use,2.0,9.0,5,0.24568039178848267,2,1.512158054711246
+brick,Stack them to create a modern art installation,2.0,8.0,5,0.23172736167907715,2,1.6085781830462682
+brick,Fashion it into a unique door knocker,2.0,7.0,4,0.22065836191177368,2,1.6744343127321852
+brick,Use it as a weight for pressing leaves,2.0,8.0,4,0.22593581676483154,3,2.3595069233367107
+brick,Build a mini birdhouse with it,1.7,6.0,3,0.21570730209350586,1,1.5018574805808849
+brick,Turn it into a makeshift phone stand for watching videos,2.0,10.0,6,0.18972402811050415,2,1.564336372847011
+brick,Use as a makeshift garden tool holder,2.0,7.0,5,0.19766271114349365,3,3.3591691995947315
+brick,Create a rustic place card holder with it,3.0,8.0,5,0.19639509916305542,3,2.52178318135765
+brick,Turn it into a garden path edge,1.0,7.0,4,0.2324531078338623,1,1.5018574805808849
+brick,Use it as a weight for outdoor fabric projects,2.0,9.0,5,0.21423077583312988,3,2.3595069233367107
+brick,Stack them to build a makeshift outdoor bar,1.7,8.0,5,0.2044590711593628,2,1.598277608915907
+brick,Fashion it into garden decor by painting it,2.0,8.0,4,0.20722073316574097,1,1.5018574805808849
+brick,Build a mini well for incense sticks with it,3.0,9.0,5,0.2021840214729309,1,1.5018574805808849
+brick,Turn it into a unique door stopper,1.0,7.0,4,0.2365395426750183,2,2.5979398851739277
+brick,Use as a makeshift wall repair tool,1.0,7.0,5,0.21596014499664307,3,2.435663627152989
+brick,Create a DIY herb garden marker with it,3.0,8.0,5,0.2001490592956543,1,1.5018574805808849
+brick,Turn it into a rustic soap holder for outdoor use,3.0,10.0,6,0.18368935585021973,3,2.435663627152989
+brick,Stack them to create a rustic candle holder,3.0,8.0,5,0.18932843208312988,2,1.7708544410672071
+brick,Fashion it into a garden tool container,2.0,7.0,4,0.1665615439414978,2,2.4253630530226276
+brick,Build a mini fairy house with it,1.8,7.0,4,0.2240447998046875,2,2.4054373522458627
+brick,Turn it into a makeshift tablet stand for cooking,3.0,9.0,5,0.16899627447128296,2,1.564336372847011
+brick,Use it as a weight for outdoor fabric dyeing,3.0,9.0,5,0.2297540307044983,3,2.3595069233367107
+brick,Create a rustic photo display with it,3.0,7.0,4,0.19087350368499756,1,0.7509287402904424
+brick,Turn it into a garden border for a fairy garden.,1.8,10.0,6,0.19892024993896484,1,1.5018574805808849
+box,Turn it into a mini herb garden  ,2.7,7.0,4,0.2055838704109192,0,0.0
+box,Use it as a makeshift drum  ,2.0,6.0,3,0.2239774465560913,1,0.712875197472354
+box,Transform it into a pinhole camera  ,3.0,6.0,3,0.22646969556808472,0,0.0
+box,Design a DIY birdhouse  ,2.0,4.0,3,0.2158282995223999,1,0.712875197472354
+box,Craft a unique shadow puppet theater  ,3.0,6.0,5,0.23237621784210205,0,0.0
+box,Create a personalized memory box  ,1.7,5.0,4,0.2576935291290283,1,0.7768562401263823
+box,Construct a mini cat playhouse  ,2.0,5.0,4,0.203069269657135,1,0.8649289099526066
+box,Turn it into a portable charging station  ,2.7,7.0,4,0.20294642448425293,0,0.0
+box,Use it as a base for a DIY clock  ,3.0,9.0,4,0.2122575044631958,1,0.712875197472354
+box,Fashion a cardboard robot costume  ,2.0,5.0,4,0.2039775252342224,1,1.425750394944708
+box,Convert it into a stylish wall shelf  ,2.0,7.0,4,0.2162081003189087,1,0.8732227488151658
+box,Transform it into a fun maze for a pet  ,2.7,9.0,4,0.20571553707122803,1,0.7768562401263823
+box,Make a planter for succulents  ,2.0,5.0,3,0.2969037890434265,1,0.712875197472354
+box,Turn it into a treasure chest for kids  ,1.7,8.0,4,0.20816540718078613,0,0.0
+box,Use it as a canvas for a painted mural  ,2.0,9.0,4,0.24345815181732178,1,0.712875197472354
+box,Create a costume chest for dress-up play  ,1.7,7.0,5,0.2107207179069519,2,1.5860979462875198
+box,Make a DIY portable speaker  ,2.7,5.0,4,0.2005710005760193,1,0.712875197472354
+box,Transform it into a dollhouse  ,2.0,5.0,2,0.20849710702896118,0,0.0
+box,Craft a unique jewelry organizer  ,2.0,5.0,4,0.24078989028930664,0,0.0
+box,Use it as a mini greenhouse for seedlings  ,3.0,8.0,4,0.26590782403945923,1,0.712875197472354
+box,Design a play kitchen for children  ,2.0,6.0,4,0.2323961853981018,2,1.5860979462875198
+box,Convert it into a solar oven  ,3.0,6.0,3,0.24576520919799805,0,0.0
+box,Create a mini tabletop football game  ,3.0,6.0,5,0.2119651436805725,0,0.0
+box,Turn it into a pop-up photo booth  ,2.7,7.0,4,0.19253474473953247,0,0.0
+box,Fashion a cardboard laptop stand  ,2.0,5.0,4,0.19598537683486938,1,0.712875197472354
+box,Use it as a makeshift easel  ,2.7,6.0,3,0.21871930360794067,1,0.712875197472354
+box,Craft a DIY terrarium  ,2.7,4.0,3,0.20798492431640625,0,0.0
+box,Transform it into a toy car garage  ,2.0,7.0,4,0.18915122747421265,2,1.6500789889415481
+box,Design a cardboard telescope  ,3.0,4.0,3,0.21830350160598755,1,1.425750394944708
+box,Create a DIY cat scratching post  ,2.0,6.0,5,0.21202921867370605,1,0.8649289099526066
+box,Turn it into a makeshift bookshelf  ,1.7,6.0,3,0.21609383821487427,0,0.0
+box,Make a puppet theater for storytelling  ,2.7,6.0,4,0.1882188320159912,1,0.712875197472354
+box,Convert it into a foldable laptop desk  ,3.0,7.0,4,0.21501708030700684,0,0.0
+box,Craft a DIY paper organizer  ,1.7,5.0,4,0.2017994523048401,0,0.0
+box,Use it as a base for a mini sculpture  ,2.0,9.0,4,0.20678496360778809,1,0.712875197472354
+box,Design a cardboard play castle  ,2.0,5.0,4,0.18802428245544434,2,2.2989731437598735
+box,Transform it into a DIY kite  ,3.0,6.0,3,0.19980603456497192,0,0.0
+box,Create a mini craft station  ,2.0,5.0,4,0.1904628872871399,0,0.0
+box,Turn it into a unique plant stand  ,2.0,7.0,4,0.2516077160835266,0,0.0
+box,Fashion a cardboard airplane cockpit  ,3.0,5.0,4,0.21745514869689941,1,0.712875197472354
+box,Use it as a mini tabletop game board  ,2.7,8.0,5,0.21834927797317505,1,0.712875197472354
+box,Craft a DIY pet bed  ,2.0,5.0,4,0.2200806736946106,1,0.7768562401263823
+box,Convert it into a children's backpack  ,1.7,6.0,4,0.21458715200424194,0,0.0
+box,Design a cardboard sled for snow fun  ,2.0,7.0,5,0.2031274437904358,1,2.851500789889416
+box,Create a makeshift smartphone projector  ,3.0,5.0,4,0.1879788637161255,0,0.0
+box,Turn it into a DIY desk organizer  ,1.7,7.0,4,0.1782604455947876,0,0.0
+box,Transform it into a cardboard slide  ,2.7,6.0,3,0.18870246410369873,1,0.712875197472354
+box,Make a mini cardboard guitar  ,2.7,5.0,4,0.19886064529418945,1,1.425750394944708
+box,Use it as a base for a woven basket  ,2.0,9.0,4,0.2544980049133301,1,0.712875197472354
+box,Craft a DIY bird feeder  ,2.0,5.0,4,0.23737287521362305,0,0.0
+box,Fashion a cardboard tablet stand  ,2.7,5.0,4,0.186650812625885,1,0.712875197472354
+box,Convert it into a mini pinball machine  ,3.0,7.0,4,0.2177402377128601,0,0.0
+box,Design a personalized gift box  ,1.3,5.0,4,0.2111247181892395,2,1.4897314375987363
+box,Create a cardboard car playset  ,2.0,5.0,4,0.16802924871444702,2,1.4897314375987363
+box,Turn it into a tabletop garden  ,2.7,6.0,3,0.19498199224472046,0,0.0
+box,Transform it into a mini arcade game  ,3.0,7.0,4,0.24691331386566162,0,0.0
+box,Make a collapsible storage ottoman  ,2.0,5.0,4,0.2177252173423767,2,1.5860979462875198
+box,Use it as a shoe organizer  ,1.3,6.0,3,0.21132969856262207,1,0.712875197472354
+box,Craft a DIY robot costume for kids  ,2.0,7.0,5,0.18792957067489624,1,0.712875197472354
+box,Convert it into a cardboard mailbox  ,2.0,6.0,3,0.19785445928573608,1,0.712875197472354
+box,Design a cardboard castle for action figures  ,2.0,7.0,5,0.21373718976974487,1,1.425750394944708
+box,Create a mini cardboard maze  ,2.7,5.0,4,0.19650018215179443,1,0.712875197472354
+box,Turn it into a DIY recipe box  ,2.0,7.0,4,0.18944185972213745,1,0.7768562401263823
+box,Transform it into a makeshift laptop stand  ,2.0,7.0,4,0.18061518669128418,0,0.0
+box,Make a cardboard pet house  ,1.7,5.0,4,0.1925927996635437,2,2.9794628751974725
+box,Use it as a base for a hanging pendant light  ,3.0,10.0,5,0.23900657892227173,1,0.712875197472354
+box,Craft a personalized toy chest  ,1.7,5.0,4,0.19351792335510254,1,0.8732227488151658
+box,Fashion a DIY cardboard clock  ,3.0,5.0,4,0.19939452409744263,1,0.712875197472354
+box,Convert it into a mini cardboard beach diorama  ,3.3,8.0,5,0.19463485479354858,1,0.712875197472354
+box,Design a cardboard stage for puppet shows  ,3.0,7.0,5,0.1940375566482544,1,1.425750394944708
+box,Create a tabletop mini-golf course  ,3.3,5.0,4,0.21684396266937256,0,0.0
+box,Turn it into a cardboard treasure map  ,3.0,7.0,4,0.1963070034980774,1,0.712875197472354
+box,Transform it into a DIY desk lamp  ,3.0,7.0,4,0.17111718654632568,0,0.0
+box,Make a cardboard train tunnel  ,2.7,5.0,4,0.1882118582725525,1,1.425750394944708
+box,Use it as a base for a jewelry display  ,2.0,9.0,4,0.21507757902145386,1,0.712875197472354
+box,Craft a mini cardboard race track  ,3.0,6.0,5,0.20421099662780762,1,0.712875197472354
+box,Fashion a personalized cardboard briefcase  ,2.0,5.0,4,0.23167258501052856,1,0.712875197472354
+box,Convert it into a cardboard play kitchen  ,2.0,7.0,4,0.1861550211906433,2,1.5860979462875198
+box,Design a cardboard slide for kids  ,2.7,6.0,4,0.18278241157531738,1,1.425750394944708
+box,Create a mini cardboard robot buddy  ,2.0,6.0,5,0.18743377923965454,1,0.712875197472354
+box,Turn it into a DIY cardboard cityscape  ,2.7,7.0,4,0.21151018142700195,1,0.712875197472354
+box,Transform it into a makeshift telescope  ,3.0,6.0,3,0.19699114561080933,0,0.0
+box,Make a cardboard mobile hanging decoration  ,2.7,6.0,5,0.1880875825881958,1,1.425750394944708
+knife,Use it as a makeshift screwdriver.  ,2.0,6.0,4,0.21532493829727173,1,0.7413522012578616
+knife,Carve intricate designs on wood.  ,1.0,5.0,5,0.17577064037322998,1,0.8038522012578616
+knife,Cut perfect slices of cheese.  ,1.0,5.0,5,0.22530454397201538,1,0.815251572327044
+knife,Create potato stamps for art projects.  ,3.0,6.0,6,0.17340749502182007,1,0.8891509433962264
+knife,Use it as a letter opener.  ,1.0,6.0,4,0.22223538160324097,1,0.7413522012578616
+knife,Sculpt soap into various shapes.  ,1.7,5.0,5,0.16964316368103027,0,0.0
+knife,Make precision cuts in fruit for garnishes.  ,1.0,7.0,6,0.1669830083847046,1,0.8482704402515724
+knife,Cut candles to the desired length.  ,1.0,6.0,5,0.2105979323387146,1,0.815251572327044
+knife,Use it as a grooming tool for pets.  ,1.7,8.0,5,0.2175757884979248,2,1.6434748427672956
+knife,Carve a pumpkin for Halloween decorations.  ,1.0,6.0,5,0.1929168701171875,1,0.8038522012578616
+knife,Make paper snowflakes by cutting intricate designs.  ,1.7,7.0,7,0.14527064561843872,2,2.5117924528301887
+knife,Shape modeling clay into figures.  ,2.0,5.0,5,0.1907738447189331,0,0.0
+knife,Use it to open tightly sealed jars.  ,1.7,7.0,6,0.19788843393325806,1,1.4827044025157232
+knife,Sharpen pencils quickly and precisely.  ,1.7,5.0,5,0.21683216094970703,0,0.0
+knife,Use it as a seam ripper for sewing projects.  ,2.0,9.0,6,0.18107515573501587,1,0.7413522012578616
+knife,Make decorative cutouts in paper for scrapbooking.  ,1.7,7.0,6,0.14731794595718384,2,1.6635220125786163
+knife,Create delicate ice sculptures.  ,1.7,4.0,5,0.19953316450119019,1,0.902122641509434
+knife,Fashion origami paper into intricate shapes.  ,2.0,6.0,6,0.19761639833450317,1,0.815251572327044
+knife,Use it as a bookmark cutter for unique shapes.  ,2.0,9.0,6,0.16866838932037354,1,0.7413522012578616
+knife,Craft intricate designs in leatherwork.  ,1.7,5.0,5,0.1823466420173645,0,0.0
+knife,Cut perfect sandwich triangles for kids.  ,1.0,6.0,6,0.21094566583633423,1,0.815251572327044
+knife,Fashion a DIY leather bracelet.  ,2.0,5.0,5,0.23774933815002441,0,0.0
+knife,Trim bonsai trees with precision.  ,1.7,5.0,5,0.18340706825256348,0,0.0
+knife,Create soap carvings for decoration.  ,1.7,5.0,5,0.15099388360977173,0,0.0
+knife,Use it to make precision measurements on soft materials.  ,2.0,9.0,7,0.1932995319366455,2,1.5896226415094339
+knife,Craft handmade labels for jars and containers.  ,2.0,7.0,6,0.18409699201583862,0,0.0
+knife,Trim excess thread from clothing with ease.  ,1.0,7.0,6,0.1870294213294983,0,0.0
+knife,Use it to notch out craft foam for projects.  ,1.7,9.0,6,0.15971213579177856,1,0.7413522012578616
+knife,Cut out stencil designs for painting.  ,1.7,6.0,5,0.17082476615905762,1,0.815251572327044
+knife,Create custom shapes in felt for crafts.  ,2.0,7.0,6,0.15643590688705444,0,0.0
+knife,Sculpt clay into miniature sculptures.  ,1.7,5.0,5,0.17867308855056763,0,0.0
+knife,Cut out flower petals for floral arrangements.  ,1.7,7.0,6,0.19928675889968872,1,0.815251572327044
+knife,Use it to score dough for baking.  ,1.7,7.0,5,0.17722779512405396,1,0.7413522012578616
+knife,Carve bar soap into custom shapes.  ,1.7,6.0,6,0.15921247005462646,1,0.8038522012578616
+knife,Precision-cut cardboard for DIY projects.  ,1.3,5.0,5,0.18181675672531128,0,0.0
+knife,Make precision cuts in rubber stamps.  ,1.7,6.0,6,0.16292834281921387,1,0.8482704402515724
+knife,Use it as a scratching tool for crafts.  ,2.0,8.0,5,0.17590880393981934,2,1.6434748427672956
+knife,Cut out paper for homemade confetti.  ,1.7,6.0,5,0.155853271484375,1,1.630503144654088
+knife,Create intricate designs in soft plastic.  ,2.0,6.0,6,0.16142785549163818,0,0.0
+knife,Use it for soap whittling as a craft.  ,1.7,8.0,5,0.18774622678756714,1,0.7413522012578616
+knife,Cut out magazine images for collages.  ,1.3,6.0,5,0.19979006052017212,1,0.815251572327044
+knife,Trim excess fabric after sewing.  ,1.0,5.0,5,0.19915896654129028,0,0.0
+knife,Fashion a DIY costume from fabric.  ,2.0,6.0,5,0.2127494215965271,0,0.0
+knife,Carve mini pumpkins for table decor.  ,1.7,6.0,6,0.16722655296325684,1,0.8038522012578616
+knife,Use it for food sculpting in the kitchen.  ,1.0,8.0,5,0.16672015190124512,2,1.5896226415094339
+knife,Trim wicks on candles.  ,1.7,4.0,4,0.19754528999328613,0,0.0
+knife,Create jewelry molds from clay.  ,2.0,5.0,5,0.14664709568023682,0,0.0
+knife,Cut out shapes in foam board for presentation.  ,1.3,8.0,6,0.1608116626739502,1,0.815251572327044
+knife,Sculpt a small sculpture from soap.  ,1.7,6.0,5,0.19293105602264404,0,0.0
+knife,Use it to trim flower stems for arrangements.  ,1.7,8.0,6,0.20335620641708374,1,0.7413522012578616
+knife,Cut out shapes in cork for DIY coasters.  ,1.7,8.0,6,0.1734347939491272,1,0.815251572327044
+knife,Create custom stickers from paper.  ,2.0,5.0,5,0.15866637229919434,0,0.0
+knife,Fashion a leaf strip cutter for crafts.  ,2.0,7.0,6,0.13759583234786987,0,0.0
+knife,Make paper snowflakes with precision cuts.  ,1.7,6.0,6,0.14873665571212769,2,1.6635220125786163
+knife,Trim excess wire for electronics projects.  ,1.7,6.0,6,0.20903968811035156,0,0.0
+knife,Use it to sharpen colored pencils.  ,1.7,6.0,5,0.17224657535552979,1,0.7413522012578616
+knife,Create custom hole punches from plastics.  ,3.0,6.0,6,0.17323321104049683,1,0.815251572327044
+knife,Fashion a DIY pattern cutting tool.  ,2.0,6.0,6,0.16742390394210815,1,0.8482704402515724
+knife,Cut out shapes in fruit for garnish.  ,1.0,7.0,5,0.1679515838623047,1,0.815251572327044
+knife,Use it to scrape off excess paint from surfaces.  ,1.7,9.0,6,0.18165463209152222,3,2.4917452830188678
+knife,Carve out a cork stamp for crafts.  ,2.0,7.0,5,0.15877676010131836,1,0.8038522012578616
+knife,Trim candle wicks to the perfect length.  ,1.7,7.0,6,0.21393412351608276,0,0.0
+knife,Create detailed cutouts in paper for art.  ,1.7,7.0,6,0.1629299521446228,1,0.815251572327044
+knife,Fashion a cookie cutter from aluminum foil.  ,2.0,7.0,6,0.15746277570724487,0,0.0
+knife,Cut perfect edges on clay for pottery.  ,1.3,7.0,6,0.14604902267456055,1,0.815251572327044
+knife,Use it as a plant cutting tool for cloning.  ,2.0,9.0,6,0.20893555879592896,3,2.4917452830188678
+knife,Sculpt cheese for a creative cheese board.  ,1.7,7.0,6,0.1920890212059021,0,0.0
+knife,Make unique shapes out of soap.  ,2.0,6.0,5,0.15911030769348145,1,0.8482704402515724
+knife,Trim the stems of dried flowers.  ,1.7,6.0,5,0.2121490240097046,0,0.0
+knife,Use it to smooth out rough edges on materials.  ,1.7,9.0,6,0.17486929893493652,1,0.7413522012578616
+knife,Carve initials into tree bark.  ,1.0,5.0,5,0.18932092189788818,2,1.6191037735849056
+knife,Create custom designs on candles.  ,2.0,5.0,5,0.16068732738494873,0,0.0
+knife,Use it as a tool for engraving glass.  ,1.7,8.0,5,0.16889739036560059,2,1.6434748427672956
+knife,Fashion a DIY wire cutter from materials.  ,2.0,7.0,6,0.15858763456344604,0,0.0
+knife,Cut out shapes in eggplants for cooking.  ,1.0,7.0,5,0.15836089849472046,1,0.815251572327044
+knife,Carve linoleum for printing.  ,1.7,4.0,4,0.18480998277664185,1,0.8038522012578616
+knife,Use it to trim the wick of oil lamps.  ,1.7,9.0,6,0.17153912782669067,1,0.7413522012578616
+knife,Craft intricate designs in soft rubber.  ,1.7,6.0,6,0.1617862582206726,0,0.0
+knife,Make paper snowflakes with precision cutting.  ,1.7,6.0,6,0.15257567167282104,2,1.6635220125786163
+knife,Trim excess leaves from plants with precision.  ,1.0,7.0,6,0.18829625844955444,0,0.0
+knife,Sculpt soap into intricate shapes.  ,1.7,5.0,5,0.17570936679840088,0,0.0
+knife,Use it to carve designs on wooden utensils.  ,1.0,8.0,6,0.15259742736816406,2,1.5452044025157232
+knife,Cut out shapes in tortillas for fun snacks.  ,1.7,8.0,6,0.19835662841796875,1,0.815251572327044
+knife,Precision-cut play dough for playtime creativity.  ,1.7,6.0,6,0.21200770139694214,1,0.902122641509434
+knife,Make detailed cuts in foam for crafts.  ,1.7,7.0,6,0.12965965270996094,1,0.8482704402515724
+knife,Use it as a tool for clay sculpting.   ,1.7,8.0,5,0.18282943964004517,2,1.6434748427672956
+rope,Create an outdoor obstacle course with it,1.7,7.0,4,0.22472387552261353,1,0.8672237697307335
+rope,Fashion it into a decorative macrame hanging ,2.0,7.0,4,0.22183829545974731,1,0.8802228412256268
+rope,Practice knot-tying skills with different patterns ,1.3,6.0,5,0.2573828101158142,0,0.0
+rope,Use as a makeshift clothesline ,1.3,5.0,3,0.2622418999671936,1,0.6638811513463324
+rope,Turn it into a tug-of-war game ,1.3,6.0,3,0.34076911211013794,0,0.0
+rope,Transform into a jump rope for exercise ,1.3,7.0,4,0.2291957139968872,2,1.5348189415041782
+rope,Build a small-scale suspension bridge model ,3.3,6.0,5,0.24773573875427246,1,0.8867223769730733
+rope,Make a DIY pet toy ,1.3,5.0,4,0.2459539771080017,1,0.6638811513463324
+rope,Design a pulley system for lifting objects ,2.0,7.0,5,0.24576246738433838,0,0.0
+rope,String up fairy lights for a unique display ,3.0,8.0,5,0.2148154377937317,1,0.8867223769730733
+rope,Weave into a trendy statement belt ,1.7,6.0,4,0.2243058681488037,1,0.8802228412256268
+rope,Construct a sturdy net for outdoor sports ,2.0,7.0,5,0.22628074884414673,0,0.0
+rope,Divide a space by hanging as a room divider ,2.7,9.0,5,0.27432870864868164,1,0.8802228412256268
+rope,Braid into a dog leash ,1.3,5.0,3,0.23985141515731812,1,1.7604456824512535
+rope,Craft a bohemian-style plant hanger ,2.7,5.0,4,0.18960684537887573,1,0.8867223769730733
+rope,Create a makeshift swing for relaxation ,2.0,6.0,4,0.20333081483840942,1,1.734447539461467
+rope,Design a hanging fruit basket ,2.7,5.0,4,0.19289976358413696,1,0.8802228412256268
+rope,Make a stylish keychain ,1.9,4.0,3,0.219374418258667,1,0.6638811513463324
+rope,Craft a durable handle for a bag ,2.0,7.0,4,0.21762865781784058,1,0.6638811513463324
+rope,Sew into a unique trim for clothing ,2.7,7.0,4,0.22158187627792358,1,0.8672237697307335
+rope,Create a rustic picture frame ,3.3,5.0,4,0.21275347471237183,1,0.8672237697307335
+rope,Build a protective barrier for gardening ,2.7,6.0,4,0.23613673448562622,0,0.0
+rope,Make a DIY cat scratching post ,2.7,6.0,5,0.24325674772262573,1,0.6638811513463324
+rope,Weave into a decorative table runner ,2.7,6.0,4,0.18597489595413208,0,0.0
+rope,Fashion a stylish curtain tie-back ,2.7,5.0,4,0.2766803503036499,0,0.0
+rope,Craft a personalized door wreath ,2.0,5.0,4,0.19985425472259521,1,0.8672237697307335
+rope,Design a rustic coaster set ,2.7,5.0,4,0.23779016733169556,0,0.0
+rope,Create a unique handrail for stairs ,2.7,6.0,4,0.2100927233695984,1,0.8672237697307335
+rope,Weave into a stylish hammock ,1.7,5.0,3,0.2558499574661255,0,0.0
+rope,Construct a hanging herb garden ,3.3,5.0,4,0.22233623266220093,1,0.8802228412256268
+rope,Make a boho-chic hair accessory ,2.7,5.0,4,0.228363037109375,2,1.5311049210770658
+rope,Fashion a decorative trim for pillows ,2.7,6.0,4,0.19890058040618896,0,0.0
+rope,Design a retro-inspired room divider ,2.7,5.0,4,0.21940189599990845,0,0.0
+rope,Create outdoor patio lighting ,2.7,4.0,4,0.2553710341453552,1,0.8672237697307335
+rope,Craft a unique headboard ,2.0,4.0,3,0.20718997716903687,0,0.0
+rope,Build a miniature ladder for decor ,2.7,6.0,4,0.18831807374954224,0,0.0
+rope,Fashion a rustic room sign ,2.0,5.0,4,0.19154518842697144,0,0.0
+rope,Weave into a colorful rug ,2.0,5.0,3,0.22350764274597168,0,0.0
+rope,Create a DIY bag handle ,2.0,5.0,4,0.18980854749679565,2,1.5311049210770658
+rope,Design a nautical-themed wall hanging ,2.7,5.0,4,0.20421749353408813,2,1.544103992571959
+rope,Construct a custom dog collar ,2.0,5.0,4,0.1964704394340515,1,0.8802228412256268
+rope,Craft a unique key holder ,2.0,5.0,4,0.26220178604125977,0,0.0
+rope,Make a hanging jewelry organizer ,2.7,5.0,4,0.1758400797843933,2,1.544103992571959
+rope,Fashion a trendy plant stand ,3.0,5.0,4,0.23088520765304565,0,0.0
+rope,Weave into a decorative table mat ,2.0,6.0,4,0.19815903902053833,0,0.0
+rope,Build a rustic mirror frame ,3.0,5.0,4,0.22370648384094238,0,0.0
+rope,Create a stylish pot holder ,2.7,5.0,4,0.19351184368133545,1,0.8672237697307335
+rope,Design a personalized bag strap ,2.0,5.0,4,0.20401465892791748,1,0.6638811513463324
+rope,Construct a sturdy leash for a pet ,1.3,7.0,4,0.227480947971344,1,0.8802228412256268
+rope,Craft a nautical-inspired coasters set ,3.3,5.0,4,0.26004624366760254,0,0.0
+rope,Make a hanging bookmark holder ,3.0,5.0,4,0.19604820013046265,2,1.544103992571959
+rope,Fashion a trendy curtain rod ,3.0,5.0,4,0.2035229206085205,0,0.0
+rope,Weave into a unique watch strap ,2.0,6.0,4,0.20810210704803467,0,0.0
+rope,Build a rustic curtain tie-back ,2.7,5.0,4,0.20767760276794434,0,0.0
+rope,Create a stylish handle for a basket ,2.7,7.0,4,0.18924957513809204,1,0.8672237697307335
+rope,Design a personalized plant marker ,2.7,5.0,4,0.22107475996017456,0,0.0
+rope,Craft a DIY hat hanger ,2.7,5.0,4,0.20796829462051392,1,0.8867223769730733
+rope,Make a hanging picture display ,2.7,5.0,4,0.1981601119041443,2,1.544103992571959
+rope,Fashion a rustic ring holder ,2.7,5.0,4,0.19977456331253052,1,0.8310120705663882
+rope,Weave into a trendy wall tapestry ,2.7,6.0,4,0.20385414361953735,1,0.6638811513463324
+rope,Construct a sturdy dog leash ,1.3,5.0,4,0.22880828380584717,1,1.7604456824512535
+rope,Craft nautical-inspired coasters ,3.3,3.0,3,0.2684139013290405,0,0.0
+rope,Design a hanging plant holder ,2.0,5.0,4,0.1954209804534912,1,0.8802228412256268
+rope,Create a rustic candle holder ,3.3,5.0,4,0.20401030778884888,1,0.8672237697307335
+rope,Fashion a custom dog collar ,1.3,5.0,4,0.19659709930419922,1,0.8802228412256268
+rope,Weave into a colorful rug ,2.0,5.0,3,0.22350764274597168,0,0.0
+rope,Build a DIY bag handle ,2.0,5.0,4,0.19067728519439697,1,0.6638811513463324
+rope,Make a hanging jewelry organizer ,2.7,5.0,4,0.17584013938903809,2,1.544103992571959
+rope,Fashion a trendy plant stand ,3.0,5.0,4,0.23088520765304565,0,0.0
+rope,Weave into a decorative table mat ,2.0,6.0,4,0.19815903902053833,0,0.0
+rope,Build a rustic mirror frame ,3.0,5.0,4,0.22370648384094238,0,0.0
+rope,Create a stylish pot holder ,2.7,5.0,4,0.19351184368133545,1,0.8672237697307335
+rope,Design a personalized bag strap ,2.0,5.0,4,0.2040145993232727,1,0.6638811513463324
+rope,Construct a sturdy leash for a pet ,1.3,7.0,4,0.227480947971344,1,0.8802228412256268
+rope,Craft a nautical-inspired coasters set ,3.3,5.0,4,0.26004624366760254,0,0.0
+rope,Make a hanging bookmark holder ,3.0,5.0,4,0.19604820013046265,2,1.544103992571959
+rope,Fashion a trendy curtain rod ,3.0,5.0,4,0.2035229206085205,0,0.0
+rope,Weave into a unique watch strap ,2.0,6.0,4,0.2081020474433899,0,0.0
+rope,Construct a rustic curtain tie-back ,2.0,5.0,4,0.2179790735244751,0,0.0
+rope,Create a stylish handle for a basket,2.7,7.0,4,0.18924957513809204,1,0.8672237697307335
