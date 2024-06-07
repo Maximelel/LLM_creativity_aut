@@ -12,14 +12,14 @@
 
 **Note:** For now, generation of ideas is done **one object at a time** and **one LLM at a time**.
 
-- **General notebook to see benchmark results**: `benchmark.ipynb`
+- **General notebook to see benchmark results**: `prompts_analysis.ipynb`
   - 📊 **Radar charts**
     - Overall radar chart
     - Radar charts per object
     - Radar charts per model
   - 📈 **Other plots**
-    - Univariate analysis: kdeplots, boxplots, violinplots
-    - Multi-variate analysis: multi-kde, heatmaps
+    - Univariate analysis
+    - Multi-variate analysis
   - 🔍 **Further analysis**
     - POS tagging
     - Topic modeling
