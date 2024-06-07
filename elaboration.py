@@ -81,7 +81,7 @@ def analyze_pos_distribution(sentences):
         
     
     # Calculate average POS tag counts per sentence
-    avg_nouns = noun_count / total_sentences
+    avg_nouns = noun_count / total_sentences 
     avg_verbs = verb_count / total_sentences
     avg_adjectives = adjective_count / total_sentences
     avg_adverbs = adverb_count / total_sentences
@@ -94,7 +94,7 @@ def analyze_pos_distribution(sentences):
 def compute_pos_tagging(combined_data):
     df_pos = pd.DataFrame(columns = ['model', 'avg_nouns', 'avg_verbs', 'avg_adj', 'avg_adv', 'avg_det', 'avg_prepos', 'other'])
     #df_pos['model'] = ['Humans', 'GPT-3.5', 'GPT-4', 'Mistral', 'Vicuna']
-    for i, model in enumerate(['Humans', 'GPT-3.5', 'GPT-4', 'Mistral', 'Vicuna']):
+    for i, model in enumerate(['Humans', 'GPT-3.5', 'GPT-4']):#, 'Mistral', 'Vicuna']):
         sentences = combined_data[combined_data['dataset'] == model]['response']
         avg_nouns, avg_verbs, avg_adjectives, avg_adverbs, avg_determiners, avg_prepositions, avg_other_count = analyze_pos_distribution(sentences)
         df_pos.loc[i] = [model] + [avg_nouns, avg_verbs, avg_adjectives, avg_adverbs, avg_determiners, avg_prepositions, avg_other_count]
@@ -107,7 +107,7 @@ def compute_pos_tagging(combined_data):
 
 def plot_POS(combined_data, df_pos):
     list = []
-    for i, model in enumerate(['Humans', 'GPT-3.5', 'GPT-4', 'Mistral', 'Vicuna']):
+    for i, model in enumerate(['Humans', 'GPT-3.5', 'GPT-4']):
         sentences = combined_data[combined_data['dataset'] == model]['response']
         avg_nb_words = sum([len(sentence.split()) for sentence in sentences]) / len(sentences)
         list.append(avg_nb_words)
@@ -119,7 +119,7 @@ def plot_POS(combined_data, df_pos):
     # make 2 sublots with df_pos and plt_bar
     fig, ax = plt.subplots(1, 2, figsize=(12, 5), sharey = True)
     df_pos.plot(x='model', kind='bar', stacked=True, title='POS tagging Humans VS LLMs', ax=ax[0])
-    ax[1].bar(['Humans', 'GPT-3.5', 'GPT-4', 'Mistral', 'Vicuna'], list)
+    ax[1].bar(['Humans', 'GPT-3.5', 'GPT-4'], list)
     ax[1].set_title('Average number of words per sentence')
     plt.tight_layout()
     plt.show()

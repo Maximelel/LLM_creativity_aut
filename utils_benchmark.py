@@ -220,7 +220,7 @@ def prepare_data_for_radar_chart_per_object(data_dict, objects):
     for object in objects:
         data_frames = []
         for model_name, df in data_dict.items():
-            data_frames.append(df[df['prompt'] == object].assign(dataset=model_name))
+            data_frames.append(df[df['prompt'] == object].assign(prompt_type=model_name))
         
         concatenated_data = pd.concat(data_frames)
         normalized_data = normalization_1(concatenated_data, check_norm=False) # normalize data per object and per feature
@@ -229,37 +229,37 @@ def prepare_data_for_radar_chart_per_object(data_dict, objects):
     return result_dict
 
 def example_data_per_object(brick_norm, box_norm, knife_norm, rope_norm, features, model_names):
-    if len(model_names) != 5:
-        print("Error: model_names should contain 5 model names...")
-        return 0
+    #if len(model_names) != 5:
+    #    print("Error: model_names should contain 5 model names...")
+    #    return 0
     
     data = [
         features,
         ('Brick', [
-            brick_norm[brick_norm['dataset'] == model_names[0]][features].mean().values, # Humans
-            brick_norm[brick_norm['dataset'] == model_names[1]][features].mean().values, # model 1
-            brick_norm[brick_norm['dataset'] == model_names[2]][features].mean().values, # model 2
-            brick_norm[brick_norm['dataset'] == model_names[3]][features].mean().values, # model 3
-            brick_norm[brick_norm['dataset'] == model_names[4]][features].mean().values]), # model 4
+            brick_norm[brick_norm['prompt_type'] == model_names[0]][features].mean().values, # Humans
+            brick_norm[brick_norm['prompt_type'] == model_names[1]][features].mean().values, # model 1
+            brick_norm[brick_norm['prompt_type'] == model_names[2]][features].mean().values, # model 2
+            brick_norm[brick_norm['prompt_type'] == model_names[3]][features].mean().values]), # model 3
+            #brick_norm[brick_norm['prompt_type'] == model_names[4]][features].mean().values]), # model 4
         ('Box', [
-            box_norm[box_norm['dataset'] == model_names[0]][features].mean().values,
-            box_norm[box_norm['dataset'] == model_names[1]][features].mean().values,
-            box_norm[box_norm['dataset'] == model_names[2]][features].mean().values,
-            box_norm[box_norm['dataset'] == model_names[3]][features].mean().values,
-            box_norm[box_norm['dataset'] == model_names[4]][features].mean().values]),
+            box_norm[box_norm['prompt_type'] == model_names[0]][features].mean().values,
+            box_norm[box_norm['prompt_type'] == model_names[1]][features].mean().values,
+            box_norm[box_norm['prompt_type'] == model_names[2]][features].mean().values,
+            box_norm[box_norm['prompt_type'] == model_names[3]][features].mean().values]),
+            #box_norm[box_norm['prompt_type'] == model_names[4]][features].mean().values]),
         ('Knife', [
-            knife_norm[knife_norm['dataset'] == model_names[0]][features].mean().values,
-            knife_norm[knife_norm['dataset'] == model_names[1]][features].mean().values,
-            knife_norm[knife_norm['dataset'] == model_names[2]][features].mean().values,
-            knife_norm[knife_norm['dataset'] == model_names[3]][features].mean().values,
-            knife_norm[knife_norm['dataset'] == model_names[4]][features].mean().values]),
+            knife_norm[knife_norm['prompt_type'] == model_names[0]][features].mean().values,
+            knife_norm[knife_norm['prompt_type'] == model_names[1]][features].mean().values,
+            knife_norm[knife_norm['prompt_type'] == model_names[2]][features].mean().values,
+            knife_norm[knife_norm['prompt_type'] == model_names[3]][features].mean().values]),
+            #knife_norm[knife_norm['prompt_type'] == model_names[4]][features].mean().values]),
         ('Rope', [
-            rope_norm[rope_norm['dataset'] == model_names[0]][features].mean().values,
-            rope_norm[rope_norm['dataset'] == model_names[1]][features].mean().values,
-            rope_norm[rope_norm['dataset'] == model_names[2]][features].mean().values,
-            rope_norm[rope_norm['dataset'] == model_names[3]][features].mean().values,
-            rope_norm[rope_norm['dataset'] == model_names[4]][features].mean().values])
-    ]
+            rope_norm[rope_norm['prompt_type'] == model_names[0]][features].mean().values,
+            rope_norm[rope_norm['prompt_type'] == model_names[1]][features].mean().values,
+            rope_norm[rope_norm['prompt_type'] == model_names[2]][features].mean().values,
+            rope_norm[rope_norm['prompt_type'] == model_names[3]][features].mean().values]),
+            #rope_norm[rope_norm['prompt_type'] == model_names[4]][features].mean().values])
+        ]
     return data
 
 def radar_charts_per_object(brick_norm, box_norm, knife_norm, rope_norm, features, model_names, colors):
@@ -348,30 +348,37 @@ def plot_radar_chart(dataframes, titles, colors, avg_per_object):
     plt.title('LLMs vs Humans on the AUT')
     plt.show()
         
-def plot_per_object(type, data_dict, features, combined_data_norm_per_object):
-    if type == "kde":
+def plot_per_object(type, features, combined_data):
+    # data dict only useful to plot kde
+    #if type == "kde":
+    #    for feat in features:
+    #        fig, axs = plt.subplots(1, 4, figsize=(15, 5))
+    #        for name, df in data_dict.items():
+    #            for i, object in enumerate(['brick', 'box', 'knife','rope']):
+    #                sns.kdeplot(df[feat], label=name, ax = axs[i])
+    #                axs[i].set_title(object)
+    #                axs[i].legend()
+    #    plt.suptitle(f"Comparison on {feat}")
+    #    plt.tight_layout()
+    #    plt.show()
+    if type == "boxplot":
         for feat in features:
-            fig, axs = plt.subplots(1, 4, figsize=(15, 5))
-            for name, df in data_dict.items():
-                for i, object in enumerate(['brick', 'box', 'knife','rope']):
-                    sns.kdeplot(df[feat], label=name, ax = axs[i])
-                    axs[i].set_title(object)
-                    axs[i].legend()
-        plt.suptitle(f"Comparison on {feat}")
-        plt.tight_layout()
-        plt.show()
-    elif type == "boxplot":
-        for feat in features:
-            plt.figure(figsize=(12, 5))
-            sns.boxplot(data=combined_data_norm_per_object, x='dataset', y=feat, hue = 'prompt')
-            plt.suptitle(f"Comparison on {feat}")
+            plt.figure(figsize=(14, 5))
+            sns.boxplot(data=combined_data, x='prompt_type', y=feat, hue = 'prompt')
+            plt.suptitle(f"Comparison on {feat}", fontsize = 18)
+            plt.tick_params(axis='x', rotation=45)
+            # Put legend bounding box on the right
+            plt.legend(bbox_to_anchor=(1.01, 0.65), loc='upper left', borderaxespad=0.)
             plt.tight_layout()
             plt.show()
     elif type == "violinplot":
         for feat in features:
-            plt.figure(figsize=(12, 5))
-            sns.violinplot(data=combined_data_norm_per_object, x='dataset', y=feat, hue = 'prompt')
-            plt.suptitle(f"Comparison on {feat}")
+            plt.figure(figsize=(14, 5))
+            sns.violinplot(data=combined_data, x='prompt_type', y=feat, hue = 'prompt')
+            plt.ylabel(feat, fontsize = 16)
+            plt.suptitle(f"Comparison between objects on {feat}", fontsize = 18)
+            # Put legend bounding box on the right
+            plt.legend(bbox_to_anchor=(1.01, 0.65), loc='upper left', borderaxespad=0.)
             plt.tight_layout()
             plt.show()
     else:
