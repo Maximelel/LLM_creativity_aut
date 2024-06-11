@@ -6,7 +6,8 @@
 - **Pipeline to generate new ideas with GPT models**: `nb_script_LLM_main.ipynb`
   1. Call OpenAI API
   2. Call API OCSAI to evaluate
-  3. Save ideas in dataframe
+See [website](https://openscoring.du.edu/scoringllm) and their [API](https://openscoring.du.edu/docs)
+  4. Save ideas in dataframe
 
 - **Pipeline to generate new ideas with open source LLMs**: see code on local server...
 
