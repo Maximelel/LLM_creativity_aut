@@ -51,3 +51,5 @@ If and how can LLMs assist students to be more creative?
     - Topic modeling
     - Open source models
     - Consistency check
+
+The full report of the project can be found [here](https://github.com/Maximelel/LLM_creativity_aut/blob/main/pdf_report.pdf).
