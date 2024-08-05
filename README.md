@@ -41,7 +41,7 @@ If and how can LLMs assist students to be more creative?
 
 - **Pipeline to generate new ideas with open source LLMs**: see code on local server
 
-**Note:** For now, generation of ideas is done **one object at a time** and **one LLM at a time**.
+**Note:** For now, generation of ideas is done **one object at a time** and **one LLM at a time**. All ideas generated during this project can be found in the folder `dataset`.
 
 - **General notebook to see benchmark results of GPT models**: `prompts_analysis.ipynb`
     - Univariate analysis
